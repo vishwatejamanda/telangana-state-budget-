@@ -1,0 +1,391 @@
+# scripts/build_full_budget_dataset.py
+import os
+import json
+import re
+
+BASE_DIR = r"d:\Telangana"
+DATA_DIR = os.path.join(BASE_DIR, "src", "data", "2026-27")
+os.makedirs(DATA_DIR, exist_ok=True)
+
+# 1. YEARS CATALOG
+years_data = [
+    {
+        "year": "2026-27",
+        "label": "2026-27 (Budget Estimates)",
+        "active": True,
+        "isCurrent": True,
+        "totalBudget": 324234.00,
+        "presentationDate": "20th March, 2026",
+        "presentedBy": "Sri Mallu Bhatti Vikramarka, Hon'ble Deputy Chief Minister & Finance Minister"
+    }
+]
+
+with open(os.path.join(os.path.join(BASE_DIR, "src", "data"), "years.json"), "w", encoding="utf-8") as f:
+    json.dump(years_data, f, indent=2)
+
+# 2. BUDGET SUMMARY DATA (From Volume VI, Volume I/1, and FRBM Statement)
+budget_summary = {
+    "year": "2026-27",
+    "status": "Budget Estimates",
+    "presentationDate": "2026-03-20",
+    "financeMinister": "Sri Mallu Bhatti Vikramarka",
+    "chiefMinister": "Sri A. Revanth Reddy",
+    "keyMetrics": {
+        "totalBudget": {
+            "value": 324234.00,
+            "unit": "₹ crore",
+            "raw": 32423400000000,
+            "label": "Total State Budget",
+            "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+            "sourcePage": 6,
+            "notes": "Net Budget expenditure reconciled across Consolidated Fund and Public Account"
+        },
+        "revenueReceipts": {
+            "value": 241263.58,
+            "unit": "₹ crore",
+            "label": "Revenue Receipts",
+            "growthPctOverRE": 18.28,
+            "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+            "sourcePage": 4,
+            "breakdown": {
+                "stateTaxes": 148185.75,
+                "nonTaxRevenue": 35730.20,
+                "centralShare": 33181.64,
+                "grantsInAid": 24166.00
+            }
+        },
+        "capitalReceipts": {
+            "value": 82870.42,
+            "unit": "₹ crore",
+            "label": "Capital Receipts",
+            "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+            "sourcePage": 4,
+            "breakdown": {
+                "openMarketLoans": 73383.60,
+                "loansFromGOI": 5500.00,
+                "otherLoans": 1000.00,
+                "depositsAndPublicAccountNet": 1500.00,
+                "loanRecoveries": 1486.82
+            }
+        },
+        "totalExpenditure": {
+            "value": 324234.00,
+            "unit": "₹ crore",
+            "label": "Total Expenditure",
+            "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+            "sourcePage": 6
+        },
+        "revenueExpenditure": {
+            "value": 234405.82,
+            "unit": "₹ crore",
+            "label": "Revenue Expenditure",
+            "shareOfTotal": 72.29,
+            "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+            "sourcePage": 6,
+            "breakdown": {
+                "socialServices": 106039.20,
+                "economicServices": 74450.47,
+                "generalServices": 53906.06,
+                "grantsInAid": 10.10
+            }
+        },
+        "capitalExpenditure": {
+            "value": 47267.28,
+            "unit": "₹ crore",
+            "label": "Capital Expenditure (Capital Outlay)",
+            "shareOfTotal": 14.58,
+            "growthPctOverRE": 29.57,
+            "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+            "sourcePage": 6,
+            "notes": "Direct infrastructure asset creation, up from ₹36,480.87 Cr in RE 2025-26"
+        },
+        "loansAndAdvances": {
+            "value": 19536.01,
+            "unit": "₹ crore",
+            "label": "Loans & Advances Disbursed",
+            "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+            "sourcePage": 6
+        },
+        "publicDebtRepayment": {
+            "value": 23024.89,
+            "unit": "₹ crore",
+            "label": "Public Debt Repayment",
+            "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+            "sourcePage": 6,
+            "notes": "Principal debt repayments (excluding Ways and Means advances)"
+        },
+        "fiscalDeficit": {
+            "value": 58458.71,
+            "unit": "₹ crore",
+            "pctOfGSDP": 2.98,
+            "targetPct": 3.00,
+            "label": "Gross Fiscal Deficit",
+            "status": "Within FRBM Target (<3.00%)",
+            "sourceFile": "1773983965_FRBM_Fiscal_Policy_statement_2026-27_1773983965_.pdf",
+            "sourcePage": 6
+        },
+        "revenueDeficitSurplus": {
+            "value": 6857.76,
+            "type": "Surplus",
+            "unit": "₹ crore",
+            "pctOfTRR": 2.84,
+            "label": "Revenue Surplus (+)",
+            "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+            "sourcePage": 5
+        },
+        "primaryDeficit": {
+            "value": 37154.32,
+            "unit": "₹ crore",
+            "label": "Primary Deficit",
+            "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+            "sourcePage": 5,
+            "notes": "Fiscal Deficit (₹58,458.71 Cr) minus Interest Payments (₹21,304.39 Cr)"
+        },
+        "gsdpEstimates": {
+            "currentPrices2026_27": 1961701.68,
+            "currentPrices2025_26_PAE": 1782198.00,
+            "currentPrices2024_25_FRE": 1609902.00,
+            "constantPrices2025_26_PAE": 889582.00,
+            "constantPrices2024_25_FRE": 820197.00,
+            "nominalGrowthRate": 10.7,
+            "realGrowthRate": 8.5,
+            "unit": "₹ crore",
+            "sourceFile": "1773983965_FRBM_Fiscal_Policy_statement_2026-27_1773983965_.pdf",
+            "sourcePage": 4
+        },
+        "totalBorrowings": {
+            "value": 79983.60,
+            "unit": "₹ crore",
+            "label": "Total New Borrowings (Public Debt)",
+            "breakdown": {
+                "openMarket": 73383.60,
+                "centralGovt": 5500.00,
+                "otherInstitutions": 1100.00
+            },
+            "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+            "sourcePage": 6
+        },
+        "outstandingDebt": {
+            "value": 562363.00,
+            "unit": "₹ crore",
+            "pctOfGSDP": 28.69,
+            "label": "Outstanding Public Debt (FRBM Loans)",
+            "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+            "sourcePage": 11
+        },
+        "governmentGuarantees": {
+            "value": 301835.00,
+            "unit": "₹ crore",
+            "label": "Total Guarantees & Corp Debt",
+            "breakdown": {
+                "servicedByGovt": 86309.00,
+                "servicedBySPVs": 155434.00,
+                "nonGuaranteedCorp": 60092.00
+            },
+            "riskWeightedTotal": 94081.00,
+            "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+            "sourcePage": 14
+        },
+        "establishmentVsScheme": {
+            "establishmentExpenditure": 139918.00,
+            "schemeExpenditure": 184316.00,
+            "establishmentSharePct": 43.15,
+            "schemeSharePct": 56.85,
+            "total": 324234.00,
+            "unit": "₹ crore",
+            "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+            "sourcePage": 18
+        }
+    },
+    "citizenKeyTakeaways": [
+        {
+            "id": "k1",
+            "title": "State Budget Reaches ₹3.24 Lakh Crore",
+            "value": "₹3,24,234 Cr",
+            "description": "Total state budget outlay for FY 2026-27, representing a balanced and progressive investment agenda for Telangana.",
+            "category": "Macro"
+        },
+        {
+            "id": "k2",
+            "title": "Budget Generates Revenue Surplus",
+            "value": "₹6,858 Cr",
+            "description": "Telangana generates a solid revenue surplus of ₹6,857.76 crore (+2.84% of total revenue receipts), keeping everyday operational expenses within revenues.",
+            "category": "Fiscal Health"
+        },
+        {
+            "id": "k3",
+            "title": "Fiscal Deficit Kept Under Legal Ceiling",
+            "value": "2.98% of GSDP",
+            "description": "At ₹58,458.71 crore, the fiscal deficit is contained within the statutory 3.00% ceiling mandated by the FRBM Act.",
+            "category": "Fiscal Prudence"
+        },
+        {
+            "id": "k4",
+            "title": "Huge Boost to Capital Infrastructure",
+            "value": "₹47,267 Cr",
+            "description": "Capital outlay surged by 29.6% compared to revised estimates, dedicated to roads, metro rail, irrigation, and urban infra.",
+            "category": "Infrastructure"
+        },
+        {
+            "id": "k5",
+            "title": "Six Guarantees & Welfare Commitments",
+            "value": "₹53,000+ Cr",
+            "description": "Rythu Bharosa (₹18,000 Cr), Cheyutha (₹14,861 Cr), Indiramma Houses (₹5,500 Cr), Mahalaxmi RTC (₹4,305 Cr), Gruha Jyothi (₹3,450 Cr).",
+            "category": "Social Welfare"
+        },
+        {
+            "id": "k6",
+            "title": "Special Development Funds (SCSDF + STSDF)",
+            "value": "₹56,486 Cr",
+            "description": "Targeted statutory allocations of ₹37,741 Cr for Scheduled Castes and ₹18,745 Cr for Scheduled Tribes development.",
+            "category": "Inclusive Growth"
+        },
+        {
+            "id": "k7",
+            "title": "Social Services Receive Lion's Share",
+            "value": "45.2% of Revenue Exp",
+            "description": "₹1,06,039 crore allocated to education, health, welfare hostels, pension benefits, and drinking water services.",
+            "category": "Social Sector"
+        },
+        {
+            "id": "k8",
+            "title": "Off-Budget Debt Restructuring Success",
+            "value": "₹25,612 Cr Replaced",
+            "description": "High-interest off-budget borrowings replaced with lower-interest, longer-tenure Open Market Borrowings to protect future generations.",
+            "category": "Debt Governance"
+        }
+    ],
+    "rupeeComesFrom": [
+        {
+            "name": "State's Own Tax Revenue",
+            "paisa": 45.7,
+            "amount": 148185.75,
+            "category": "Tax",
+            "description": "SGST, Sales Tax/VAT on Petroleum & Liquor, State Excise, Motor Vehicle Taxes, Stamp Duties & Registration"
+        },
+        {
+            "name": "Open Market Borrowings & Public Debt",
+            "paisa": 24.7,
+            "amount": 79983.60,
+            "category": "Borrowings",
+            "description": "Open Market Loans (₹73,384 Cr) and Loans from GoI (₹5,500 Cr)"
+        },
+        {
+            "name": "State's Non-Tax Revenue",
+            "paisa": 11.0,
+            "amount": 35730.20,
+            "category": "Non-Tax",
+            "description": "Mines & Minerals Royalties, Administrative Receipts, Interest Receipts & Dividends"
+        },
+        {
+            "name": "Share in Central Taxes (Devolution)",
+            "paisa": 10.2,
+            "amount": 33181.64,
+            "category": "Central Transfers",
+            "description": "Constitutional devolution of CGST, Corporation Tax, Customs, Income Tax"
+        },
+        {
+            "name": "Grants-in-Aid from Centre",
+            "paisa": 7.5,
+            "amount": 24166.00,
+            "category": "Central Transfers",
+            "description": "Centrally Sponsored Scheme assistance and Finance Commission grants"
+        },
+        {
+            "name": "Recovery of Loans & Advances",
+            "paisa": 0.5,
+            "amount": 1486.82,
+            "category": "Capital Receipts",
+            "description": "Repayments of loans issued to state entities, local bodies, and government employees"
+        },
+        {
+            "name": "Public Account Net & Deposits",
+            "paisa": 0.4,
+            "amount": 1500.00,
+            "category": "Public Account",
+            "description": "Net accretions to provident funds, reserve deposits, and remittances"
+        }
+    ],
+    "rupeeGoesTo": [
+        {
+            "name": "Social Services (Health, Education, Welfare)",
+            "paisa": 32.7,
+            "amount": 106039.20,
+            "category": "Developmental Revenue",
+            "description": "School & Higher Education, Medical & Family Welfare, SC/ST/BC/Minority Welfare, Social Security Pensions"
+        },
+        {
+            "name": "Economic Services (Agriculture, Energy, Irrigation)",
+            "paisa": 23.0,
+            "amount": 74450.47,
+            "category": "Developmental Revenue",
+            "description": "Rythu Bharosa, Agriculture Subsidies, Power Subsidies to Farmers & Gruha Jyothi, Operation & Maintenance"
+        },
+        {
+            "name": "Capital Outlay (Infrastructure Works)",
+            "paisa": 14.6,
+            "amount": 47267.28,
+            "category": "Capital Outlay",
+            "description": "Irrigation Projects, Roads & Highways, Bridges, Regional Ring Road, Metro Rail, Secretariat Buildings"
+        },
+        {
+            "name": "General Services & Administration",
+            "paisa": 10.1,
+            "amount": 32601.67,
+            "category": "General Revenue",
+            "description": "Police and Law Enforcement, Judiciary, Secretariat Administration, Tax Collection machinery"
+        },
+        {
+            "name": "Debt Servicing (Interest Payments)",
+            "paisa": 6.6,
+            "amount": 21304.39,
+            "category": "Debt Servicing",
+            "description": "Interest obligations on Open Market Borrowings and Central loans"
+        },
+        {
+            "name": "Public Debt Repayment (Principal)",
+            "paisa": 7.1,
+            "amount": 23024.89,
+            "category": "Debt Servicing",
+            "description": "Principal redemptions and bond maturities"
+        },
+        {
+            "name": "Loans & Advances Disbursed",
+            "paisa": 6.0,
+            "amount": 19536.01,
+            "category": "Capital Outlay",
+            "description": "Capital loans to HMWSSB, HMDA, DISCOMs, and Urban Local Bodies"
+        }
+    ],
+    "multiYearTrends": {
+        "revenueReceipts": [
+            {"year": "2023-24 (Accounts)", "centralShare": 23742.04, "stateTaxes": 111798.13, "nonTax": 23819.50, "grantsInAid": 9933.68, "total": 169293.36},
+            {"year": "2024-25 (Accounts)", "centralShare": 27050.25, "stateTaxes": 109233.22, "nonTax": 23607.77, "grantsInAid": 7913.08, "total": 167804.32},
+            {"year": "2025-26 (RE)", "centralShare": 29471.19, "stateTaxes": 134019.58, "nonTax": 29318.77, "grantsInAid": 11161.45, "total": 203970.99},
+            {"year": "2026-27 (BE)", "centralShare": 33181.64, "stateTaxes": 148185.75, "nonTax": 35730.20, "grantsInAid": 24166.00, "total": 241263.58}
+        ],
+        "revenueExpenditure": [
+            {"year": "2023-24 (Accounts)", "generalServices": 55645.63, "socialServices": 58610.10, "economicServices": 54258.35, "grants": 0.00, "total": 168514.09},
+            {"year": "2024-25 (Accounts)", "generalServices": 60278.85, "socialServices": 58391.93, "economicServices": 58553.59, "grants": 0.00, "total": 177224.37},
+            {"year": "2025-26 (RE)", "generalServices": 48056.12, "socialServices": 94203.20, "economicServices": 61110.21, "grants": 10.10, "total": 203379.63},
+            {"year": "2026-27 (BE)", "generalServices": 53906.06, "socialServices": 106039.20, "economicServices": 74450.47, "grants": 10.10, "total": 234405.82}
+        ],
+        "publicDebt": [
+            {"year": "2023-24 (Accounts)", "openMarket": 314546, "centre": 13048, "autonomous": 13194, "smallSavingsPF": 21585, "reserves": 36283, "total": 398655, "pctGSDP": 27},
+            {"year": "2024-25 (Accounts)", "openMarket": 357637, "centre": 13296, "autonomous": 17052, "smallSavingsPF": 22986, "reserves": 36522, "total": 447493, "pctGSDP": 28},
+            {"year": "2025-26 (RE)", "openMarket": 409328, "centre": 17255, "autonomous": 15456, "smallSavingsPF": 23623, "reserves": 38242, "total": 503905, "pctGSDP": 28},
+            {"year": "2026-27 (BE)", "openMarket": 462926, "centre": 22345, "autonomous": 14309, "smallSavingsPF": 25716, "reserves": 37067, "total": 562363, "pctGSDP": 29}
+        ],
+        "irrigationSector": [
+            {"year": "2023-24 (Accounts)", "majorMedium": 29438.52, "minor": 308.17, "cad": 18.23, "floodControl": 1.67, "total": 29766.60},
+            {"year": "2024-25 (Accounts)", "majorMedium": 23149.25, "minor": 281.22, "cad": 14.81, "floodControl": 47.51, "total": 23492.80},
+            {"year": "2025-26 (RE)", "majorMedium": 22019.96, "minor": 1019.10, "cad": 35.88, "floodControl": 280.00, "total": 23354.94},
+            {"year": "2026-27 (BE)", "majorMedium": 20157.56, "minor": 2120.45, "cad": 38.83, "floodControl": 280.00, "total": 22596.84}
+        ]
+    }
+}
+
+with open(os.path.join(DATA_DIR, "budget_summary.json"), "w", encoding="utf-8") as f:
+    json.dump(budget_summary, f, indent=2, ensure_ascii=False)
+
+print("Generated budget_summary.json")

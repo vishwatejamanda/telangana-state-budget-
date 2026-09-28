@@ -1,0 +1,233 @@
+[
+  {
+    "id": "agriculture-allied",
+    "name": "Agriculture & Allied Activities",
+    "totalAllocationCrore": 32074.0,
+    "sharePct": 9.89,
+    "icon": "Sprout",
+    "description": "Comprehensive agrarian support: Rythu Bharosa, paddy bonus, crop insurance, veterinary care, horticulture, and food security.",
+    "departments": [
+      "Agriculture & Cooperation Department",
+      "Animal Husbandry & Fisheries Department",
+      "Food & Civil Supplies Department"
+    ],
+    "keySchemes": [
+      "Rythu Bharosa (₹18,000 Cr)",
+      "Food Subsidy & Rice Procurement (₹5,170 Cr)",
+      "Bonus to Agriculture Produces (₹3,500 Cr)",
+      "Crop Insurance (₹1,886 Cr)",
+      "Farm Mechanization (₹344 Cr)"
+    ]
+  },
+  {
+    "id": "irrigation-water",
+    "name": "Irrigation & Water Resources",
+    "totalAllocationCrore": 22615.0,
+    "sharePct": 6.97,
+    "icon": "Waves",
+    "description": "Major, medium, and minor irrigation maintenance, lift irrigation energy servicing, flood drainage, and command area water management.",
+    "departments": [
+      "Irrigation Department"
+    ],
+    "keySchemes": [
+      "Major & Medium Irrigation Works (₹20,158 Cr)",
+      "Minor Irrigation Projects (₹2,120 Cr)",
+      "Flood Control & Drainage Works (₹280 Cr)",
+      "Sunkishala Intake Works (₹1,000 Cr)"
+    ]
+  },
+  {
+    "id": "welfare-inclusion",
+    "name": "Welfare & Social Inclusion",
+    "totalAllocationCrore": 69144.0,
+    "sharePct": 21.33,
+    "icon": "Users",
+    "description": "Affirmative action, residential schools, post-matric scholarships, overseas scholarships, and economic support for SC, ST, BC, Minorities, and Women.",
+    "departments": [
+      "Scheduled Castes Development Department",
+      "Tribal Welfare Department",
+      "Backward Class Welfare Department",
+      "Minorities Welfare Department",
+      "Women, Children, Disabled & Senior Citizens Department"
+    ],
+    "keySchemes": [
+      "Cheyutha Pension (₹14,861 Cr)",
+      "SCSDF Special Development Fund (₹37,741 Cr)",
+      "STSDF Special Development Fund (₹18,745 Cr)",
+      "BC Welfare Hostels & Scholarships (₹12,511 Cr)",
+      "Minority Welfare Residential Societies (₹3,769 Cr)",
+      "Mahalaxmi Assistance to Women (₹1,780 Cr)"
+    ]
+  },
+  {
+    "id": "education-skills",
+    "name": "Education & Human Capital",
+    "totalAllocationCrore": 26674.0,
+    "sharePct": 8.23,
+    "icon": "GraduationCap",
+    "description": "Foundational, secondary, higher, and technical education, universities, and residential education networks.",
+    "departments": [
+      "Secondary Education, Secretariat Department",
+      "Higher Education Department"
+    ],
+    "keySchemes": [
+      "Young India Integrated Residential Schools (₹5,000 Cr)",
+      "Samagra Shiksha (₹6,416 Cr)",
+      "School Breakfast & Milk Program (₹720 Cr)",
+      "Osmania University Upgradation (₹1,000 Cr)",
+      "Telangana Public Schools (₹500 Cr)",
+      "Veeranari Chakali Ilamma Mahila University (₹400 Cr)"
+    ]
+  },
+  {
+    "id": "rural-panchayat",
+    "name": "Rural Development & Panchayat Raj",
+    "totalAllocationCrore": 33688.0,
+    "sharePct": 10.39,
+    "icon": "Home",
+    "description": "Empowering Gram Panchayats, rural road networks, drinking water maintenance, sanitation, and women's self-help groups (SERP).",
+    "departments": [
+      "Panchayat Raj and Rural Development Department"
+    ],
+    "keySchemes": [
+      "Interest-free Loans to DWACRA Women (₹2,500 Cr)",
+      "Rural Sanitation & Jal Jeevan / Mission Bhagiratha (₹400 Cr)",
+      "Gram Panchayat Development Grants (₹5,600 Cr)",
+      "Rural Roads Construction (₹3,792 Cr)"
+    ]
+  },
+  {
+    "id": "energy-power",
+    "name": "Energy & Power Transition",
+    "totalAllocationCrore": 21285.0,
+    "sharePct": 6.56,
+    "icon": "Zap",
+    "description": "Uninterrupted free electricity to agriculture, Gruha Jyothi domestic power, grid expansion by TRANSCO & GENCO, and 100% village solarisation.",
+    "departments": [
+      "Energy Department"
+    ],
+    "keySchemes": [
+      "Gruha Jyothi Free Electricity (₹3,450 Cr)",
+      "Agriculture Free Power Subsidy (₹15,048 Cr)",
+      "Assistance to TRANSCO (₹1,000 Cr)",
+      "Assistance to GENCO (₹1,000 Cr)",
+      "100% Solarisation of Villages (₹1,000 Cr)",
+      "New Green Energy Policy (₹1,000 Cr)"
+    ]
+  },
+  {
+    "id": "urban-infrastructure",
+    "name": "Urban Development & Smart Cities",
+    "totalAllocationCrore": 17907.0,
+    "sharePct": 5.52,
+    "icon": "Building2",
+    "description": "Modernizing the Hyderabad metropolis and tier-2 urban clusters, riverfront revitalization, drainage master plans, and metro connectivity.",
+    "departments": [
+      "Municipal Administration & Urban Development"
+    ],
+    "keySchemes": [
+      "H-CITY Hyderabad Innovative Infrastructure (₹2,654 Cr)",
+      "Musi Riverfront Development (₹1,500 Cr)",
+      "HMWSSB Water Supply & Sewerage Expansion (₹1,450 Cr)",
+      "Nagarabhivrudhi for 4 Municipalities (₹1,000 Cr)",
+      "Hyderabad Metro Rail Phase-II (₹600 Cr)",
+      "Assistance to Municipalities (₹651 Cr)"
+    ]
+  },
+  {
+    "id": "health-family-welfare",
+    "name": "Health, Medical & Family Welfare",
+    "totalAllocationCrore": 13679.0,
+    "sharePct": 4.22,
+    "icon": "HeartPulse",
+    "description": "Universal health coverage, tertiary multi-super specialty hospitals, district medical colleges, public health centers, and diagnostic hubs.",
+    "departments": [
+      "Health, Medical & Family Welfare Department"
+    ],
+    "keySchemes": [
+      "Aarogyasri Health Scheme (₹2,800 Cr)",
+      "Medical Colleges & TIMS Infrastructure (₹1,948 Cr)",
+      "Employees Health Scheme (₹1,056 Cr)",
+      "Director of Public Health Operations (₹4,500 Cr)"
+    ]
+  },
+  {
+    "id": "transport-roads",
+    "name": "Roads, Transport & Connectivity",
+    "totalAllocationCrore": 12789.0,
+    "sharePct": 3.94,
+    "icon": "Truck",
+    "description": "Upgrading core state roads via HAM, Regional Ring Road (RRR) land acquisition, TSRTC fleet modernization, and green mobility transition.",
+    "departments": [
+      "Roads and Building Department",
+      "Transport Department"
+    ],
+    "keySchemes": [
+      "HAM Roads Upgradation & Maintenance (₹3,053 Cr)",
+      "Regional Ring Road Equity (₹1,525 Cr)",
+      "TSRTC Free Bus Travel Reimbursement (₹4,305 Cr)",
+      "Roads & Bridges Maintenance (₹828 Cr)",
+      "ROBs and RUBs (₹216 Cr)"
+    ]
+  },
+  {
+    "id": "housing",
+    "name": "Housing for the Poor",
+    "totalAllocationCrore": 7430.0,
+    "sharePct": 2.29,
+    "icon": "Building",
+    "description": "Dignified housing for all low-income families through Indiramma Indlu and basic civic amenities in new residential layouts.",
+    "departments": [
+      "Housing Department"
+    ],
+    "keySchemes": [
+      "Indiramma Houses Construction (₹5,500 Cr)",
+      "Weaker Section Housing Infrastructure (₹1,061 Cr)",
+      "Affordable Urban Housing Grants (₹869 Cr)"
+    ]
+  },
+  {
+    "id": "industries-it-commerce",
+    "name": "Industries, IT & Economic Growth",
+    "totalAllocationCrore": 4622.0,
+    "sharePct": 1.43,
+    "icon": "Briefcase",
+    "description": "Fostering Telangana as India's technology & manufacturing hub: AI City, electronics parks, handloom weavers, and MSME interest relief.",
+    "departments": [
+      "Industries & Commerce Department",
+      "Information Technology & Communications Department"
+    ],
+    "keySchemes": [
+      "Incentives for Industrial Promotion (₹1,835 Cr)",
+      "IT & Electronics Cluster Outlay (₹871 Cr)",
+      "Weaver Assistance & Thrift Fund (₹450 Cr)",
+      "Pavala Vaddi for MSME & Food Units (₹350 Cr)",
+      "Global Travel Marts & Trade Promotion (₹300 Cr)"
+    ]
+  },
+  {
+    "id": "governance-security",
+    "name": "Governance, Law & Public Security",
+    "totalAllocationCrore": 85161.0,
+    "sharePct": 26.27,
+    "icon": "ShieldCheck",
+    "description": "Fiscal administration, debt servicing, state police, cyber command center, courts, revenue collectors, and pension guarantees.",
+    "departments": [
+      "Finance Department",
+      "Home Department",
+      "Revenue Department",
+      "Planning Department",
+      "Law Department",
+      "General Administration Department",
+      "Legislature Secretariat"
+    ],
+    "keySchemes": [
+      "Debt Servicing - Interest Payments (₹21,304 Cr)",
+      "Pension & Retirement Benefits (₹13,110 Cr)",
+      "Police Administration & Modernization (₹11,907 Cr)",
+      "Rajiv Yuva Vikasam Youth Schemes (₹5,800 Cr)",
+      "Universal Life Insurance (₹4,000 Cr)",
+      "Judiciary & Courts Infrastructure (₹2,367 Cr)"
+    ]
+  }
+]
