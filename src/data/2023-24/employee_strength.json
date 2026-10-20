@@ -1,0 +1,75 @@
+{
+  "year": "2026-27",
+  "asOnDate": "2026-03-01",
+  "grandTotalPersonnel": 815312,
+  "activeEmployees": 520368,
+  "pensioners": 294944,
+  "salaryExpenditureCrore": 49461.0,
+  "pensionExpenditureCrore": 13110.0,
+  "totalWageAndPensionBillCrore": 62571.0,
+  "shareOfRevenueReceiptsPct": 25.93,
+  "sourceFile": "1773983965_FRBM_Fiscal_Policy_statement_2026-27_1773983965_.pdf",
+  "sourcePage": 18,
+  "sectors": [
+    {
+      "sector": "State Government Regular Departments",
+      "employees": 238311,
+      "sharePct": 45.8
+    },
+    {
+      "sector": "State Public Sector Undertakings (PSUs)",
+      "employees": 113006,
+      "sharePct": 21.72
+    },
+    {
+      "sector": "Zilla Praja Parishads & Mandal Praja Parishads",
+      "employees": 99858,
+      "sharePct": 19.19
+    },
+    {
+      "sector": "Cooperative Institutions & Govt Bodies",
+      "employees": 33691,
+      "sharePct": 6.47
+    },
+    {
+      "sector": "Gram Panchayats",
+      "employees": 10907,
+      "sharePct": 2.1
+    },
+    {
+      "sector": "Judiciary",
+      "employees": 9479,
+      "sharePct": 1.82
+    },
+    {
+      "sector": "Municipal Corporations & Municipalities",
+      "employees": 5215,
+      "sharePct": 1.0
+    },
+    {
+      "sector": "Universities",
+      "employees": 4448,
+      "sharePct": 0.85
+    },
+    {
+      "sector": "Temples & Endowments",
+      "employees": 2477,
+      "sharePct": 0.48
+    },
+    {
+      "sector": "Aided Educational Institutions",
+      "employees": 2312,
+      "sharePct": 0.44
+    },
+    {
+      "sector": "Urban Development Authorities",
+      "employees": 373,
+      "sharePct": 0.07
+    },
+    {
+      "sector": "Zilla Grandhalaya Samsthas (Libraries)",
+      "employees": 291,
+      "sharePct": 0.06
+    }
+  ]
+}

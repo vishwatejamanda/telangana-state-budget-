@@ -1,7 +1,8 @@
 // src/pages/HomePage.tsx
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { budgetDataService } from '@/services/budgetDataService';
+import { useYear } from '@/context/YearContext';
 import { KPICard } from '@/components/common/KPICard';
 import { ChartCard } from '@/components/common/ChartCard';
 import { RupeeBreakdown } from '@/components/charts/RupeeBreakdown';
@@ -21,11 +22,15 @@ import {
   CheckCircle2,
   ChevronRight,
   HelpCircle,
+  Award,
+  Bus,
+  Waves,
+  Clock,
+  MapPin,
 } from 'lucide-react';
 
 export const HomePage: React.FC = () => {
-  const [selectedYear, setSelectedYear] = useState('2026-27');
-  const years = budgetDataService.getAvailableYears();
+  const { selectedYear, yearInfo, isBRS } = useYear();
   const summary = budgetDataService.getBudgetSummary(selectedYear);
   const departments = budgetDataService.getDepartments(selectedYear);
   const ministers = budgetDataService.getGovernmentProfiles(selectedYear).ministers;
@@ -39,21 +44,29 @@ export const HomePage: React.FC = () => {
           {/* Top meta strip */}
           <div className="flex flex-wrap items-center justify-between gap-4 mb-4">
             <div className="flex items-center space-x-2">
-              <span className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-semibold bg-emerald-50 text-emerald-800 border border-emerald-200">
-                <CheckCircle2 className="w-3.5 h-3.5 mr-1 text-emerald-600" />
-                Officially Presented in Assembly • March 2026
+              <span className={`inline-flex items-center px-2.5 py-1 rounded-full text-xs font-semibold border ${
+                isBRS 
+                  ? 'bg-pink-50 text-pink-800 border-pink-200' 
+                  : 'bg-emerald-50 text-emerald-800 border-emerald-200'
+              }`}>
+                <CheckCircle2 className={`w-3.5 h-3.5 mr-1 ${isBRS ? 'text-pink-600' : 'text-emerald-600'}`} />
+                {yearInfo.presentationDate ? `Presented in Assembly • ${yearInfo.presentationDate}` : 'Officially Presented'}
               </span>
               <span className="text-xs text-slate-400">•</span>
               <span className="text-xs text-slate-500 font-medium">
-                Government of Telangana Finance Department
+                Government of Telangana • {isBRS ? 'BRS Government' : 'Congress Government'}
               </span>
             </div>
 
             {/* Fiscal Period Status Badge */}
             <div className="flex items-center space-x-2">
               <span className="text-xs font-medium text-slate-500">Fiscal Period:</span>
-              <span className="px-3 py-1 bg-brand-50 text-brand-900 font-bold text-xs border border-brand-200 rounded-lg shadow-2xs">
-                FY {selectedYear} (Budget Estimates)
+              <span className={`px-3 py-1 font-bold text-xs border rounded-lg shadow-2xs ${
+                isBRS 
+                  ? 'bg-pink-50 text-pink-900 border-pink-300' 
+                  : 'bg-brand-50 text-brand-900 border-brand-200'
+              }`}>
+                FY {selectedYear} ({summary.status || 'Budget Estimates'})
               </span>
             </div>
           </div>
@@ -64,9 +77,11 @@ export const HomePage: React.FC = () => {
               Telangana State Budget {selectedYear}
             </h1>
             <p className="mt-3 text-base sm:text-lg text-slate-600 leading-relaxed font-sans">
-              An authoritative, 100% data-verified public intelligence portal visualizing the
-              state’s comprehensive <strong className="text-slate-900 font-semibold">₹3,24,234.00 crore</strong> budget,
-              empowering citizens, researchers, and policymakers with complete fiscal clarity.
+              An authoritative, official public intelligence portal visualizing the state’s{' '}
+              <strong className="text-slate-900 font-semibold">{formatCrore(metrics.totalBudget.value)}</strong> budget
+              under the <span className={`font-semibold ${isBRS ? 'text-pink-700' : 'text-blue-700'}`}>
+                {yearInfo.governmentTitle || (isBRS ? 'BRS Administration' : 'Congress Administration')}
+              </span>, empowering citizens, researchers, and policymakers with complete fiscal clarity.
             </p>
           </div>
 
@@ -74,22 +89,90 @@ export const HomePage: React.FC = () => {
           <div className="mt-6 flex flex-wrap gap-2.5 pt-4 border-t border-slate-100 text-xs">
             <span className="px-3 py-1.5 bg-slate-50 border border-slate-200 rounded-lg text-slate-700 font-medium flex items-center gap-1.5">
               <span className="w-2 h-2 rounded-full bg-emerald-500"></span>
-              Revenue Surplus: <strong className="text-slate-900 font-bold">+₹6,857.76 Cr</strong> (+2.84% TRR)
+              Revenue Surplus: <strong className="text-slate-900 font-bold">{formatCrore(metrics.revenueDeficitSurplus.value)}</strong>
             </span>
             <span className="px-3 py-1.5 bg-slate-50 border border-slate-200 rounded-lg text-slate-700 font-medium flex items-center gap-1.5">
               <span className="w-2 h-2 rounded-full bg-brand-800"></span>
-              Fiscal Deficit: <strong className="text-slate-900 font-bold">2.98% of GSDP</strong> (Within 3.0% Legal Cap)
+              Fiscal Deficit: <strong className="text-slate-900 font-bold">{formatCrore(metrics.fiscalDeficit.value)}</strong>
             </span>
             <span className="px-3 py-1.5 bg-slate-50 border border-slate-200 rounded-lg text-slate-700 font-medium flex items-center gap-1.5">
               <span className="w-2 h-2 rounded-full bg-indigo-600"></span>
-              Capital Outlay: <strong className="text-slate-900 font-bold">₹47,267.28 Cr</strong> (+29.6% Increase)
+              Capital Outlay: <strong className="text-slate-900 font-bold">{formatCrore(metrics.capitalExpenditure.value)}</strong>
             </span>
             <span className="px-3 py-1.5 bg-slate-50 border border-slate-200 rounded-lg text-slate-700 font-medium flex items-center gap-1.5">
-              <span className="w-2 h-2 rounded-full bg-slate-500"></span>
-              Nominal GSDP: <strong className="text-slate-900 font-bold">₹19.62 Lakh Cr</strong> (+10.7% Growth)
+              <span className="w-2 h-2 rounded-full bg-amber-500"></span>
+              Total Receipts: <strong className="text-slate-900 font-bold">{formatCrore(metrics.revenueReceipts.value)}</strong>
             </span>
           </div>
         </div>
+      </section>
+
+      {/* New Featured OpenData Explorers: TGSRTC Transit & Water Bodies Map */}
+      <section className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {/* TGSRTC Transit Explorer Banner */}
+        <Link
+          to="/transit"
+          className="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-slate-900 via-brand-950 to-slate-900 text-white p-6 sm:p-7 shadow-lg border border-slate-800 hover:border-brand-500 transition duration-300 flex flex-col justify-between"
+        >
+          <div className="space-y-3 relative z-10">
+            <div className="flex items-center justify-between">
+              <span className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold bg-amber-400 text-slate-950">
+                <Bus className="w-3.5 h-3.5 mr-1" />
+                TGSRTC GTFS Timetables
+              </span>
+              <span className="text-xs text-emerald-400 font-mono font-bold flex items-center gap-1">
+                <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                51,980+ Daily Trips
+              </span>
+            </div>
+
+            <h3 className="text-xl sm:text-2xl font-black tracking-tight group-hover:text-amber-300 transition">
+              Hyderabad & TGSRTC Bus Routes, Stops & Timings
+            </h3>
+
+            <p className="text-xs text-slate-300 leading-relaxed">
+              Explore 4,130+ bus routes across Hyderabad Metropolitan & Telangana. View high-frequency departures,
+              detailed stop-by-stop arrival timings with modern interactive timeline cards.
+            </p>
+          </div>
+
+          <div className="pt-6 mt-4 border-t border-white/10 flex items-center justify-between text-xs font-bold text-amber-300 group-hover:text-amber-200">
+            <span>Explore Bus Schedules & Trajectories</span>
+            <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition" />
+          </div>
+        </Link>
+
+        {/* Water Bodies Map Explorer Banner */}
+        <Link
+          to="/water-bodies"
+          className="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-sky-950 via-cyan-950 to-slate-900 text-white p-6 sm:p-7 shadow-lg border border-sky-900 hover:border-cyan-500 transition duration-300 flex flex-col justify-between"
+        >
+          <div className="space-y-3 relative z-10">
+            <div className="flex items-center justify-between">
+              <span className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold bg-cyan-400 text-slate-950">
+                <Waves className="w-3.5 h-3.5 mr-1" />
+                GeoJSON Map Explorer
+              </span>
+              <span className="text-xs text-cyan-300 font-mono font-bold">
+                37,770+ Water Bodies
+              </span>
+            </div>
+
+            <h3 className="text-xl sm:text-2xl font-black tracking-tight group-hover:text-cyan-300 transition">
+              Telangana & Hyderabad Water Bodies Map
+            </h3>
+
+            <p className="text-xs text-slate-300 leading-relaxed">
+              Interactive Leaflet geospatial explorer visualizing 1,365 Greater Hyderabad lakes (Hussain Sagar, Osman Sagar, etc.)
+              and 37,770+ statewide reservoirs with custom GeoJSON file upload support.
+            </p>
+          </div>
+
+          <div className="pt-6 mt-4 border-t border-white/10 flex items-center justify-between text-xs font-bold text-cyan-300 group-hover:text-cyan-200">
+            <span>Open Interactive Water Bodies Map</span>
+            <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition" />
+          </div>
+        </Link>
       </section>
 
       {/* Hero Metrics (8 KPI Cards) */}

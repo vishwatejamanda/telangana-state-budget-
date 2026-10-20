@@ -1,0 +1,360 @@
+{
+  "year": "2026-27",
+  "totalExpenditure": 324234.0,
+  "byType": {
+    "revenueExpenditure": 234405.82,
+    "capitalExpenditure": 47267.28,
+    "publicDebtRepayment": 23024.89,
+    "loansAndAdvancesDisbursed": 19536.01
+  },
+  "byPlanMechanism": {
+    "establishmentExpenditure": 139918.0,
+    "schemeExpenditure": 184316.0
+  },
+  "byDevelopmentClassification": {
+    "developmentalExpenditure": 180934.48,
+    "generalAndAdministrativeServices": 14691.7,
+    "debtServicesInterest": 21305.0,
+    "taxCollectionCharges": 1004.51,
+    "otherExpenditure": 16470.14
+  },
+  "revenueByService": {
+    "socialServices": {
+      "total": 106039.2,
+      "sharePct": 45.24,
+      "subSectors": [
+        {
+          "name": "Education, Sports, Art and Culture",
+          "amount": 25200.0,
+          "majorHeads": [
+            "2202",
+            "2203",
+            "2204",
+            "2205"
+          ]
+        },
+        {
+          "name": "Health and Family Welfare",
+          "amount": 11239.22,
+          "majorHeads": [
+            "2210",
+            "2211"
+          ]
+        },
+        {
+          "name": "Water Supply, Sanitation, Housing & Urban Development",
+          "amount": 21628.8,
+          "majorHeads": [
+            "2215",
+            "2216",
+            "2217"
+          ]
+        },
+        {
+          "name": "Welfare of SC, ST, BC and Minorities",
+          "amount": 42770.0,
+          "majorHeads": [
+            "2225"
+          ]
+        },
+        {
+          "name": "Labour, Labour Welfare and Employment",
+          "amount": 837.88,
+          "majorHeads": [
+            "2230"
+          ]
+        },
+        {
+          "name": "Social Security, Nutrition and Relief",
+          "amount": 4363.3,
+          "majorHeads": [
+            "2235",
+            "2236",
+            "2245"
+          ]
+        }
+      ]
+    },
+    "economicServices": {
+      "total": 74450.47,
+      "sharePct": 31.76,
+      "subSectors": [
+        {
+          "name": "Agriculture and Allied Activities",
+          "amount": 26890.0,
+          "majorHeads": [
+            "2401",
+            "2402",
+            "2403",
+            "2404",
+            "2405",
+            "2406",
+            "2408",
+            "2425",
+            "2435"
+          ]
+        },
+        {
+          "name": "Rural Development",
+          "amount": 22214.66,
+          "majorHeads": [
+            "2501",
+            "2505",
+            "2515"
+          ]
+        },
+        {
+          "name": "Irrigation and Flood Control",
+          "amount": 9704.12,
+          "majorHeads": [
+            "2700",
+            "2701",
+            "2702",
+            "2705",
+            "2711"
+          ]
+        },
+        {
+          "name": "Energy & Power",
+          "amount": 15048.29,
+          "majorHeads": [
+            "2801",
+            "2810"
+          ]
+        },
+        {
+          "name": "Industry and Minerals",
+          "amount": 2179.32,
+          "majorHeads": [
+            "2851",
+            "2852",
+            "2853"
+          ]
+        },
+        {
+          "name": "Transport and Communications",
+          "amount": 5198.21,
+          "majorHeads": [
+            "3053",
+            "3054",
+            "3055"
+          ]
+        },
+        {
+          "name": "Science, Technology & Environment",
+          "amount": 215.87,
+          "majorHeads": [
+            "3425",
+            "3435"
+          ]
+        }
+      ]
+    },
+    "generalServices": {
+      "total": 53906.06,
+      "sharePct": 23.0,
+      "subSectors": [
+        {
+          "name": "Organs of State (Legislature, Governor, Judiciary, Elections)",
+          "amount": 4514.85,
+          "majorHeads": [
+            "2011",
+            "2012",
+            "2014",
+            "2015"
+          ]
+        },
+        {
+          "name": "Fiscal Services (Commercial Taxes, Excise, Registration, Treasury)",
+          "amount": 1887.42,
+          "majorHeads": [
+            "2029",
+            "2030",
+            "2039",
+            "2040",
+            "2041",
+            "2047"
+          ]
+        },
+        {
+          "name": "Debt Services (Interest Payments on Market Loans & Central Debt)",
+          "amount": 21304.39,
+          "majorHeads": [
+            "2048",
+            "2049"
+          ]
+        },
+        {
+          "name": "Administrative Services (Secretariat, District Admn, Police, Prisons)",
+          "amount": 13089.4,
+          "majorHeads": [
+            "2051",
+            "2052",
+            "2053",
+            "2054",
+            "2055",
+            "2056",
+            "2058",
+            "2059",
+            "2070"
+          ]
+        },
+        {
+          "name": "Pensions and Miscellaneous General Services",
+          "amount": 13110.0,
+          "majorHeads": [
+            "2071",
+            "2075"
+          ]
+        }
+      ]
+    },
+    "grantsInAidContribution": {
+      "total": 10.1,
+      "sharePct": 0.0
+    }
+  },
+  "capitalOutlayByDepartment": [
+    {
+      "department": "Irrigation Department",
+      "amount": 12836.0,
+      "sharePct": 27.16
+    },
+    {
+      "department": "Roads and Building Department",
+      "amount": 6300.0,
+      "sharePct": 13.33
+    },
+    {
+      "department": "Scheduled Castes Development Department",
+      "amount": 4578.0,
+      "sharePct": 9.69
+    },
+    {
+      "department": "Housing Department",
+      "amount": 4397.0,
+      "sharePct": 9.3
+    },
+    {
+      "department": "Panchayat Raj and Rural Development Department",
+      "amount": 3792.0,
+      "sharePct": 8.02
+    },
+    {
+      "department": "Planning Department",
+      "amount": 3575.0,
+      "sharePct": 7.56
+    },
+    {
+      "department": "Tribal Welfare Department",
+      "amount": 2759.0,
+      "sharePct": 5.84
+    },
+    {
+      "department": "Backward Class Welfare Department",
+      "amount": 2470.0,
+      "sharePct": 5.23
+    },
+    {
+      "department": "Health, Medical & Family Welfare Department",
+      "amount": 1948.0,
+      "sharePct": 4.12
+    },
+    {
+      "department": "Secondary Education, Secretariat Department",
+      "amount": 1373.0,
+      "sharePct": 2.9
+    },
+    {
+      "department": "Law Department",
+      "amount": 781.0,
+      "sharePct": 1.65
+    },
+    {
+      "department": "Home Department",
+      "amount": 474.0,
+      "sharePct": 1.0
+    },
+    {
+      "department": "Minorities Welfare Department",
+      "amount": 325.0,
+      "sharePct": 0.69
+    },
+    {
+      "department": "Industries & Commerce Department",
+      "amount": 293.0,
+      "sharePct": 0.62
+    },
+    {
+      "department": "Municipal Administration & Urban Development",
+      "amount": 280.0,
+      "sharePct": 0.59
+    },
+    {
+      "department": "Information Technology & Communications Department",
+      "amount": 200.0,
+      "sharePct": 0.42
+    },
+    {
+      "department": "Environment, Forest, Science & Technology Department",
+      "amount": 199.0,
+      "sharePct": 0.42
+    },
+    {
+      "department": "Labour and Employment Department",
+      "amount": 160.0,
+      "sharePct": 0.34
+    },
+    {
+      "department": "Revenue Department",
+      "amount": 105.0,
+      "sharePct": 0.22
+    },
+    {
+      "department": "Animal Husbandry & Fisheries Department",
+      "amount": 93.0,
+      "sharePct": 0.2
+    },
+    {
+      "department": "Youth Advancement, Tourism and Culture Department",
+      "amount": 82.0,
+      "sharePct": 0.17
+    },
+    {
+      "department": "Finance Department",
+      "amount": 80.0,
+      "sharePct": 0.17
+    },
+    {
+      "department": "Women, Children, Disabled & Senior Citizens Department",
+      "amount": 79.0,
+      "sharePct": 0.17
+    },
+    {
+      "department": "Transport Department",
+      "amount": 35.0,
+      "sharePct": 0.07
+    },
+    {
+      "department": "Legislature Secretariat",
+      "amount": 30.0,
+      "sharePct": 0.06
+    },
+    {
+      "department": "Higher Education Department",
+      "amount": 17.0,
+      "sharePct": 0.04
+    },
+    {
+      "department": "Agriculture & Cooperation Department",
+      "amount": 3.0,
+      "sharePct": 0.01
+    },
+    {
+      "department": "General Administration Department",
+      "amount": 3.0,
+      "sharePct": 0.01
+    }
+  ],
+  "fiscalYear": "2023-24"
+}

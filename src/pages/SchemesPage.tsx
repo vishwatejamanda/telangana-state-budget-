@@ -16,8 +16,10 @@ import {
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
+import { useYear } from '@/context/YearContext';
+
 export const SchemesPage: React.FC = () => {
-  const [selectedYear, setSelectedYear] = useState('2026-27');
+  const { selectedYear, isBRS } = useYear();
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
   const [minAmount, setMinAmount] = useState<number>(0);

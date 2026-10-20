@@ -1,18 +1,6 @@
 // src/services/budgetDataService.ts
 
 import yearsData from '@/data/years.json';
-import budgetSummary2026_27 from '@/data/2026-27/budget_summary.json';
-import demands2026_27 from '@/data/2026-27/demands_summary.json';
-import departments2026_27 from '@/data/2026-27/department_allocations.json';
-import schemes2026_27 from '@/data/2026-27/schemes.json';
-import receipts2026_27 from '@/data/2026-27/receipts_breakdown.json';
-import expenditure2026_27 from '@/data/2026-27/expenditure_breakdown.json';
-import sectors2026_27 from '@/data/2026-27/sector_allocations.json';
-import debtGuarantees2026_27 from '@/data/2026-27/debt_and_guarantees.json';
-import government2026_27 from '@/data/2026-27/government_profiles.json';
-import employee2026_27 from '@/data/2026-27/employee_strength.json';
-import scsdfStsdf2026_27 from '@/data/2026-27/scsdf_stsdf.json';
-import allRecords2026_27 from '@/data/2026-27/all_records.json';
 
 import {
   YearInfo,
@@ -25,25 +13,20 @@ import {
   FlatRecord
 } from '@/types/budget';
 
-// Year map for dynamic loading
-const dataByYear: Record<string, any> = {
-  '2026-27': {
-    summary: budgetSummary2026_27 as BudgetSummary,
-    demands: demands2026_27.demands as DemandRecord[],
-    demandsMeta: demands2026_27,
-    departments: departments2026_27.departments as DepartmentAllocation[],
-    schemes: schemes2026_27.schemes as SchemeItem[],
-    schemesMeta: schemes2026_27,
-    receipts: receipts2026_27,
-    expenditure: expenditure2026_27,
-    sectors: sectors2026_27 as SectorItem[],
-    debtAndGuarantees: debtGuarantees2026_27,
-    government: government2026_27,
-    employeeStrength: employee2026_27,
-    scsdfStsdf: scsdfStsdf2026_27,
-    allRecords: allRecords2026_27 as FlatRecord[],
+// Eagerly load all JSON files across all fiscal years
+const dataModules = import.meta.glob('../data/*/*.json', { eager: true }) as Record<string, any>;
+
+function getFile<T = any>(year: string, filename: string): T {
+  const primaryPath = `../data/${year}/${filename}.json`;
+  if (dataModules[primaryPath]) {
+    const mod = dataModules[primaryPath];
+    return (mod.default !== undefined ? mod.default : mod) as T;
   }
-};
+  // Fallback to 2026-27
+  const fallbackPath = `../data/2026-27/${filename}.json`;
+  const fallbackMod = dataModules[fallbackPath];
+  return (fallbackMod?.default !== undefined ? fallbackMod.default : fallbackMod) as T;
+}
 
 export const budgetDataService = {
   getAvailableYears(): YearInfo[] {
@@ -55,20 +38,27 @@ export const budgetDataService = {
     return current ? current.year : '2026-27';
   },
 
+  getYearInfo(year: string): YearInfo {
+    const found = yearsData.find(y => y.year === year);
+    return (found || yearsData[0]) as YearInfo;
+  },
+
   getBudgetSummary(year = '2026-27'): BudgetSummary {
-    return dataByYear[year]?.summary || dataByYear['2026-27'].summary;
+    return getFile<BudgetSummary>(year, 'budget_summary');
   },
 
   getDemands(year = '2026-27'): DemandRecord[] {
-    return dataByYear[year]?.demands || dataByYear['2026-27'].demands;
+    const data = getFile<any>(year, 'demands_summary');
+    return (data?.demands || []) as DemandRecord[];
   },
 
   getDemandsMeta(year = '2026-27'): any {
-    return dataByYear[year]?.demandsMeta || dataByYear['2026-27'].demandsMeta;
+    return getFile<any>(year, 'demands_summary');
   },
 
   getDepartments(year = '2026-27'): DepartmentAllocation[] {
-    return dataByYear[year]?.departments || dataByYear['2026-27'].departments;
+    const data = getFile<any>(year, 'department_allocations');
+    return (data?.departments || []) as DepartmentAllocation[];
   },
 
   getDepartmentById(id: string, year = '2026-27'): DepartmentAllocation | undefined {
@@ -77,23 +67,24 @@ export const budgetDataService = {
   },
 
   getSchemes(year = '2026-27'): SchemeItem[] {
-    return dataByYear[year]?.schemes || dataByYear['2026-27'].schemes;
+    const data = getFile<any>(year, 'schemes');
+    return (data?.schemes || []) as SchemeItem[];
   },
 
   getSchemesMeta(year = '2026-27'): any {
-    return dataByYear[year]?.schemesMeta || dataByYear['2026-27'].schemesMeta;
+    return getFile<any>(year, 'schemes');
   },
 
   getReceiptsBreakdown(year = '2026-27'): any {
-    return dataByYear[year]?.receipts || dataByYear['2026-27'].receipts;
+    return getFile<any>(year, 'receipts_breakdown');
   },
 
   getExpenditureBreakdown(year = '2026-27'): any {
-    return dataByYear[year]?.expenditure || dataByYear['2026-27'].expenditure;
+    return getFile<any>(year, 'expenditure_breakdown');
   },
 
   getSectors(year = '2026-27'): SectorItem[] {
-    return dataByYear[year]?.sectors || dataByYear['2026-27'].sectors;
+    return getFile<SectorItem[]>(year, 'sector_allocations') || [];
   },
 
   getSectorById(id: string, year = '2026-27'): SectorItem | undefined {
@@ -101,23 +92,27 @@ export const budgetDataService = {
   },
 
   getDebtAndGuarantees(year = '2026-27'): any {
-    return dataByYear[year]?.debtAndGuarantees || dataByYear['2026-27'].debtAndGuarantees;
+    return getFile<any>(year, 'debt_and_guarantees');
   },
 
   getGovernmentProfiles(year = '2026-27'): { presentation: any; ministers: MinisterProfile[] } {
-    return dataByYear[year]?.government || dataByYear['2026-27'].government;
+    return getFile<{ presentation: any; ministers: MinisterProfile[] }>(year, 'government_profiles');
   },
 
   getEmployeeStrength(year = '2026-27'): any {
-    return dataByYear[year]?.employeeStrength || dataByYear['2026-27'].employeeStrength;
+    return getFile<any>(year, 'employee_strength');
   },
 
   getScsdfStsdf(year = '2026-27'): any {
-    return dataByYear[year]?.scsdfStsdf || dataByYear['2026-27'].scsdfStsdf;
+    return getFile<any>(year, 'scsdf_stsdf');
   },
 
   getAllRecords(year = '2026-27'): FlatRecord[] {
-    return dataByYear[year]?.allRecords || dataByYear['2026-27'].allRecords;
+    return getFile<FlatRecord[]>(year, 'all_records') || [];
+  },
+
+  getPdfCatalog(year = '2026-27'): any[] {
+    return getFile<any[]>(year, 'pdf_catalog') || [];
   },
 
   searchGlobal(query: string, year = '2026-27') {
@@ -133,7 +128,7 @@ export const budgetDataService = {
 
     // Search departments
     for (const d of this.getDepartments(year)) {
-      if (d.name.toLowerCase().includes(q) || d.minister.toLowerCase().includes(q)) {
+      if (d.name.toLowerCase().includes(q) || (d.minister && d.minister.toLowerCase().includes(q))) {
         results.push({
           type: 'Department',
           title: d.name,
@@ -159,11 +154,11 @@ export const budgetDataService = {
 
     // Search demands
     for (const dm of this.getDemands(year)) {
-      if (dm.name.toLowerCase().includes(q) || dm.demandNo.toLowerCase() === q || dm.teluguName.includes(q)) {
+      if (dm.name.toLowerCase().includes(q) || dm.demandNo.toLowerCase() === q || dm.teluguName?.includes(q)) {
         results.push({
           type: 'Demand',
           title: `Demand ${dm.demandNo}: ${dm.name}`,
-          subtitle: `${dm.teluguName} • ${dm.department}`,
+          subtitle: `${dm.teluguName || ''} • ${dm.department}`,
           amountCrore: dm.amountCrore,
           link: `/departments?demand=${dm.demandNo}`
         });

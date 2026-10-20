@@ -1,0 +1,105 @@
+{
+  "year": "2026-27",
+  "scsdf": {
+    "title": "Scheduled Castes Special Development Fund (SCSDF)",
+    "statutoryEarmarkPct": 15.44,
+    "grandTotalCrore": 37741.22,
+    "allocatedToDepartmentsCrore": 34510.62,
+    "nonDivisibleInfraAccountingCrore": 3230.61,
+    "sourceFile": "1773983773_SCSDF_Vol_VII-II_2026-27_1773983773_.pdf",
+    "sourcePage": 9,
+    "topDepartments": [
+      {
+        "dept": "Rural Development Department",
+        "amount": 5764.44
+      },
+      {
+        "dept": "Social Welfare Residential Educational Institutions (TSWREIS)",
+        "amount": 4492.5
+      },
+      {
+        "dept": "Scheduled Castes Development Department",
+        "amount": 4190.3
+      },
+      {
+        "dept": "Agriculture Department",
+        "amount": 3957.52
+      },
+      {
+        "dept": "Energy, Secretariat Department",
+        "amount": 3520.59
+      },
+      {
+        "dept": "TG SC Cooperative Development Corp",
+        "amount": 2183.04
+      },
+      {
+        "dept": "Civil Supplies Department",
+        "amount": 1538.36
+      },
+      {
+        "dept": "Municipal Administration Department",
+        "amount": 1196.0
+      },
+      {
+        "dept": "Planning Secretariat Department",
+        "amount": 1127.85
+      },
+      {
+        "dept": "Industries Department",
+        "amount": 1066.0
+      }
+    ]
+  },
+  "stsdf": {
+    "title": "Scheduled Tribes Special Development Fund (STSDF)",
+    "statutoryEarmarkPct": 9.08,
+    "grandTotalCrore": 18745.16,
+    "allocatedToDepartmentsCrore": 17360.61,
+    "nonDivisibleInfraAccountingCrore": 1384.55,
+    "sourceFile": "1773983796_STSDF_Volume_VII-III_2026-27_1773983796_.pdf",
+    "sourcePage": 9,
+    "topDepartments": [
+      {
+        "dept": "Tribal Welfare Department",
+        "amount": 7176.2
+      },
+      {
+        "dept": "Rural Development Department",
+        "amount": 2214.03
+      },
+      {
+        "dept": "Energy, Secretariat Department",
+        "amount": 2016.56
+      },
+      {
+        "dept": "Agriculture Department",
+        "amount": 1797.07
+      },
+      {
+        "dept": "Civil Supplies Department",
+        "amount": 658.13
+      },
+      {
+        "dept": "Planning, Secretariat Department",
+        "amount": 662.84
+      },
+      {
+        "dept": "Weaker Section Housing",
+        "amount": 542.12
+      },
+      {
+        "dept": "Samagra Shiksha (ST Component)",
+        "amount": 401.4
+      },
+      {
+        "dept": "Transport, Roads & Buildings",
+        "amount": 370.87
+      },
+      {
+        "dept": "Panchayat Raj Department",
+        "amount": 320.69
+      }
+    ]
+  }
+}

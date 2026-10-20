@@ -1,0 +1,391 @@
+{
+  "presentation": {
+    "title": "Government of Telangana - Council of Ministers (FY 2024-25)",
+    "citedSources": [
+      "Telangana State Budget Notice 2024-25",
+      "Telangana Budget Volume IX: Analysis of Demands for Grants 2024-25",
+      "Official Portal of Telangana State (https://www.telangana.gov.in)"
+    ]
+  },
+  "ministers": [
+    {
+      "id": "revanth-reddy",
+      "name": "Sri Anumula Revanth Reddy",
+      "shortName": "A. Revanth Reddy",
+      "role": "Chief Minister",
+      "constituency": "Kodangal",
+      "portfolios": [
+        "Municipal Administration and Urban Development",
+        "General Administration",
+        "Education (School, Higher & Technical)",
+        "Law & Order / Home Administration",
+        "Commercial Taxes Administration",
+        "Administration of Justice",
+        "All other unallocated departments"
+      ],
+      "demandsOverseen": [
+        "II",
+        "III",
+        "IV",
+        "VII",
+        "X",
+        "XII",
+        "XIII",
+        "XIV",
+        "XVII"
+      ],
+      "totalBudgetOverseenCrore": 69279.16,
+      "photoPlaceholder": "cm_revanth_reddy",
+      "departmentIds": [
+        "municipal-administration-and-urban-development",
+        "general-administration-department",
+        "secondary-education-secretariat-department",
+        "higher-education-department",
+        "home-department",
+        "law-department",
+        "revenue-department"
+      ],
+      "photoUrl": "/images/leaders/revanth_reddy.jpg",
+      "party": "INC"
+    },
+    {
+      "id": "bhatti-vikramarka",
+      "name": "Sri Mallu Bhatti Vikramarka",
+      "shortName": "Mallu Bhatti Vikramarka",
+      "role": "Deputy Chief Minister & Finance Minister",
+      "constituency": "Madhira (SC)",
+      "portfolios": [
+        "Finance & Planning",
+        "Energy"
+      ],
+      "demandsOverseen": [
+        "IX",
+        "XXXV"
+      ],
+      "totalBudgetOverseenCrore": 38058.31,
+      "photoPlaceholder": "deputy_cm_bhatti",
+      "notes": "Presented the Budget Estimates 2026-27 to the Telangana Legislative Assembly on 20th March, 2026.",
+      "departmentIds": [
+        "finance-department",
+        "planning-department",
+        "energy-department"
+      ],
+      "photoUrl": "/images/leaders/bhatti_vikramarka.png",
+      "party": "INC"
+    },
+    {
+      "id": "uttam-kumar-reddy",
+      "name": "Sri Nalamada Uttam Kumar Reddy",
+      "shortName": "N. Uttam Kumar Reddy",
+      "role": "Cabinet Minister",
+      "constituency": "Huzurnagar",
+      "portfolios": [
+        "Irrigation & Command Area Development (CAD)",
+        "Food & Civil Supplies"
+      ],
+      "demandsOverseen": [
+        "XXXIII",
+        "XXXVIII"
+      ],
+      "totalBudgetOverseenCrore": 27710.12,
+      "photoPlaceholder": "minister_uttam",
+      "departmentIds": [
+        "irrigation-department",
+        "food-and-civil-supplies-department"
+      ],
+      "party": "INC"
+    },
+    {
+      "id": "sridhar-babu",
+      "name": "Sri Duddilla Sridhar Babu",
+      "shortName": "D. Sridhar Babu",
+      "role": "Cabinet Minister",
+      "constituency": "Manthani",
+      "portfolios": [
+        "Information Technology, Electronics & Communications",
+        "Industries & Commerce",
+        "Legislative Affairs"
+      ],
+      "demandsOverseen": [
+        "I",
+        "XXXVI",
+        "XXXIX"
+      ],
+      "totalBudgetOverseenCrore": 3539.65,
+      "photoPlaceholder": "minister_sridhar",
+      "departmentIds": [
+        "information-technology-and-communications-department",
+        "industries-and-commerce-department",
+        "legislature-secretariat"
+      ],
+      "party": "INC"
+    },
+    {
+      "id": "ponguleti-srinivasa-reddy",
+      "name": "Sri Ponguleti Srinivasa Reddy",
+      "shortName": "Ponguleti Srinivasa Reddy",
+      "role": "Cabinet Minister",
+      "constituency": "Palair",
+      "portfolios": [
+        "Revenue and Housing",
+        "Information & Public Relations (I&PR)"
+      ],
+      "demandsOverseen": [
+        "V",
+        "XVIII",
+        "XIX"
+      ],
+      "totalBudgetOverseenCrore": 9715.52,
+      "photoPlaceholder": "minister_ponguleti",
+      "departmentIds": [
+        "revenue-department",
+        "housing-department",
+        "general-administration-department"
+      ],
+      "party": "INC"
+    },
+    {
+      "id": "ponnam-prabhakar",
+      "name": "Sri Ponnam Prabhakar",
+      "shortName": "Ponnam Prabhakar",
+      "role": "Cabinet Minister",
+      "constituency": "Husnabad",
+      "portfolios": [
+        "Transport",
+        "Backward Classes (BC) Welfare"
+      ],
+      "demandsOverseen": [
+        "VIII",
+        "XXIII"
+      ],
+      "totalBudgetOverseenCrore": 15779.62,
+      "photoPlaceholder": "minister_ponnam",
+      "departmentIds": [
+        "transport-department",
+        "backward-class-welfare-department"
+      ],
+      "party": "INC"
+    },
+    {
+      "id": "komatireddy-venkat-reddy",
+      "name": "Sri Komatireddy Venkat Reddy",
+      "shortName": "Komatireddy Venkat Reddy",
+      "role": "Cabinet Minister",
+      "constituency": "Nalgonda",
+      "portfolios": [
+        "Roads & Buildings",
+        "Cinematography"
+      ],
+      "demandsOverseen": [
+        "XI"
+      ],
+      "totalBudgetOverseenCrore": 8294.71,
+      "photoPlaceholder": "minister_komatireddy",
+      "departmentIds": [
+        "roads-and-building-department"
+      ],
+      "party": "INC"
+    },
+    {
+      "id": "damodar-raja-narasimha",
+      "name": "Sri Cilarapu Damodar Raja Narasimha",
+      "shortName": "C. Damodar Raja Narasimha",
+      "role": "Cabinet Minister",
+      "constituency": "Andole (SC)",
+      "portfolios": [
+        "Health, Medical & Family Welfare",
+        "Science and Technology"
+      ],
+      "demandsOverseen": [
+        "XVI"
+      ],
+      "totalBudgetOverseenCrore": 13187.22,
+      "photoPlaceholder": "minister_damodar",
+      "departmentIds": [
+        "health-medical-and-family-welfare-department",
+        "environment-forest-science-and-technology-department"
+      ],
+      "party": "INC"
+    },
+    {
+      "id": "danasari-anasuya-seethakka",
+      "name": "Smt. Danasari Anasuya (Seethakka)",
+      "shortName": "Danasari Anasuya (Seethakka)",
+      "role": "Cabinet Minister",
+      "constituency": "Mulug (ST)",
+      "portfolios": [
+        "Panchayat Raj & Rural Development (including Rural Water Supply)",
+        "Women & Child Welfare"
+      ],
+      "demandsOverseen": [
+        "XXV",
+        "XXXI",
+        "XXXII"
+      ],
+      "totalBudgetOverseenCrore": 29087.71,
+      "photoPlaceholder": "minister_seethakka",
+      "departmentIds": [
+        "panchayat-raj-and-rural-development-department",
+        "women-children-disabled-and-senior-citizens-department"
+      ],
+      "party": "INC"
+    },
+    {
+      "id": "tummala-nageswara-rao",
+      "name": "Sri Tummala Nageswara Rao",
+      "shortName": "Tummala Nageswara Rao",
+      "role": "Cabinet Minister",
+      "constituency": "Khammam",
+      "portfolios": [
+        "Agriculture & Marketing",
+        "Co-operation",
+        "Handlooms & Textiles"
+      ],
+      "demandsOverseen": [
+        "XXVII",
+        "XXX"
+      ],
+      "totalBudgetOverseenCrore": 17483.31,
+      "photoPlaceholder": "minister_tummala",
+      "departmentIds": [
+        "agriculture-and-cooperation-department",
+        "industries-and-commerce-department"
+      ],
+      "party": "INC"
+    },
+    {
+      "id": "jupally-krishna-rao",
+      "name": "Sri Jupally Krishna Rao",
+      "shortName": "Jupally Krishna Rao",
+      "role": "Cabinet Minister",
+      "constituency": "Kollapur",
+      "portfolios": [
+        "Prohibition & Excise",
+        "Tourism & Culture",
+        "Archaeology"
+      ],
+      "demandsOverseen": [
+        "VI",
+        "XXXVII"
+      ],
+      "totalBudgetOverseenCrore": 1890.23,
+      "photoPlaceholder": "minister_jupally",
+      "departmentIds": [
+        "revenue-department",
+        "youth-advancement-tourism-and-culture-department"
+      ],
+      "party": "INC"
+    },
+    {
+      "id": "konda-surekha",
+      "name": "Smt. Konda Surekha",
+      "shortName": "Konda Surekha",
+      "role": "Cabinet Minister",
+      "constituency": "Warangal East",
+      "portfolios": [
+        "Environment, Forests & Climate Change",
+        "Religious Endowments"
+      ],
+      "demandsOverseen": [
+        "XXVI",
+        "XXIX"
+      ],
+      "totalBudgetOverseenCrore": 2305.03,
+      "photoPlaceholder": "minister_konda",
+      "departmentIds": [
+        "environment-forest-science-and-technology-department",
+        "revenue-department"
+      ],
+      "party": "INC"
+    },
+    {
+      "id": "gaddam-vivekanand",
+      "name": "Dr. Gaddam Vivekanand",
+      "shortName": "Gaddam Vivekanand",
+      "role": "Cabinet Minister",
+      "constituency": "Chennur (SC)",
+      "portfolios": [
+        "Labour, Employment, Training & Factories",
+        "Mines & Geology"
+      ],
+      "demandsOverseen": [
+        "XX"
+      ],
+      "totalBudgetOverseenCrore": 997.88,
+      "photoPlaceholder": "minister_vivek",
+      "departmentIds": [
+        "labour-and-employment-department",
+        "industries-and-commerce-department"
+      ],
+      "party": "INC"
+    },
+    {
+      "id": "adluri-laxman-kumar",
+      "name": "Sri Adluri Laxman Kumar",
+      "shortName": "Adluri Laxman Kumar",
+      "role": "Cabinet Minister",
+      "constituency": "Dharmapuri (SC)",
+      "portfolios": [
+        "Scheduled Castes (SC) Development",
+        "Tribal Welfare (ST)",
+        "Empowerment of Persons with Disabilities, Senior Citizens and Transgender Persons"
+      ],
+      "demandsOverseen": [
+        "XXI",
+        "XXII"
+      ],
+      "totalBudgetOverseenCrore": 47653.92,
+      "photoPlaceholder": "minister_laxman",
+      "departmentIds": [
+        "scheduled-castes-development-department",
+        "tribal-welfare-department",
+        "women-children-disabled-and-senior-citizens-department"
+      ],
+      "party": "INC"
+    },
+    {
+      "id": "vakiti-srihari",
+      "name": "Sri Vakiti Srihari",
+      "shortName": "Vakiti Srihari",
+      "role": "Cabinet Minister",
+      "constituency": "Makthal",
+      "portfolios": [
+        "Animal Husbandry & Dairy Development",
+        "Fisheries",
+        "Sports & Youth Services"
+      ],
+      "demandsOverseen": [
+        "XV",
+        "XXVIII"
+      ],
+      "totalBudgetOverseenCrore": 2213.03,
+      "photoPlaceholder": "minister_srihari",
+      "departmentIds": [
+        "animal-husbandry-and-fisheries-department",
+        "youth-advancement-tourism-and-culture-department"
+      ],
+      "party": "INC"
+    },
+    {
+      "id": "mohammad-azharuddin",
+      "name": "Sri Mohammad Azharuddin",
+      "shortName": "Mohammad Azharuddin",
+      "role": "Cabinet Minister",
+      "constituency": "Legislative Council (MLC)",
+      "portfolios": [
+        "Minorities Welfare",
+        "Public Sector Enterprises"
+      ],
+      "demandsOverseen": [
+        "XXIV"
+      ],
+      "totalBudgetOverseenCrore": 3768.53,
+      "photoPlaceholder": "minister_azharuddin",
+      "departmentIds": [
+        "minorities-welfare-department",
+        "industries-and-commerce-department"
+      ],
+      "party": "INC"
+    }
+  ]
+}

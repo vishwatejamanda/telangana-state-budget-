@@ -16,3 +16,6 @@ __pycache__/
 .env.local
 .DS_Store
 *.log
+# Raw large datasets
+tg_waterbodies.geojson
+Telangana_opendata_gtfs_TGSRTC_25_September_2026/

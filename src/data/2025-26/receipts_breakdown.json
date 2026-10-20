@@ -1,0 +1,386 @@
+{
+  "year": "2026-27",
+  "totalReceipts": 324234.0,
+  "revenueReceipts": {
+    "total": 241263.58,
+    "shareOfBudget": 74.41,
+    "stateOwnTaxes": {
+      "total": 148185.75,
+      "shareOfRevenueReceipts": 61.42,
+      "items": [
+        {
+          "head": "0006",
+          "name": "State Goods and Services Tax (SGST)",
+          "amount": 52490.0,
+          "sharePct": 35.42
+        },
+        {
+          "head": "0040",
+          "name": "Taxes on Sales, Trade etc. (VAT on Petroleum & Liquor)",
+          "amount": 38105.55,
+          "sharePct": 25.72
+        },
+        {
+          "head": "0039",
+          "name": "State Excise (Liquor Duties & Licence Fees)",
+          "amount": 27668.48,
+          "sharePct": 18.67
+        },
+        {
+          "head": "0030",
+          "name": "Stamps and Registration Fees",
+          "amount": 19540.54,
+          "sharePct": 13.19
+        },
+        {
+          "head": "0041",
+          "name": "Taxes on Vehicles (Road & Transport Taxes)",
+          "amount": 8814.41,
+          "sharePct": 5.95
+        },
+        {
+          "head": "0028",
+          "name": "Other Taxes on Income & Expenditure (Profession Tax)",
+          "amount": 1046.77,
+          "sharePct": 0.71
+        },
+        {
+          "head": "0043",
+          "name": "Taxes and Duties on Electricity",
+          "amount": 485.5,
+          "sharePct": 0.33
+        },
+        {
+          "head": "0029",
+          "name": "Land Revenue",
+          "amount": 11.14,
+          "sharePct": 0.01
+        },
+        {
+          "head": "0042",
+          "name": "Taxes on Goods and Passengers",
+          "amount": 14.91,
+          "sharePct": 0.01
+        },
+        {
+          "head": "0038",
+          "name": "Taxes on Immovable Property",
+          "amount": 4.8,
+          "sharePct": 0.0
+        },
+        {
+          "head": "0045",
+          "name": "Other Taxes & Duties on Commodities & Services",
+          "amount": 3.65,
+          "sharePct": 0.0
+        }
+      ]
+    },
+    "centralShare": {
+      "total": 33181.64,
+      "shareOfRevenueReceipts": 13.75,
+      "items": [
+        {
+          "head": "0021",
+          "name": "Taxes on Income Other than Corporation Tax",
+          "amount": 11808.15,
+          "sharePct": 35.59
+        },
+        {
+          "head": "0020",
+          "name": "Corporation Tax",
+          "amount": 9740.28,
+          "sharePct": 29.35
+        },
+        {
+          "head": "0005",
+          "name": "Central Goods and Services Tax (CGST)",
+          "amount": 9074.92,
+          "sharePct": 27.35
+        },
+        {
+          "head": "0037",
+          "name": "Customs",
+          "amount": 1283.47,
+          "sharePct": 3.87
+        },
+        {
+          "head": "0038",
+          "name": "Union Excise Duties",
+          "amount": 457.26,
+          "sharePct": 1.38
+        },
+        {
+          "head": "0044",
+          "name": "Service Tax Arrears Devolution",
+          "amount": 817.56,
+          "sharePct": 2.46
+        }
+      ]
+    },
+    "nonTaxRevenue": {
+      "total": 35730.2,
+      "shareOfRevenueReceipts": 14.81,
+      "items": [
+        {
+          "head": "0075",
+          "name": "Miscellaneous General Services (Land regularization & sale proceeds)",
+          "amount": 24340.0,
+          "sharePct": 68.12
+        },
+        {
+          "head": "0853",
+          "name": "Non-Ferrous Mining and Metallurgical Industries (Mineral Royalties)",
+          "amount": 7600.0,
+          "sharePct": 21.27
+        },
+        {
+          "head": "0202",
+          "name": "Education, Sports, Art and Culture Receipts",
+          "amount": 1220.05,
+          "sharePct": 3.41
+        },
+        {
+          "head": "0210",
+          "name": "Medical and Public Health Receipts",
+          "amount": 507.31,
+          "sharePct": 1.42
+        },
+        {
+          "head": "0070",
+          "name": "Other Administrative Services (Police, Justice, Exams)",
+          "amount": 279.1,
+          "sharePct": 0.78
+        },
+        {
+          "head": "0230",
+          "name": "Labour and Employment Receipts",
+          "amount": 189.26,
+          "sharePct": 0.53
+        },
+        {
+          "head": "0049",
+          "name": "Interest Receipts (Loans to corporations & banks)",
+          "amount": 187.32,
+          "sharePct": 0.52
+        },
+        {
+          "head": "0216",
+          "name": "Housing Receipts",
+          "amount": 153.8,
+          "sharePct": 0.43
+        },
+        {
+          "head": "1054",
+          "name": "Roads and Bridges Receipts (Toll & user charges)",
+          "amount": 140.85,
+          "sharePct": 0.39
+        },
+        {
+          "head": "1475",
+          "name": "Other General Economic Services",
+          "amount": 82.68,
+          "sharePct": 0.23
+        },
+        {
+          "head": "0700",
+          "name": "Major Irrigation Water Charges",
+          "amount": 77.2,
+          "sharePct": 0.22
+        },
+        {
+          "head": "1452",
+          "name": "Tourism Receipts",
+          "amount": 76.39,
+          "sharePct": 0.21
+        },
+        {
+          "head": "0406",
+          "name": "Forestry and Wild Life Receipts",
+          "amount": 53.22,
+          "sharePct": 0.15
+        },
+        {
+          "head": "0059",
+          "name": "Public Works Receipts",
+          "amount": 46.83,
+          "sharePct": 0.13
+        },
+        {
+          "head": "0425",
+          "name": "Co-operation Receipts",
+          "amount": 42.7,
+          "sharePct": 0.12
+        },
+        {
+          "head": "0250",
+          "name": "Other Social Services Receipts",
+          "amount": 37.34,
+          "sharePct": 0.1
+        },
+        {
+          "head": "0801",
+          "name": "Power Receipts",
+          "amount": 32.14,
+          "sharePct": 0.09
+        },
+        {
+          "head": "0071",
+          "name": "Pension & Retirement Contributions Recovered",
+          "amount": 31.11,
+          "sharePct": 0.09
+        },
+        {
+          "head": "0217",
+          "name": "Urban Development Receipts",
+          "amount": 30.42,
+          "sharePct": 0.09
+        },
+        {
+          "head": "0702",
+          "name": "Minor Irrigation Receipts",
+          "amount": 24.02,
+          "sharePct": 0.07
+        },
+        {
+          "head": "1456",
+          "name": "Civil Supplies Receipts",
+          "amount": 19.65,
+          "sharePct": 0.05
+        },
+        {
+          "head": "1053",
+          "name": "Civil Aviation Receipts",
+          "amount": 16.76,
+          "sharePct": 0.05
+        },
+        {
+          "head": "0701",
+          "name": "Medium Irrigation Receipts",
+          "amount": 16.24,
+          "sharePct": 0.05
+        },
+        {
+          "head": "0235",
+          "name": "Social Security and Welfare Receipts",
+          "amount": 15.9,
+          "sharePct": 0.04
+        },
+        {
+          "head": "0401",
+          "name": "Crop Husbandry Receipts",
+          "amount": 12.94,
+          "sharePct": 0.04
+        },
+        {
+          "head": "0506",
+          "name": "Land Reforms Receipts",
+          "amount": 12.78,
+          "sharePct": 0.04
+        },
+        {
+          "head": "0852",
+          "name": "Industries Receipts",
+          "amount": 12.62,
+          "sharePct": 0.04
+        },
+        {
+          "head": "0405",
+          "name": "Fisheries Receipts",
+          "amount": 9.16,
+          "sharePct": 0.03
+        },
+        {
+          "head": "0403",
+          "name": "Animal Husbandry Receipts",
+          "amount": 8.01,
+          "sharePct": 0.02
+        },
+        {
+          "head": "0515",
+          "name": "Other Rural Development Receipts",
+          "amount": 6.57,
+          "sharePct": 0.02
+        },
+        {
+          "head": "0215",
+          "name": "Water Supply & Sanitation Receipts",
+          "amount": 6.05,
+          "sharePct": 0.02
+        },
+        {
+          "head": "0220",
+          "name": "Information and Publicity Receipts",
+          "amount": 1.21,
+          "sharePct": 0.0
+        },
+        {
+          "head": "0211",
+          "name": "Family Welfare Receipts",
+          "amount": 1.04,
+          "sharePct": 0.0
+        },
+        {
+          "head": "0851",
+          "name": "Village & Small Industries",
+          "amount": 0.9,
+          "sharePct": 0.0
+        }
+      ]
+    },
+    "grantsInAid": {
+      "total": 24166.0,
+      "shareOfRevenueReceipts": 10.02,
+      "items": [
+        {
+          "head": "1601-06",
+          "name": "Centrally Sponsored Schemes (CSS) Grants",
+          "amount": 17850.0,
+          "sharePct": 73.86
+        },
+        {
+          "head": "1601-07",
+          "name": "Finance Commission Grants (Rural & Urban Local Bodies, SDRF)",
+          "amount": 4316.0,
+          "sharePct": 17.86
+        },
+        {
+          "head": "1601-08",
+          "name": "Other Central Transfers & Scheme Grants",
+          "amount": 2000.0,
+          "sharePct": 8.28
+        }
+      ]
+    }
+  },
+  "capitalReceipts": {
+    "total": 82970.42,
+    "items": [
+      {
+        "head": "6003",
+        "name": "Internal Debt of the State Government (Open Market Borrowings)",
+        "amount": 74483.6,
+        "sharePct": 89.77
+      },
+      {
+        "head": "6004",
+        "name": "Loans and Advances from the Central Government",
+        "amount": 5500.0,
+        "sharePct": 6.63
+      },
+      {
+        "head": "8009-8449",
+        "name": "Public Account Deposits, Small Savings & Reserve Funds (Net)",
+        "amount": 1500.0,
+        "sharePct": 1.81
+      },
+      {
+        "head": "6215-7610",
+        "name": "Recoveries of Loans and Advances",
+        "amount": 1486.82,
+        "sharePct": 1.79
+      }
+    ]
+  },
+  "fiscalYear": "2025-26"
+}

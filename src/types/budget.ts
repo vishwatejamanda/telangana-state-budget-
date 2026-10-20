@@ -8,6 +8,14 @@ export interface YearInfo {
   totalBudget: number;
   presentationDate: string;
   presentedBy: string;
+  chiefMinister?: string;
+  financeMinister?: string;
+  rulingParty?: string;
+  governmentTitle?: string;
+  governmentBadge?: string;
+  partyColor?: string;
+  cmPhoto?: string;
+  fmPhoto?: string;
 }
 
 export interface MetricItem {
@@ -210,6 +218,8 @@ export interface MinisterProfile {
   demandsOverseen: string[];
   totalBudgetOverseenCrore: number;
   photoPlaceholder: string;
+  photoUrl?: string;
+  party?: string;
   notes?: string;
   departmentIds: string[];
 }

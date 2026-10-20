@@ -20,10 +20,10 @@ import {
   Briefcase,
   ArrowRight,
 } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { useYear } from '@/context/YearContext';
 
 export const SectorsPage: React.FC = () => {
-  const [selectedYear, setSelectedYear] = useState('2026-27');
+  const { selectedYear } = useYear();
   const sectors = budgetDataService.getSectors(selectedYear);
 
   // Icon mapping

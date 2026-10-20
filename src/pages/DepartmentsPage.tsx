@@ -16,8 +16,10 @@ import {
   CheckCircle2,
 } from 'lucide-react';
 
+import { useYear } from '@/context/YearContext';
+
 export const DepartmentsPage: React.FC = () => {
-  const [selectedYear, setSelectedYear] = useState('2026-27');
+  const { selectedYear } = useYear();
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
   const [viewStyle, setViewStyle] = useState<'cards' | 'table' | 'treemap'>('cards');

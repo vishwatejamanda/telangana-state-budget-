@@ -9,9 +9,10 @@ import { MultiYearTrendChart } from '@/components/charts/MultiYearTrendChart';
 import { formatCrore } from '@/utils/formatters';
 import { ShieldCheck, CheckCircle2, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { useYear } from '@/context/YearContext';
 
 export const OverviewPage: React.FC = () => {
-  const [selectedYear, setSelectedYear] = useState('2026-27');
+  const { selectedYear } = useYear();
   const summary = budgetDataService.getBudgetSummary(selectedYear);
   const metrics = summary.keyMetrics;
 

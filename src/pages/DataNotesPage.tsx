@@ -12,8 +12,15 @@ import {
   Info,
 } from 'lucide-react';
 
+import { useYear } from '@/context/YearContext';
+import { budgetDataService } from '@/services/budgetDataService';
+import { formatCrore } from '@/utils/formatters';
+
 export const DataNotesPage: React.FC = () => {
-  const [activeTab, setActiveTab] = useState<'inventory' | 'reconciliation' | 'methodology'>('inventory');
+  const { selectedYear, setSelectedYear } = useYear();
+  const [activeTab, setActiveTab] = useState<'inventory' | 'ifmis' | 'reconciliation' | 'methodology'>('inventory');
+  const [ifmisFilterYear, setIfmisFilterYear] = useState<string>(selectedYear);
+  const availableYears = budgetDataService.getAvailableYears();
 
   // Summary list of all 32 files
   const fileInventory = [
@@ -66,7 +73,7 @@ export const DataNotesPage: React.FC = () => {
           </div>
 
           {/* Tab selector */}
-          <div className="flex items-center space-x-1 bg-slate-100 p-1 rounded-xl border border-slate-200 text-xs self-start sm:self-auto">
+          <div className="flex flex-wrap items-center gap-1 bg-slate-100 p-1 rounded-xl border border-slate-200 text-xs self-start sm:self-auto">
             <button
               onClick={() => setActiveTab('inventory')}
               className={`flex items-center space-x-1.5 px-3 py-1.5 rounded-lg font-bold transition ${
@@ -75,6 +82,15 @@ export const DataNotesPage: React.FC = () => {
             >
               <FileText className="w-3.5 h-3.5" />
               <span>32 Source Files Inventory</span>
+            </button>
+            <button
+              onClick={() => setActiveTab('ifmis')}
+              className={`flex items-center space-x-1.5 px-3 py-1.5 rounded-lg font-bold transition ${
+                activeTab === 'ifmis' ? 'bg-brand-900 text-white shadow-xs' : 'text-slate-600 hover:text-slate-900'
+              }`}
+            >
+              <BookOpen className="w-3.5 h-3.5" />
+              <span>IFMIS Archives (2020-2027)</span>
             </button>
             <button
               onClick={() => setActiveTab('reconciliation')}
@@ -156,7 +172,150 @@ export const DataNotesPage: React.FC = () => {
         </section>
       )}
 
-      {/* Tab 2: Mathematical Reconciliation Proofs */}
+      {/* Tab 2: IFMIS Multi-Year Portals & PDF Archives (2020-2027) */}
+      {activeTab === 'ifmis' && (
+        <section className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm space-y-6">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-4 border-b border-slate-100 gap-4">
+            <div>
+              <div className="flex items-center space-x-2">
+                <BookOpen className="w-5 h-5 text-brand-900" />
+                <h2 className="text-lg font-bold text-slate-900">
+                  Telangana State IFMIS Official Budget Volumes Catalog (2020-21 to 2026-27)
+                </h2>
+              </div>
+              <p className="text-xs text-slate-500 mt-1">
+                Direct constitutional publications sourced from the official Telangana IFMIS portal (<code className="text-brand-800">ifmis.telangana.gov.in/budget_volumes</code>).
+              </p>
+            </div>
+
+            <a
+              href="https://ifmis.telangana.gov.in/budget_volumes"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-brand-50 text-brand-900 hover:bg-brand-100 text-xs font-bold border border-brand-200 transition"
+            >
+              <span>Visit Official IFMIS Portal</span>
+              <ExternalLink className="w-3.5 h-3.5" />
+            </a>
+          </div>
+
+          {/* Year Selector Filter */}
+          <div className="flex flex-wrap items-center gap-2">
+            <span className="text-xs font-bold text-slate-500">Filter Archives by Year:</span>
+            {availableYears.map((y) => {
+              const isYearBRS = y.rulingParty === 'BRS' || y.year.startsWith('2020') || y.year.startsWith('2021') || y.year.startsWith('2022') || y.year.startsWith('2023');
+              const isCurrentFilter = ifmisFilterYear === y.year;
+
+              return (
+                <button
+                  key={y.year}
+                  onClick={() => setIfmisFilterYear(y.year)}
+                  className={`px-3 py-1.5 rounded-lg text-xs font-bold transition flex items-center space-x-1.5 border ${
+                    isCurrentFilter
+                      ? isYearBRS 
+                        ? 'bg-pink-700 text-white border-pink-700 shadow-xs' 
+                        : 'bg-brand-900 text-white border-brand-900 shadow-xs'
+                      : isYearBRS 
+                        ? 'bg-pink-50 text-pink-900 border-pink-200 hover:bg-pink-100' 
+                        : 'bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100'
+                  }`}
+                >
+                  <span>{y.year}</span>
+                  <span className={`text-[9px] px-1 py-0.2 rounded font-extrabold ${
+                    isCurrentFilter ? 'bg-white/20 text-white' : isYearBRS ? 'bg-pink-200 text-pink-900' : 'bg-slate-200 text-slate-700'
+                  }`}>
+                    {isYearBRS ? 'BRS' : 'INC'}
+                  </span>
+                </button>
+              );
+            })}
+          </div>
+
+          {/* Selected Year Governance Summary Banner */}
+          {(() => {
+            const yrInfo = budgetDataService.getYearInfo(ifmisFilterYear);
+            const isFilterBRS = yrInfo.rulingParty === 'BRS' || ifmisFilterYear.startsWith('2020') || ifmisFilterYear.startsWith('2021') || ifmisFilterYear.startsWith('2022') || ifmisFilterYear.startsWith('2023');
+            const pdfs = budgetDataService.getPdfCatalog(ifmisFilterYear);
+
+            return (
+              <div className="space-y-4">
+                <div className={`p-4 rounded-xl border flex flex-col sm:flex-row sm:items-center justify-between gap-3 ${
+                  isFilterBRS 
+                    ? 'bg-gradient-to-r from-pink-50 via-white to-pink-50/40 border-pink-200' 
+                    : 'bg-gradient-to-r from-blue-50/60 via-white to-blue-50/30 border-blue-200'
+                }`}>
+                  <div>
+                    <div className="flex items-center space-x-2">
+                      <span className={`text-xs font-black uppercase px-2 py-0.5 rounded text-white ${
+                        isFilterBRS ? 'bg-pink-700' : 'bg-blue-700'
+                      }`}>
+                        {isFilterBRS ? 'BRS Government' : 'Congress Government'}
+                      </span>
+                      <span className="text-sm font-bold text-slate-900">
+                        Fiscal Year {yrInfo.label || ifmisFilterYear}
+                      </span>
+                    </div>
+                    <p className="text-xs text-slate-600 mt-1">
+                      Chief Minister: <strong className="text-slate-900">{isFilterBRS ? 'Sri K. Chandrashekar Rao (KCR)' : 'Sri A. Revanth Reddy'}</strong> • 
+                      Finance Minister: <strong className="text-slate-900">{isFilterBRS ? 'Sri T. Harish Rao' : 'Sri Mallu Bhatti Vikramarka'}</strong> • 
+                      Total Budget: <strong className="text-slate-900">{formatCrore(yrInfo.totalBudget)}</strong>
+                    </p>
+                  </div>
+
+                  <button
+                    onClick={() => setSelectedYear(ifmisFilterYear)}
+                    className={`px-3 py-1.5 rounded-lg text-xs font-bold text-white transition self-start sm:self-auto shadow-xs ${
+                      isFilterBRS ? 'bg-pink-700 hover:bg-pink-800' : 'bg-brand-900 hover:bg-brand-800'
+                    }`}
+                  >
+                    Set as Active Portal Year
+                  </button>
+                </div>
+
+                {/* Volumes Table */}
+                <div className="border border-slate-200 rounded-xl overflow-hidden">
+                  <table className="w-full text-left text-xs">
+                    <thead className="bg-slate-50 border-b border-slate-200 text-slate-500 font-bold uppercase tracking-wider text-[10px]">
+                      <tr>
+                        <th className="py-2.5 px-4">Volume Book</th>
+                        <th className="py-2.5 px-4">Constitutional Document Title</th>
+                        <th className="py-2.5 px-4 text-right">Official Document Link</th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-slate-100 font-medium">
+                      {pdfs.map((p, idx) => (
+                        <tr key={idx} className="hover:bg-slate-50 transition">
+                          <td className="py-2.5 px-4 font-mono font-bold text-slate-900 whitespace-nowrap">
+                            {p.volume}
+                          </td>
+                          <td className="py-2.5 px-4 text-slate-800">
+                            {p.title}
+                          </td>
+                          <td className="py-2.5 px-4 text-right whitespace-nowrap">
+                            <a
+                              href={p.url}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className={`inline-flex items-center space-x-1 font-semibold hover:underline ${
+                                isFilterBRS ? 'text-pink-700' : 'text-brand-700'
+                              }`}
+                            >
+                              <span>Download PDF</span>
+                              <ExternalLink className="w-3 h-3" />
+                            </a>
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            );
+          })()}
+        </section>
+      )}
+
+      {/* Tab 3: Mathematical Reconciliation Proofs */}
       {activeTab === 'reconciliation' && (
         <section className="space-y-6">
           {/* Proof 1: Net Budget Match */}

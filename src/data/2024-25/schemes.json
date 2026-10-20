@@ -1,0 +1,465 @@
+{
+  "metadata": {
+    "fiscalYear": "2024-25",
+    "totalSchemesCount": 57,
+    "sourceFile": "Volume VII - Pragathi Paddu (Scheme Expenditure)"
+  },
+  "schemes": [
+    {
+      "sNo": 1,
+      "name": "Rythu Bharosa",
+      "amount": 18000,
+      "category": "Six Guarantees",
+      "department": "Agriculture & Cooperation Department",
+      "description": "Flagship direct financial support per acre for farmers and tenant cultivators."
+    },
+    {
+      "sNo": 2,
+      "name": "Cheyutha",
+      "amount": 14861,
+      "category": "Six Guarantees",
+      "department": "Panchayat Raj and Rural Development Department",
+      "description": "Enhanced social security financial assistance to senior citizens, widows, and disabled."
+    },
+    {
+      "sNo": 3,
+      "name": "Indiramma Houses",
+      "amount": 5500,
+      "category": "Six Guarantees",
+      "department": "Housing Department",
+      "description": "Financial assistance of \u20b95 lakh per beneficiary for constructing houses on own plots for poor families."
+    },
+    {
+      "sNo": 4,
+      "name": "Mahalaxmi (RTC)",
+      "amount": 4305,
+      "category": "Six Guarantees",
+      "department": "Transport Department",
+      "description": "Free travel for girls, women of all ages, and transgender persons in TSRTC Palle Velugu and Express buses."
+    },
+    {
+      "sNo": 5,
+      "name": "Bonus to Agriculture produces",
+      "amount": 3500,
+      "category": "Six Guarantees",
+      "department": "Agriculture & Cooperation Department",
+      "description": "\u20b9500 per quintal additional bonus for fine paddy varieties (Sanna Biyyam)."
+    },
+    {
+      "sNo": 6,
+      "name": "Gruha Jyothi",
+      "amount": 3450,
+      "category": "Six Guarantees",
+      "department": "Energy Department",
+      "description": "200 units of free domestic electricity per month for eligible white ration cardholder families."
+    },
+    {
+      "sNo": 7,
+      "name": "Mahalaxmi (Rs.2500 per month financial assistance to poor women)",
+      "amount": 1780,
+      "category": "Six Guarantees",
+      "department": "Women, Children, Disabled & Senior Citizens Department",
+      "description": "Monthly direct benefit transfer empowerment grant for women heads of underprivileged households."
+    },
+    {
+      "sNo": 8,
+      "name": "Gruha Jyothi (500 Gas Cylinder)",
+      "amount": 723,
+      "category": "Six Guarantees",
+      "department": "Food & Civil Supplies Department",
+      "description": "LPG cooking gas cylinder at subsidized price of \u20b9500 for low-income households."
+    },
+    {
+      "sNo": 21,
+      "name": "HAM Roads (Upgradation and Maintenance)",
+      "amount": 3053,
+      "category": "Roads & Infrastructure",
+      "department": "Roads and Building Department",
+      "description": "Hybrid Annuity Model for state highway and core district road development and maintenance."
+    },
+    {
+      "sNo": 22,
+      "name": "Regional Ring Road",
+      "amount": 1525,
+      "category": "Roads & Infrastructure",
+      "department": "Roads and Building Department",
+      "description": "Land acquisition and infrastructure equity for the 340 km expressway encircling the Hyderabad agglomeration."
+    },
+    {
+      "sNo": 23,
+      "name": "Maintenance of R&B Roads",
+      "amount": 828,
+      "category": "Roads & Infrastructure",
+      "department": "Roads and Building Department",
+      "description": "Routine and periodic road renewals and repairs across state roads network."
+    },
+    {
+      "sNo": 24,
+      "name": "Construction of New Roads",
+      "amount": 450,
+      "category": "Roads & Infrastructure",
+      "department": "Roads and Building Department",
+      "description": "Connecting remote mandals and establishing missing district road links."
+    },
+    {
+      "sNo": 25,
+      "name": "CRIF (Central Road and Infrastructure Fund)",
+      "amount": 243,
+      "category": "Roads & Infrastructure",
+      "department": "Roads and Building Department",
+      "description": "State projects co-funded under Central Road and Infrastructure Fund."
+    },
+    {
+      "sNo": 26,
+      "name": "ROB & RUB (Rail Over & Under Bridges)",
+      "amount": 216,
+      "category": "Roads & Infrastructure",
+      "department": "Roads and Building Department",
+      "description": "Elimination of level crossings and easing traffic flow across railway crossings."
+    },
+    {
+      "sNo": 27,
+      "name": "Construction of Buildings for Secretariat",
+      "amount": 100,
+      "category": "Infrastructure",
+      "department": "Roads and Building Department",
+      "description": "Completion, civil fixtures, and institutional modernization of Secretariat premises."
+    },
+    {
+      "sNo": 28,
+      "name": "Rajiv Yuva Vikasam",
+      "amount": 5800,
+      "category": "Youth & Employment",
+      "department": "Planning Department",
+      "description": "Youth skill empowerment, competitive coaching, vocational apprentice grants, and employment promotion."
+    },
+    {
+      "sNo": 29,
+      "name": "Rajiv Yuva Vikasam (Retrofitting Auto Rickshaws with Electrical Fitment in CURE)",
+      "amount": 200,
+      "category": "Clean Energy & Mobility",
+      "department": "Transport Department",
+      "description": "Green retrofitting and EV conversion subsidy for auto-rickshaw owners in Core Urban Region."
+    },
+    {
+      "sNo": 30,
+      "name": "Young India Integrated Residential Schools",
+      "amount": 5000,
+      "category": "Education",
+      "department": "Secondary Education, Secretariat Department",
+      "description": "Modern state-of-the-art integrated residential school campuses with international standards in each constituency."
+    },
+    {
+      "sNo": 31,
+      "name": "Indiramma Kutumba Jivitha Bima (Life insurance for all families)",
+      "amount": 4000,
+      "category": "Social Security",
+      "department": "Finance Department",
+      "description": "Universal family life and accident insurance protection for citizen families."
+    },
+    {
+      "sNo": 32,
+      "name": "Assistance to CURE for H-CITY (Hyderabad City Infrastructure)",
+      "amount": 2654,
+      "category": "Urban Infrastructure",
+      "department": "Municipal Administration & Urban Development",
+      "description": "Transformative urban flyovers, master drainage, signal-free corridors, and civic works in Hyderabad."
+    },
+    {
+      "sNo": 33,
+      "name": "Interest Free Loans to DWACRA Women (Vaddileni Runalu)",
+      "amount": 2500,
+      "category": "Women Empowerment",
+      "department": "Panchayat Raj and Rural Development Department",
+      "description": "Zero percent interest subvention loans to women Self-Help Groups (SHGs)."
+    },
+    {
+      "sNo": 34,
+      "name": "Crop Insurance",
+      "amount": 1886,
+      "category": "Agriculture",
+      "department": "Agriculture & Cooperation Department",
+      "description": "Universal state-sponsored crop insurance premium support against weather disasters."
+    },
+    {
+      "sNo": 35,
+      "name": "Incentives for Industrial Promotion",
+      "amount": 1835,
+      "category": "Industries",
+      "department": "Industries & Commerce Department",
+      "description": "Investment subsidies, power rebates, and stamp duty exemptions for new manufacturing units."
+    },
+    {
+      "sNo": 36,
+      "name": "Musi Riverfront Development",
+      "amount": 1500,
+      "category": "Urban Rejuvenation",
+      "department": "Municipal Administration & Urban Development",
+      "description": "Eco-friendly river revitalization, STPs, promenade walks, and urban beautification along the Musi river."
+    },
+    {
+      "sNo": 37,
+      "name": "Construction of Infrastructure in SC Colonies",
+      "amount": 1500,
+      "category": "SC Welfare",
+      "department": "Scheduled Castes Development Department",
+      "description": "Internal CC roads, community drains, street lighting, and drinking water in SC habitats."
+    },
+    {
+      "sNo": 38,
+      "name": "Loans to HMWSSB for Development Works",
+      "amount": 1450,
+      "category": "Water & Sanitation",
+      "department": "Municipal Administration & Urban Development",
+      "description": "Comprehensive water distribution network expansion to outer peripheral zones."
+    },
+    {
+      "sNo": 39,
+      "name": "Employees Health Scheme Contribution",
+      "amount": 1056,
+      "category": "Health",
+      "department": "Health, Medical & Family Welfare Department",
+      "description": "Government contribution for cashless hospitalisation healthcare for employees and pensioners."
+    },
+    {
+      "sNo": 40,
+      "name": "Nagarabhivrudhi (Mancherial, Mahabubnagar, Kothagudem & Palwancha)",
+      "amount": 1000,
+      "category": "Urban Development",
+      "department": "Municipal Administration & Urban Development",
+      "description": "Integrated urban municipal infrastructure in secondary tier-2 growth cities."
+    },
+    {
+      "sNo": 41,
+      "name": "Assistance to TRANSCO",
+      "amount": 1000,
+      "category": "Energy",
+      "department": "Energy Department",
+      "description": "Transmission infrastructure grid strengthening, substation upgrades, and load capacity expansion."
+    },
+    {
+      "sNo": 42,
+      "name": "Assistance to GENCO",
+      "amount": 1000,
+      "category": "Energy",
+      "department": "Energy Department",
+      "description": "Power generation capacity additions, boiler repairs, and thermal/hydel station modernizations."
+    },
+    {
+      "sNo": 43,
+      "name": "Green Energy Including promotion of new Energy Policy",
+      "amount": 1000,
+      "category": "Renewable Energy",
+      "department": "Energy Department",
+      "description": "Telangana Clean Energy Transition Mission, wind and battery storage incentivization."
+    },
+    {
+      "sNo": 44,
+      "name": "Hundred Percentage (100%) Solarisation of Villages",
+      "amount": 1000,
+      "category": "Renewable Energy",
+      "department": "Energy Department",
+      "description": "Rooftop and community solar grids making whole villages self-reliant in green power."
+    },
+    {
+      "sNo": 45,
+      "name": "Loans to HMWSSB for Sunkishala Intake Project (KDWSP)",
+      "amount": 1000,
+      "category": "Water Supply",
+      "department": "Municipal Administration & Urban Development",
+      "description": "Deep drawdown pumping intake project ensuring Hyderabad's drinking water security even in drought."
+    },
+    {
+      "sNo": 46,
+      "name": "Osmania University Modernization & Excellence",
+      "amount": 1000,
+      "category": "Higher Education",
+      "department": "Higher Education Department",
+      "description": "Campus infrastructure modernization, research labs, hostels, and academic revival."
+    },
+    {
+      "sNo": 47,
+      "name": "PMU - Tourism Infrastructure (Kawal Tiger Reserve, Mannanur & Eco-Tourism)",
+      "amount": 875,
+      "category": "Tourism & Culture",
+      "department": "Youth Advancement, Tourism and Culture Department",
+      "description": "Eco-tourism resort development, safari routes, and wildlife conservation infrastructure."
+    },
+    {
+      "sNo": 48,
+      "name": "Breakfast & Milk to School Students",
+      "amount": 720,
+      "category": "Child Nutrition",
+      "department": "Secondary Education, Secretariat Department",
+      "description": "Daily wholesome morning breakfast and nutritious milk to government school children."
+    },
+    {
+      "sNo": 49,
+      "name": "Assistance to Municipalities for Development Works",
+      "amount": 651,
+      "category": "Urban Development",
+      "department": "Municipal Administration & Urban Development",
+      "description": "Grants for urban sanitation, dump yard management, street lights, and roads."
+    },
+    {
+      "sNo": 50,
+      "name": "Metro Rail (Phase-II)",
+      "amount": 600,
+      "category": "Public Transit",
+      "department": "Municipal Administration & Urban Development",
+      "description": "Equity provision for expansion corridors connecting Shamshabad Airport, Old City, and outer corridors."
+    },
+    {
+      "sNo": 51,
+      "name": "Indira Soura Giri Jala Vikasam",
+      "amount": 600,
+      "category": "Tribal Welfare & Irrigation",
+      "department": "Tribal Welfare Department",
+      "description": "Solar powered borewell energization for tribal farmers cultivating podu and forest border lands."
+    },
+    {
+      "sNo": 52,
+      "name": "Telangana Public School",
+      "amount": 500,
+      "category": "School Education",
+      "department": "Secondary Education, Secretariat Department",
+      "description": "Model English-medium state schools with smart digital classrooms and sports infrastructure."
+    },
+    {
+      "sNo": 53,
+      "name": "Sports Authority of Telangana",
+      "amount": 500,
+      "category": "Sports",
+      "department": "Youth Advancement, Tourism and Culture Department",
+      "description": "Young sports academies, stadium renovations, and rural sports talent search."
+    },
+    {
+      "sNo": 54,
+      "name": "Godavari Pushkaralu",
+      "amount": 500,
+      "category": "Culture & Heritage",
+      "department": "Youth Advancement, Tourism and Culture Department",
+      "description": "Ghat infrastructure, pilgrim amenities, safety barriers, and access roads for Godavari Pushkaralu."
+    },
+    {
+      "sNo": 55,
+      "name": "Assistance to Temple Development",
+      "amount": 440,
+      "category": "Culture & Heritage",
+      "department": "Revenue Department",
+      "description": "Renovation and pilgrim amenities at historical temple shrines across districts."
+    },
+    {
+      "sNo": 56,
+      "name": "SC Residential Schools (Other than salaries, diet)",
+      "amount": 508,
+      "category": "SC Welfare",
+      "department": "Scheduled Castes Development Department",
+      "description": "Digital libraries, lab equipment, building maintenance, and extracurricular facilities in TSWREIS."
+    },
+    {
+      "sNo": 57,
+      "name": "Loans to HMRL for Hyderabad Metro Rail Project",
+      "amount": 500,
+      "category": "Public Transit",
+      "department": "Municipal Administration & Urban Development",
+      "description": "Concessionaire operational assistance, viaduct viability, and multimodal bus feeder integration."
+    },
+    {
+      "sNo": 58,
+      "name": "Mission Bhagiradha - Urban",
+      "amount": 500,
+      "category": "Water Supply",
+      "department": "Municipal Administration & Urban Development",
+      "description": "Potable piped drinking water supply pipelines to newly constituted urban local bodies."
+    },
+    {
+      "sNo": 59,
+      "name": "Loans to HMDA for Developmental Activities",
+      "amount": 500,
+      "category": "Urban Development",
+      "department": "Municipal Administration & Urban Development",
+      "description": "Radical road links, peripheral lake conservation, and township development."
+    },
+    {
+      "sNo": 60,
+      "name": "Veeranari Chakali Ilamma Mahila University",
+      "amount": 400,
+      "category": "Higher Education",
+      "department": "Higher Education Department",
+      "description": "Infrastructure, research chairs, and academic departments for the state's premier Women's University."
+    },
+    {
+      "sNo": 61,
+      "name": "Operation and Maintenance of Mission Bhagiratha",
+      "amount": 400,
+      "category": "Water Supply",
+      "department": "Panchayat Raj and Rural Development Department",
+      "description": "Grid water pipeline maintenance, valve repairs, chlorine dosing, and power bills servicing."
+    },
+    {
+      "sNo": 62,
+      "name": "Information Technology, Electronics and Communications Department Scheme Outlay",
+      "amount": 461,
+      "category": "IT & Innovation",
+      "department": "Information Technology & Communications Department",
+      "description": "T-Hub, WE-Hub, AI City, and hardware cluster infrastructure subsidies."
+    },
+    {
+      "sNo": 63,
+      "name": "Assistance to Weavers (Nethannaku Cheyutha & Thrift)",
+      "amount": 450,
+      "category": "Handlooms & Textiles",
+      "department": "Industries & Commerce Department",
+      "description": "Yarn subsidy, weaver welfare thrift fund, modern looms, and Chenetha marketing."
+    },
+    {
+      "sNo": 64,
+      "name": "Most Backward Classes Development Corporation (MBC)",
+      "amount": 400,
+      "category": "BC Welfare",
+      "department": "Backward Class Welfare Department",
+      "description": "Targeted self-employment credit and livelihood kits for vulnerable nomadic and MBC castes."
+    },
+    {
+      "sNo": 65,
+      "name": "Extension of Pavalavaddi Scheme to SSI and Food Processing Units",
+      "amount": 350,
+      "category": "Industries & MSME",
+      "department": "Industries & Commerce Department",
+      "description": "Interest subvention reducing effective borrowing interest to 3% for micro and small enterprises."
+    },
+    {
+      "sNo": 66,
+      "name": "Farm Mechanization",
+      "amount": 344,
+      "category": "Agriculture",
+      "department": "Agriculture & Cooperation Department",
+      "description": "Subsidized tractors, transplanters, laser levelers, and custom hiring centers."
+    },
+    {
+      "sNo": 67,
+      "name": "Assistance to CURE for SCSDF Scheme",
+      "amount": 315,
+      "category": "SC Welfare",
+      "department": "Scheduled Castes Development Department",
+      "description": "Urban SC settlement infrastructure upgrades and civic amenities in core urban regions."
+    },
+    {
+      "sNo": 68,
+      "name": "PMU - Advertisements, Sales Publicity & International Travel Marts",
+      "amount": 300,
+      "category": "Tourism & Culture",
+      "department": "Youth Advancement, Tourism and Culture Department",
+      "description": "Global positioning of Telangana heritage, world travel exhibitions, and tourism publicity."
+    },
+    {
+      "sNo": 69,
+      "name": "HMWSSB Reimbursement for 20 KL Free Water Supply Scheme",
+      "amount": 300,
+      "category": "Water Supply",
+      "department": "Municipal Administration & Urban Development",
+      "description": "Zero water bill scheme for households consuming up to 20,000 litres per month in GHMC limits."
+    }
+  ]
+}

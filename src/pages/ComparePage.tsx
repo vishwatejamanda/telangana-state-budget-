@@ -7,9 +7,11 @@ import { ChartCard } from '@/components/common/ChartCard';
 import { formatCrore } from '@/utils/formatters';
 import { ArrowLeftRight, Calendar, Building2, CheckCircle2, Clock, Info } from 'lucide-react';
 
+import { useYear } from '@/context/YearContext';
+
 export const ComparePage: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'departments' | 'years'>('departments');
-  const [selectedYear, setSelectedYear] = useState('2026-27');
+  const { selectedYear } = useYear();
 
   const departments = budgetDataService.getDepartments(selectedYear);
   const years = budgetDataService.getAvailableYears();
@@ -94,22 +96,37 @@ export const ComparePage: React.FC = () => {
               </div>
             </div>
 
-            <div className="mt-4 pt-4 border-t border-slate-200 grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs">
-              <div className="p-3 bg-white border border-slate-200 rounded-xl">
-                <span className="font-bold text-slate-800">2026-27 (BE)</span>
-                <div className="text-[11px] text-emerald-700 font-semibold mt-0.5">● Active Primary Dataset</div>
-                <div className="text-slate-500 text-[11px] mt-1">₹3,24,234.00 Cr Net Budget</div>
-              </div>
-              <div className="p-3 bg-white border border-slate-200 rounded-xl">
-                <span className="font-bold text-slate-800">2025-26 (RE)</span>
-                <div className="text-[11px] text-slate-500 font-semibold mt-0.5">○ Summary Trend Available</div>
-                <div className="text-slate-500 text-[11px] mt-1">₹2,51,320.00 Cr Exp</div>
-              </div>
-              <div className="p-3 bg-white border border-slate-200 rounded-xl">
-                <span className="font-bold text-slate-800">2024-25 (Actuals)</span>
-                <div className="text-[11px] text-slate-500 font-semibold mt-0.5">○ Summary Trend Available</div>
-                <div className="text-slate-500 text-[11px] mt-1">₹2,14,600.90 Cr Exp</div>
-              </div>
+            <div className="mt-4 pt-4 border-t border-slate-200 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 text-xs">
+              {years.map((y) => {
+                const isBRSYear = y.rulingParty === 'BRS' || y.year.startsWith('2020') || y.year.startsWith('2021') || y.year.startsWith('2022') || y.year.startsWith('2023');
+                const isCurrentActive = selectedYear === y.year;
+
+                return (
+                  <div
+                    key={y.year}
+                    className={`p-3 bg-white border rounded-xl transition ${
+                      isCurrentActive 
+                        ? isBRSYear ? 'border-pink-500 ring-2 ring-pink-100 shadow-sm' : 'border-brand-500 ring-2 ring-brand-100 shadow-sm' 
+                        : 'border-slate-200'
+                    }`}
+                  >
+                    <div className="flex items-center justify-between">
+                      <span className="font-bold text-slate-900">{y.year}</span>
+                      <span className={`text-[9px] font-extrabold px-1.5 py-0.5 rounded ${
+                        isBRSYear ? 'bg-pink-100 text-pink-800' : 'bg-blue-100 text-blue-800'
+                      }`}>
+                        {isBRSYear ? 'BRS' : 'INC'}
+                      </span>
+                    </div>
+                    <div className="text-[11px] font-semibold text-slate-700 mt-1">
+                      {formatCrore(y.totalBudget)}
+                    </div>
+                    <div className="text-[10px] text-slate-500 mt-0.5 truncate">
+                      CM: {isBRSYear ? 'Sri KCR' : 'Sri A. Revanth Reddy'}
+                    </div>
+                  </div>
+                );
+              })}
             </div>
           </div>
 

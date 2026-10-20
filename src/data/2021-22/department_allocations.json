@@ -1,0 +1,498 @@
+{
+  "totalBudget": 324234,
+  "totalEstablishment": 139918,
+  "totalScheme": 184316,
+  "totalCapitalWorks": 47267,
+  "departmentsCount": 30,
+  "departments": [
+    {
+      "id": "finance-department",
+      "rank": 1,
+      "name": "Finance Department",
+      "establishmentCrore": 42876.3,
+      "schemeCrore": 150.21,
+      "grandTotalCrore": 43026.52,
+      "capitalOutlayCrore": 56.95,
+      "sharePct": 18.64,
+      "minister": "T. Harish Rao",
+      "demands": [
+        "IX"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "panchayat-raj-and-rural-development-department",
+      "rank": 2,
+      "name": "Panchayat Raj and Rural Development Department",
+      "establishmentCrore": 4195.3,
+      "schemeCrore": 19786.87,
+      "grandTotalCrore": 23982.88,
+      "capitalOutlayCrore": 2699.57,
+      "sharePct": 10.39,
+      "minister": "Errabelli Dayakar Rao",
+      "demands": [
+        "XXXI",
+        "XXXII"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "agriculture-and-cooperation-department",
+      "rank": 3,
+      "name": "Agriculture & Cooperation Department",
+      "establishmentCrore": 945.42,
+      "schemeCrore": 15555.98,
+      "grandTotalCrore": 16501.4,
+      "capitalOutlayCrore": 2.14,
+      "sharePct": 7.15,
+      "minister": "S. Niranjan Reddy",
+      "demands": [
+        "XXVII",
+        "XXX"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "irrigation-department",
+      "rank": 4,
+      "name": "Irrigation Department",
+      "establishmentCrore": 7648.07,
+      "schemeCrore": 8451.82,
+      "grandTotalCrore": 16099.88,
+      "capitalOutlayCrore": 9138.1,
+      "sharePct": 6.97,
+      "minister": "K. Chandrashekar Rao",
+      "demands": [
+        "XXXIII"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "energy-department",
+      "rank": 5,
+      "name": "Energy Department",
+      "establishmentCrore": 524.68,
+      "schemeCrore": 14629.07,
+      "grandTotalCrore": 15153.04,
+      "capitalOutlayCrore": 0.0,
+      "sharePct": 6.56,
+      "minister": "G. Jagadish Reddy",
+      "demands": [
+        "XXXV"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "secondary-education-secretariat-department",
+      "rank": 6,
+      "name": "Secondary Education, Secretariat Department",
+      "establishmentCrore": 11716.64,
+      "schemeCrore": 3397.95,
+      "grandTotalCrore": 15114.6,
+      "capitalOutlayCrore": 977.45,
+      "sharePct": 6.55,
+      "minister": "P. Sabitha Indra Reddy",
+      "demands": [
+        "XII"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "municipal-administration-and-urban-development",
+      "rank": 7,
+      "name": "Municipal Administration & Urban Development",
+      "establishmentCrore": 5309.44,
+      "schemeCrore": 7439.48,
+      "grandTotalCrore": 12748.2,
+      "capitalOutlayCrore": 199.34,
+      "sharePct": 5.52,
+      "minister": "K. T. Rama Rao",
+      "demands": [
+        "XVII"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "health-medical-and-family-welfare-department",
+      "rank": 8,
+      "name": "Health, Medical & Family Welfare Department",
+      "establishmentCrore": 4971.99,
+      "schemeCrore": 4766.25,
+      "grandTotalCrore": 9738.24,
+      "capitalOutlayCrore": 1386.8,
+      "sharePct": 4.22,
+      "minister": "T. Harish Rao",
+      "demands": [
+        "XVI"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "backward-class-welfare-department",
+      "rank": 9,
+      "name": "Backward Class Welfare Department",
+      "establishmentCrore": 795.92,
+      "schemeCrore": 8110.81,
+      "grandTotalCrore": 8906.73,
+      "capitalOutlayCrore": 1758.42,
+      "sharePct": 3.86,
+      "minister": "K. Chandrashekar Rao",
+      "demands": [
+        "XXIII"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "home-department",
+      "rank": 10,
+      "name": "Home Department",
+      "establishmentCrore": 7791.16,
+      "schemeCrore": 685.57,
+      "grandTotalCrore": 8476.73,
+      "capitalOutlayCrore": 337.45,
+      "sharePct": 3.67,
+      "minister": "Mohd. Mahmood Ali",
+      "demands": [
+        "X"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "scheduled-castes-development-department",
+      "rank": 11,
+      "name": "Scheduled Castes Development Department",
+      "establishmentCrore": 262.7,
+      "schemeCrore": 8127.18,
+      "grandTotalCrore": 8389.17,
+      "capitalOutlayCrore": 3259.13,
+      "sharePct": 3.63,
+      "minister": "K. Chandrashekar Rao",
+      "demands": [
+        "XXI"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "roads-and-building-department",
+      "rank": 12,
+      "name": "Roads and Building Department",
+      "establishmentCrore": 1400.33,
+      "schemeCrore": 4506.4,
+      "grandTotalCrore": 5907.44,
+      "capitalOutlayCrore": 4485.04,
+      "sharePct": 2.56,
+      "minister": "V. Prashanth Reddy",
+      "demands": [
+        "XI"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "planning-department",
+      "rank": 13,
+      "name": "Planning Department",
+      "establishmentCrore": 76.89,
+      "schemeCrore": 5597.76,
+      "grandTotalCrore": 5674.65,
+      "capitalOutlayCrore": 2545.08,
+      "sharePct": 2.46,
+      "minister": "K. Chandrashekar Rao",
+      "demands": [
+        "IX"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "tribal-welfare-department",
+      "rank": 14,
+      "name": "Tribal Welfare Department",
+      "establishmentCrore": 541.76,
+      "schemeCrore": 5108.68,
+      "grandTotalCrore": 5650.44,
+      "capitalOutlayCrore": 1964.16,
+      "sharePct": 2.45,
+      "minister": "Satyavathi Rathod",
+      "demands": [
+        "XXII"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "housing-department",
+      "rank": 15,
+      "name": "Housing Department",
+      "establishmentCrore": 1373.99,
+      "schemeCrore": 3915.51,
+      "grandTotalCrore": 5289.5,
+      "capitalOutlayCrore": 3130.28,
+      "sharePct": 2.29,
+      "minister": "V. Prashanth Reddy",
+      "demands": [
+        "XVIII"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "food-and-civil-supplies-department",
+      "rank": 16,
+      "name": "Food & Civil Supplies Department",
+      "establishmentCrore": 81.87,
+      "schemeCrore": 5162.07,
+      "grandTotalCrore": 5243.94,
+      "capitalOutlayCrore": 0.0,
+      "sharePct": 2.27,
+      "minister": "Gangula Kamalakar",
+      "demands": [
+        "XXXVIII"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "higher-education-department",
+      "rank": 17,
+      "name": "Higher Education Department",
+      "establishmentCrore": 2322.97,
+      "schemeCrore": 1551.97,
+      "grandTotalCrore": 3874.94,
+      "capitalOutlayCrore": 12.1,
+      "sharePct": 1.68,
+      "minister": "P. Sabitha Indra Reddy",
+      "demands": [
+        "XIII",
+        "XIV"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "transport-department",
+      "rank": 18,
+      "name": "Transport Department",
+      "establishmentCrore": 93.26,
+      "schemeCrore": 3104.65,
+      "grandTotalCrore": 3197.2,
+      "capitalOutlayCrore": 24.92,
+      "sharePct": 1.39,
+      "minister": "K. Chandrashekar Rao",
+      "demands": [
+        "VIII"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "revenue-department",
+      "rank": 19,
+      "name": "Revenue Department",
+      "establishmentCrore": 1877.31,
+      "schemeCrore": 983.86,
+      "grandTotalCrore": 2861.88,
+      "capitalOutlayCrore": 74.75,
+      "sharePct": 1.24,
+      "minister": "K. Chandrashekar Rao",
+      "demands": [
+        "V",
+        "VI",
+        "VII",
+        "XXVI"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "minorities-welfare-department",
+      "rank": 20,
+      "name": "Minorities Welfare Department",
+      "establishmentCrore": 622.92,
+      "schemeCrore": 2059.56,
+      "grandTotalCrore": 2683.19,
+      "capitalOutlayCrore": 231.37,
+      "sharePct": 1.16,
+      "minister": "K. Chandrashekar Rao",
+      "demands": [
+        "XXIV"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "industries-and-commerce-department",
+      "rank": 21,
+      "name": "Industries & Commerce Department",
+      "establishmentCrore": 75.46,
+      "schemeCrore": 2592.07,
+      "grandTotalCrore": 2667.53,
+      "capitalOutlayCrore": 208.59,
+      "sharePct": 1.16,
+      "minister": "K. T. Rama Rao",
+      "demands": [
+        "XXXVI"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "women-children-disabled-and-senior-citizens-department",
+      "rank": 22,
+      "name": "Women, Children, Disabled & Senior Citizens Department",
+      "establishmentCrore": 888.47,
+      "schemeCrore": 1349.78,
+      "grandTotalCrore": 2237.54,
+      "capitalOutlayCrore": 56.24,
+      "sharePct": 0.97,
+      "minister": "Satyavathi Rathod",
+      "demands": [
+        "XXV"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "law-department",
+      "rank": 23,
+      "name": "Law Department",
+      "establishmentCrore": 1045.09,
+      "schemeCrore": 640.01,
+      "grandTotalCrore": 1685.09,
+      "capitalOutlayCrore": 556.0,
+      "sharePct": 0.73,
+      "minister": "K. Chandrashekar Rao",
+      "demands": [
+        "III"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "youth-advancement-tourism-and-culture-department",
+      "rank": 24,
+      "name": "Youth Advancement, Tourism and Culture Department",
+      "establishmentCrore": 118.18,
+      "schemeCrore": 1396.06,
+      "grandTotalCrore": 1514.24,
+      "capitalOutlayCrore": 58.38,
+      "sharePct": 0.66,
+      "minister": "K. Chandrashekar Rao",
+      "demands": [
+        "XV",
+        "XXXVII"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "animal-husbandry-and-fisheries-department",
+      "rank": 25,
+      "name": "Animal Husbandry & Fisheries Department",
+      "establishmentCrore": 610.11,
+      "schemeCrore": 478.4,
+      "grandTotalCrore": 1088.51,
+      "capitalOutlayCrore": 66.21,
+      "sharePct": 0.47,
+      "minister": "K. Chandrashekar Rao",
+      "demands": [
+        "XXVIII"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "general-administration-department",
+      "rank": 26,
+      "name": "General Administration Department",
+      "establishmentCrore": 327.48,
+      "schemeCrore": 518.98,
+      "grandTotalCrore": 847.17,
+      "capitalOutlayCrore": 2.14,
+      "sharePct": 0.37,
+      "minister": "K. Chandrashekar Rao",
+      "demands": [
+        "II",
+        "IV",
+        "XIX"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "environment-forest-science-and-technology-department",
+      "rank": 27,
+      "name": "Environment, Forest, Science & Technology Department",
+      "establishmentCrore": 622.21,
+      "schemeCrore": 123.87,
+      "grandTotalCrore": 746.8,
+      "capitalOutlayCrore": 141.67,
+      "sharePct": 0.32,
+      "minister": "K. Chandrashekar Rao",
+      "demands": [
+        "XXIX"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "labour-and-employment-department",
+      "rank": 28,
+      "name": "Labour and Employment Department",
+      "establishmentCrore": 327.48,
+      "schemeCrore": 382.3,
+      "grandTotalCrore": 710.49,
+      "capitalOutlayCrore": 113.91,
+      "sharePct": 0.31,
+      "minister": "K. Chandrashekar Rao",
+      "demands": [
+        "XX"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "information-technology-and-communications-department",
+      "rank": 29,
+      "name": "Information Technology & Communications Department",
+      "establishmentCrore": 2.85,
+      "schemeCrore": 620.08,
+      "grandTotalCrore": 622.92,
+      "capitalOutlayCrore": 142.38,
+      "sharePct": 0.27,
+      "minister": "K. T. Rama Rao",
+      "demands": [
+        "XXXIX"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "legislature-secretariat",
+      "rank": 30,
+      "name": "Legislature Secretariat",
+      "establishmentCrore": 162.32,
+      "schemeCrore": 22.07,
+      "grandTotalCrore": 184.39,
+      "capitalOutlayCrore": 21.36,
+      "sharePct": 0.08,
+      "minister": "K. Chandrashekar Rao",
+      "demands": [
+        "I"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    }
+  ]
+}

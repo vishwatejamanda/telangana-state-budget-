@@ -1,6 +1,7 @@
 // src/pages/ExpenditurePage.tsx
 import React, { useState } from 'react';
 import { budgetDataService } from '@/services/budgetDataService';
+import { useYear } from '@/context/YearContext';
 import { ChartCard } from '@/components/common/ChartCard';
 import { KPICard } from '@/components/common/KPICard';
 import { formatCrore, formatPercent, exportToCSV } from '@/utils/formatters';
@@ -8,7 +9,7 @@ import ReactECharts from 'echarts-for-react';
 import { Download, Search, Layers, PieChart, Building, Briefcase } from 'lucide-react';
 
 export const ExpenditurePage: React.FC = () => {
-  const [selectedYear, setSelectedYear] = useState('2026-27');
+  const { selectedYear } = useYear();
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedService, setSelectedService] = useState<'all' | 'social' | 'economic' | 'general' | 'capital'>('all');
 

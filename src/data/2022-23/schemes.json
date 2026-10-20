@@ -1,0 +1,117 @@
+{
+  "metadata": {
+    "fiscalYear": "2022-23",
+    "totalSchemesCount": 12,
+    "sourceFile": "Volume VII - Pragathi Paddu (Scheme Expenditure)"
+  },
+  "schemes": [
+    {
+      "sNo": 1,
+      "name": "Rythu Bandhu (Farmers Investment Support Scheme)",
+      "amount": 15075.0,
+      "category": "Agriculture & Farmer Welfare",
+      "department": "Agriculture and Cooperation Department",
+      "description": "Direct agricultural investment incentive of \u20b910,000 per acre per year (\u20b95,000/acre/season) credited straight to patta-holding farmers' bank accounts for crop inputs.",
+      "majorHead": "2401"
+    },
+    {
+      "sNo": 2,
+      "name": "Dalit Bandhu Scheme",
+      "amount": 17700.0,
+      "category": "SC & Social Empowerment",
+      "department": "Scheduled Castes Development Department",
+      "description": "One-time direct financial grant of \u20b910,00,000 per eligible Dalit family to establish self-employment businesses without any bank loan or mortgage burden.",
+      "majorHead": "2225"
+    },
+    {
+      "sNo": 3,
+      "name": "Kaleshwaram Lift Irrigation & Major Irrigation Outlays",
+      "amount": 15750.0,
+      "category": "Irrigation & Water Security",
+      "department": "Irrigation and Command Area Development Department",
+      "description": "World's largest multi-stage lift irrigation system diverting Godavari waters to irrigate over 45 lakh acres and filling reservoirs across parched Telangana plateaus.",
+      "majorHead": "4700"
+    },
+    {
+      "sNo": 4,
+      "name": "24x7 Free Agriculture Electricity Supply",
+      "amount": 10500.0,
+      "category": "Energy & Power Subsidy",
+      "department": "Energy Department",
+      "description": "Uninterrupted free three-phase 24-hour agricultural power supply to over 27.5 lakh pump sets across all agricultural districts.",
+      "majorHead": "2801"
+    },
+    {
+      "sNo": 5,
+      "name": "Aasara Social Safety Net Pensions",
+      "amount": 11728.0,
+      "category": "Social Welfare & Pensions",
+      "department": "Panchayat Raj and Rural Development Department",
+      "description": "Monthly direct benefit transfer welfare pensions of \u20b92,016 for senior citizens, widows, beedi workers, weavers, and \u20b93,016 for differently abled citizens.",
+      "majorHead": "2235"
+    },
+    {
+      "sNo": 6,
+      "name": "Mission Bhagiratha (Safe Tap Drinking Water to Every Household)",
+      "amount": 3000.0,
+      "category": "Drinking Water & Rural Infrastructure",
+      "department": "Panchayat Raj and Rural Development Department",
+      "description": "Network of surface water pipelines and water treatment plants ensuring 100 lpcd safe fluorosis-free tap water to every habitation in rural and urban Telangana.",
+      "majorHead": "2215"
+    },
+    {
+      "sNo": 7,
+      "name": "Mana Ooru - Mana Badi / Mana Basti - Mana Badi",
+      "amount": 7289.0,
+      "category": "Education Infrastructure Revamp",
+      "department": "Secondary Education Department",
+      "description": "Holistic revamping and modernization of all 26,065 government and local body schools with 12 basic infrastructure components including English medium education.",
+      "majorHead": "2202"
+    },
+    {
+      "sNo": 8,
+      "name": "Double Bedroom (2BHK) Dignity Housing Programme",
+      "amount": 11800.0,
+      "category": "Housing & Urban Development",
+      "department": "Housing Department",
+      "description": "Fully state-subsidized dignified 2BHK pucca houses constructed and allotted completely free of cost to economically weaker section families.",
+      "majorHead": "2216"
+    },
+    {
+      "sNo": 9,
+      "name": "Kalyana Lakshmi & Shaadi Mubarak",
+      "amount": 2750.0,
+      "category": "Women & Social Welfare",
+      "department": "Backward Classes Welfare Department",
+      "description": "Financial assistance of \u20b91,00,116 given directly to the mother of unmarried girls at the time of marriage to alleviate child marriages and financial hardship.",
+      "majorHead": "2225"
+    },
+    {
+      "sNo": 10,
+      "name": "Rythu Bima (Farmers Life Insurance Scheme)",
+      "amount": 1450.0,
+      "category": "Farmer Social Security",
+      "department": "Agriculture and Cooperation Department",
+      "description": "Comprehensive \u20b95,00,000 life insurance policy with LIC covering all farmers aged 18-59 with premium entirely paid by the State Government, settled within 10 days.",
+      "majorHead": "2401"
+    },
+    {
+      "sNo": 11,
+      "name": "KCR Kit & KCR Nutrition Poshan Kit",
+      "amount": 550.0,
+      "category": "Maternal & Child Health",
+      "department": "Health, Medical and Family Welfare Department",
+      "description": "Financial incentive of up to \u20b913,000 for institutional deliveries in government hospitals along with a 16-item care kit for newborn and mother.",
+      "majorHead": "2210"
+    },
+    {
+      "sNo": 12,
+      "name": "Sheep Distribution & Fisheries Enhancement Scheme",
+      "amount": 1000.0,
+      "category": "Rural Livelihoods",
+      "department": "Animal Husbandry and Fisheries Department",
+      "description": "Subsidized 20+1 sheep unit distribution for Kuruma and Yadava communities, and free fish seed replenishment across 25,000+ irrigation tanks.",
+      "majorHead": "2403"
+    }
+  ]
+}

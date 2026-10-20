@@ -1,0 +1,403 @@
+{
+  "presentation": {
+    "title": "Government of Telangana - Council of Ministers (FY 2021-22)",
+    "citedSources": [
+      "Telangana State Budget Notice 2021-22",
+      "Telangana Budget Volume IX: Analysis of Demands for Grants 2021-22",
+      "Official Portal of Telangana State (https://www.telangana.gov.in)"
+    ]
+  },
+  "ministers": [
+    {
+      "id": "kcr",
+      "name": "Sri Kalvakuntla Chandrashekar Rao (KCR)",
+      "shortName": "K. Chandrashekar Rao",
+      "role": "Chief Minister",
+      "constituency": "Gajwel",
+      "portfolios": [
+        "General Administration (GAD)",
+        "Law & Order",
+        "Revenue (Land Records & Registration)",
+        "Minorities Welfare",
+        "Coal & Mines",
+        "Information & Public Relations (I&PR)",
+        "All unallocated departments"
+      ],
+      "demandsOverseen": [
+        "II",
+        "IV",
+        "X",
+        "XIX",
+        "XXIV"
+      ],
+      "totalBudgetOverseenCrore": 54200.0,
+      "photoPlaceholder": "cm_kcr",
+      "photoUrl": "/images/leaders/kcr.png",
+      "party": "BRS",
+      "departmentIds": [
+        "general-administration-department",
+        "revenue-department",
+        "home-department",
+        "minorities-welfare-department"
+      ]
+    },
+    {
+      "id": "harish-rao",
+      "name": "Sri Thanneeru Harish Rao",
+      "shortName": "T. Harish Rao",
+      "role": "Minister for Finance & Health",
+      "constituency": "Siddipet",
+      "portfolios": [
+        "Finance & Planning",
+        "Health, Medical & Family Welfare"
+      ],
+      "demandsOverseen": [
+        "IX",
+        "XVI"
+      ],
+      "totalBudgetOverseenCrore": 43500.0,
+      "photoPlaceholder": "fm_harish_rao",
+      "photoUrl": "/images/leaders/harish_rao.jpg",
+      "party": "BRS",
+      "notes": "Presented the Annual Budget Estimates in the Telangana Legislative Assembly on behalf of the Government.",
+      "departmentIds": [
+        "finance-department",
+        "planning-department",
+        "health-medical-and-family-welfare-department"
+      ]
+    },
+    {
+      "id": "ktr",
+      "name": "Sri Kalvakuntla Taraka Rama Rao (KTR)",
+      "shortName": "K. T. Rama Rao",
+      "role": "Cabinet Minister",
+      "constituency": "Sircilla",
+      "portfolios": [
+        "Information Technology, Electronics & Communications (ITE&C)",
+        "Industries & Commerce",
+        "Municipal Administration & Urban Development (MA&UD)"
+      ],
+      "demandsOverseen": [
+        "XXXVI",
+        "XXXIX"
+      ],
+      "totalBudgetOverseenCrore": 26800.0,
+      "photoPlaceholder": "minister_ktr",
+      "photoUrl": "/images/leaders/ktr.jpg",
+      "party": "BRS",
+      "departmentIds": [
+        "municipal-administration-and-urban-development",
+        "industries-and-commerce-department",
+        "information-technology-and-communications-department"
+      ]
+    },
+    {
+      "id": "errabelli-dayakar-rao",
+      "name": "Sri Errabelli Dayakar Rao",
+      "shortName": "Errabelli Dayakar Rao",
+      "role": "Cabinet Minister",
+      "constituency": "Palakurthi",
+      "portfolios": [
+        "Panchayat Raj & Rural Development",
+        "Rural Water Supply (Mission Bhagiratha)"
+      ],
+      "demandsOverseen": [
+        "XXXI",
+        "XXXII"
+      ],
+      "totalBudgetOverseenCrore": 29850.0,
+      "photoPlaceholder": "minister_errabelli",
+      "party": "BRS",
+      "departmentIds": [
+        "panchayat-raj-and-rural-development-department"
+      ]
+    },
+    {
+      "id": "singireddy-niranjan-reddy",
+      "name": "Sri Singireddy Niranjan Reddy",
+      "shortName": "S. Niranjan Reddy",
+      "role": "Cabinet Minister",
+      "constituency": "Wanaparthy",
+      "portfolios": [
+        "Agriculture & Marketing",
+        "Co-operation"
+      ],
+      "demandsOverseen": [
+        "XXVII",
+        "XXX"
+      ],
+      "totalBudgetOverseenCrore": 24500.0,
+      "photoPlaceholder": "minister_niranjan",
+      "party": "BRS",
+      "departmentIds": [
+        "agriculture-and-cooperation-department"
+      ]
+    },
+    {
+      "id": "talasani-srinivas-yadav",
+      "name": "Sri Talasani Srinivas Yadav",
+      "shortName": "Talasani Srinivas Yadav",
+      "role": "Cabinet Minister",
+      "constituency": "Sanathnagar",
+      "portfolios": [
+        "Animal Husbandry",
+        "Dairy Development",
+        "Fisheries",
+        "Cinematography"
+      ],
+      "demandsOverseen": [
+        "XV",
+        "XXVIII"
+      ],
+      "totalBudgetOverseenCrore": 2980.0,
+      "photoPlaceholder": "minister_talasani",
+      "party": "BRS",
+      "departmentIds": [
+        "animal-husbandry-and-fisheries-department"
+      ]
+    },
+    {
+      "id": "jagadish-reddy",
+      "name": "Sri G. Jagadish Reddy",
+      "shortName": "G. Jagadish Reddy",
+      "role": "Cabinet Minister",
+      "constituency": "Suryapet",
+      "portfolios": [
+        "Energy (Electricity & 24x7 Free Agriculture Power)"
+      ],
+      "demandsOverseen": [
+        "XXXV"
+      ],
+      "totalBudgetOverseenCrore": 12500.0,
+      "photoPlaceholder": "minister_jagadish",
+      "party": "BRS",
+      "departmentIds": [
+        "energy-department"
+      ]
+    },
+    {
+      "id": "sabitha-indra-reddy",
+      "name": "Smt. Patlolla Sabitha Indra Reddy",
+      "shortName": "P. Sabitha Indra Reddy",
+      "role": "Cabinet Minister",
+      "constituency": "Maheshwaram",
+      "portfolios": [
+        "School Education",
+        "Higher Education",
+        "Technical Education"
+      ],
+      "demandsOverseen": [
+        "XII",
+        "XIII",
+        "XIV"
+      ],
+      "totalBudgetOverseenCrore": 19800.0,
+      "photoPlaceholder": "minister_sabitha",
+      "party": "BRS",
+      "departmentIds": [
+        "secondary-education-secretariat-department",
+        "higher-education-department"
+      ]
+    },
+    {
+      "id": "srinivas-goud",
+      "name": "Sri V. Srinivas Goud",
+      "shortName": "V. Srinivas Goud",
+      "role": "Cabinet Minister",
+      "constituency": "Mahbubnagar",
+      "portfolios": [
+        "Prohibition & Excise",
+        "Sports & Youth Services",
+        "Tourism & Culture",
+        "Archaeology"
+      ],
+      "demandsOverseen": [
+        "VI",
+        "XV",
+        "XXXVII"
+      ],
+      "totalBudgetOverseenCrore": 2150.0,
+      "photoPlaceholder": "minister_srinivas",
+      "party": "BRS",
+      "departmentIds": [
+        "youth-advancement-tourism-and-culture-department"
+      ]
+    },
+    {
+      "id": "koppula-eshwar",
+      "name": "Sri Koppula Eshwar",
+      "shortName": "Koppula Eshwar",
+      "role": "Cabinet Minister",
+      "constituency": "Dharmapuri (SC)",
+      "portfolios": [
+        "Scheduled Castes (SC) Development",
+        "Minority Welfare",
+        "Senior Citizens Welfare"
+      ],
+      "demandsOverseen": [
+        "XXI",
+        "XXIV"
+      ],
+      "totalBudgetOverseenCrore": 21000.0,
+      "photoPlaceholder": "minister_eshwar",
+      "party": "BRS",
+      "departmentIds": [
+        "scheduled-castes-development-department",
+        "minorities-welfare-department"
+      ]
+    },
+    {
+      "id": "satyavathi-rathod",
+      "name": "Smt. Satyavathi Rathod",
+      "shortName": "Satyavathi Rathod",
+      "role": "Cabinet Minister",
+      "constituency": "Legislative Council (MLC - ST)",
+      "portfolios": [
+        "Scheduled Tribes (ST) Welfare",
+        "Women & Child Welfare"
+      ],
+      "demandsOverseen": [
+        "XXII",
+        "XXV"
+      ],
+      "totalBudgetOverseenCrore": 15400.0,
+      "photoPlaceholder": "minister_satyavathi",
+      "party": "BRS",
+      "departmentIds": [
+        "tribal-welfare-department",
+        "women-children-disabled-and-senior-citizens-department"
+      ]
+    },
+    {
+      "id": "vemula-prashanth-reddy",
+      "name": "Sri Vemula Prashanth Reddy",
+      "shortName": "V. Prashanth Reddy",
+      "role": "Cabinet Minister",
+      "constituency": "Balkonda",
+      "portfolios": [
+        "Roads & Buildings (R&B)",
+        "Housing (2BHK Dignity Homes)",
+        "Legislative Affairs"
+      ],
+      "demandsOverseen": [
+        "I",
+        "XI",
+        "XVIII"
+      ],
+      "totalBudgetOverseenCrore": 14200.0,
+      "photoPlaceholder": "minister_prashanth",
+      "party": "BRS",
+      "departmentIds": [
+        "roads-and-building-department",
+        "housing-department",
+        "legislature-secretariat"
+      ]
+    },
+    {
+      "id": "gangula-kamalakar",
+      "name": "Sri Gangula Kamalakar",
+      "shortName": "Gangula Kamalakar",
+      "role": "Cabinet Minister",
+      "constituency": "Karimnagar",
+      "portfolios": [
+        "Backward Classes (BC) Welfare",
+        "Food & Civil Supplies",
+        "Consumer Affairs"
+      ],
+      "demandsOverseen": [
+        "XXIII",
+        "XXXVIII"
+      ],
+      "totalBudgetOverseenCrore": 9650.0,
+      "photoPlaceholder": "minister_gangula",
+      "party": "BRS",
+      "departmentIds": [
+        "backward-class-welfare-department",
+        "food-and-civil-supplies-department"
+      ]
+    },
+    {
+      "id": "allola-indrakaran-reddy",
+      "name": "Sri Allola Indrakaran Reddy",
+      "shortName": "A. Indrakaran Reddy",
+      "role": "Cabinet Minister",
+      "constituency": "Nirmal",
+      "portfolios": [
+        "Environment, Forests, Science & Technology",
+        "Religious Endowments",
+        "Law"
+      ],
+      "demandsOverseen": [
+        "III",
+        "XXVI",
+        "XXIX"
+      ],
+      "totalBudgetOverseenCrore": 3120.0,
+      "photoPlaceholder": "minister_indrakaran",
+      "party": "BRS",
+      "departmentIds": [
+        "environment-forest-science-and-technology-department",
+        "law-department"
+      ]
+    },
+    {
+      "id": "mahmood-ali",
+      "name": "Sri Mohammed Mahmood Ali",
+      "shortName": "Mohd. Mahmood Ali",
+      "role": "Cabinet Minister",
+      "constituency": "Legislative Council (MLC)",
+      "portfolios": [
+        "Home Administration",
+        "Prisons",
+        "Fire Services"
+      ],
+      "demandsOverseen": [
+        "X"
+      ],
+      "totalBudgetOverseenCrore": 8500.0,
+      "photoPlaceholder": "minister_mahmood",
+      "party": "BRS",
+      "departmentIds": [
+        "home-department"
+      ]
+    },
+    {
+      "id": "puvvada-ajay-kumar",
+      "name": "Sri Puvvada Ajay Kumar",
+      "shortName": "Puvvada Ajay Kumar",
+      "role": "Cabinet Minister",
+      "constituency": "Khammam",
+      "portfolios": [
+        "Transport Administration"
+      ],
+      "demandsOverseen": [
+        "VIII"
+      ],
+      "totalBudgetOverseenCrore": 2400.0,
+      "photoPlaceholder": "minister_ajay",
+      "party": "BRS",
+      "departmentIds": [
+        "transport-department"
+      ]
+    },
+    {
+      "id": "malla-reddy",
+      "name": "Sri Chamakura Malla Reddy",
+      "shortName": "Ch. Malla Reddy",
+      "role": "Cabinet Minister",
+      "constituency": "Medchal",
+      "portfolios": [
+        "Labour, Employment, Training & Factories"
+      ],
+      "demandsOverseen": [
+        "XX"
+      ],
+      "totalBudgetOverseenCrore": 950.0,
+      "photoPlaceholder": "minister_mallareddy",
+      "party": "BRS",
+      "departmentIds": [
+        "labour-and-employment-department"
+      ]
+    }
+  ]
+}

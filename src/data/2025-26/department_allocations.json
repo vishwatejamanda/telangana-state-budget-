@@ -1,0 +1,498 @@
+{
+  "totalBudget": 324234,
+  "totalEstablishment": 139918,
+  "totalScheme": 184316,
+  "totalCapitalWorks": 47267,
+  "departmentsCount": 30,
+  "departments": [
+    {
+      "id": "finance-department",
+      "rank": 1,
+      "name": "Finance Department",
+      "establishmentCrore": 56644.97,
+      "schemeCrore": 198.45,
+      "grandTotalCrore": 56843.42,
+      "capitalOutlayCrore": 75.24,
+      "sharePct": 18.64,
+      "minister": "Mallu Bhatti Vikramarka",
+      "demands": [
+        "IX"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "panchayat-raj-and-rural-development-department",
+      "rank": 2,
+      "name": "Panchayat Raj and Rural Development Department",
+      "establishmentCrore": 5542.51,
+      "schemeCrore": 26140.94,
+      "grandTotalCrore": 31684.39,
+      "capitalOutlayCrore": 3566.47,
+      "sharePct": 10.39,
+      "minister": "Danasari Anasuya (Seethakka)",
+      "demands": [
+        "XXXI",
+        "XXXII"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "agriculture-and-cooperation-department",
+      "rank": 3,
+      "name": "Agriculture & Cooperation Department",
+      "establishmentCrore": 1249.02,
+      "schemeCrore": 20551.4,
+      "grandTotalCrore": 21800.42,
+      "capitalOutlayCrore": 2.82,
+      "sharePct": 7.15,
+      "minister": "Tummala Nageswara Rao",
+      "demands": [
+        "XXVII",
+        "XXX"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "irrigation-department",
+      "rank": 4,
+      "name": "Irrigation Department",
+      "establishmentCrore": 10104.05,
+      "schemeCrore": 11165.91,
+      "grandTotalCrore": 21269.96,
+      "capitalOutlayCrore": 12072.57,
+      "sharePct": 6.97,
+      "minister": "N. Uttam Kumar Reddy",
+      "demands": [
+        "XXXIII"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "energy-department",
+      "rank": 5,
+      "name": "Energy Department",
+      "establishmentCrore": 693.17,
+      "schemeCrore": 19326.84,
+      "grandTotalCrore": 20019.06,
+      "capitalOutlayCrore": 0.0,
+      "sharePct": 6.56,
+      "minister": "Mallu Bhatti Vikramarka",
+      "demands": [
+        "XXXV"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "secondary-education-secretariat-department",
+      "rank": 6,
+      "name": "Secondary Education, Secretariat Department",
+      "establishmentCrore": 15479.15,
+      "schemeCrore": 4489.12,
+      "grandTotalCrore": 19968.27,
+      "capitalOutlayCrore": 1291.34,
+      "sharePct": 6.55,
+      "minister": "A. Revanth Reddy",
+      "demands": [
+        "XII"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "municipal-administration-and-urban-development",
+      "rank": 7,
+      "name": "Municipal Administration & Urban Development",
+      "establishmentCrore": 7014.43,
+      "schemeCrore": 9828.48,
+      "grandTotalCrore": 16841.97,
+      "capitalOutlayCrore": 263.35,
+      "sharePct": 5.52,
+      "minister": "A. Revanth Reddy",
+      "demands": [
+        "XVII"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "health-medical-and-family-welfare-department",
+      "rank": 8,
+      "name": "Health, Medical & Family Welfare Department",
+      "establishmentCrore": 6568.62,
+      "schemeCrore": 6296.81,
+      "grandTotalCrore": 12865.43,
+      "capitalOutlayCrore": 1832.14,
+      "sharePct": 4.22,
+      "minister": "C. Damodar Raja Narasimha",
+      "demands": [
+        "XVI"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "backward-class-welfare-department",
+      "rank": 9,
+      "name": "Backward Class Welfare Department",
+      "establishmentCrore": 1051.51,
+      "schemeCrore": 10715.39,
+      "grandTotalCrore": 11766.9,
+      "capitalOutlayCrore": 2323.1,
+      "sharePct": 3.86,
+      "minister": "Ponnam Prabhakar",
+      "demands": [
+        "XXIII"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "home-department",
+      "rank": 10,
+      "name": "Home Department",
+      "establishmentCrore": 10293.1,
+      "schemeCrore": 905.73,
+      "grandTotalCrore": 11198.82,
+      "capitalOutlayCrore": 445.81,
+      "sharePct": 3.67,
+      "minister": "A. Revanth Reddy",
+      "demands": [
+        "X"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "scheduled-castes-development-department",
+      "rank": 11,
+      "name": "Scheduled Castes Development Department",
+      "establishmentCrore": 347.05,
+      "schemeCrore": 10737.03,
+      "grandTotalCrore": 11083.14,
+      "capitalOutlayCrore": 4305.72,
+      "sharePct": 3.63,
+      "minister": "Adluri Laxman Kumar",
+      "demands": [
+        "XXI"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "roads-and-building-department",
+      "rank": 12,
+      "name": "Roads and Building Department",
+      "establishmentCrore": 1850.01,
+      "schemeCrore": 5953.52,
+      "grandTotalCrore": 7804.47,
+      "capitalOutlayCrore": 5925.3,
+      "sharePct": 2.56,
+      "minister": "Komatireddy Venkat Reddy",
+      "demands": [
+        "XI"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "planning-department",
+      "rank": 13,
+      "name": "Planning Department",
+      "establishmentCrore": 101.58,
+      "schemeCrore": 7395.34,
+      "grandTotalCrore": 7496.92,
+      "capitalOutlayCrore": 3362.37,
+      "sharePct": 2.46,
+      "minister": "Mallu Bhatti Vikramarka",
+      "demands": [
+        "IX"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "tribal-welfare-department",
+      "rank": 14,
+      "name": "Tribal Welfare Department",
+      "establishmentCrore": 715.74,
+      "schemeCrore": 6749.2,
+      "grandTotalCrore": 7464.94,
+      "capitalOutlayCrore": 2594.91,
+      "sharePct": 2.45,
+      "minister": "Adluri Laxman Kumar",
+      "demands": [
+        "XXII"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "housing-department",
+      "rank": 15,
+      "name": "Housing Department",
+      "establishmentCrore": 1815.21,
+      "schemeCrore": 5172.88,
+      "grandTotalCrore": 6988.1,
+      "capitalOutlayCrore": 4135.49,
+      "sharePct": 2.29,
+      "minister": "Ponguleti Srinivasa Reddy",
+      "demands": [
+        "XVIII"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "food-and-civil-supplies-department",
+      "rank": 16,
+      "name": "Food & Civil Supplies Department",
+      "establishmentCrore": 108.16,
+      "schemeCrore": 6819.74,
+      "grandTotalCrore": 6927.9,
+      "capitalOutlayCrore": 0.0,
+      "sharePct": 2.27,
+      "minister": "N. Uttam Kumar Reddy",
+      "demands": [
+        "XXXVIII"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "higher-education-department",
+      "rank": 17,
+      "name": "Higher Education Department",
+      "establishmentCrore": 3068.93,
+      "schemeCrore": 2050.34,
+      "grandTotalCrore": 5119.27,
+      "capitalOutlayCrore": 15.99,
+      "sharePct": 1.68,
+      "minister": "A. Revanth Reddy",
+      "demands": [
+        "XIII",
+        "XIV"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "transport-department",
+      "rank": 18,
+      "name": "Transport Department",
+      "establishmentCrore": 123.21,
+      "schemeCrore": 4101.63,
+      "grandTotalCrore": 4223.9,
+      "capitalOutlayCrore": 32.92,
+      "sharePct": 1.39,
+      "minister": "Ponnam Prabhakar",
+      "demands": [
+        "VIII"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "revenue-department",
+      "rank": 19,
+      "name": "Revenue Department",
+      "establishmentCrore": 2480.16,
+      "schemeCrore": 1299.8,
+      "grandTotalCrore": 3780.91,
+      "capitalOutlayCrore": 98.76,
+      "sharePct": 1.24,
+      "minister": "Ponguleti Srinivasa Reddy",
+      "demands": [
+        "V",
+        "VI",
+        "VII",
+        "XXVI"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "minorities-welfare-department",
+      "rank": 20,
+      "name": "Minorities Welfare Department",
+      "establishmentCrore": 822.96,
+      "schemeCrore": 2720.94,
+      "grandTotalCrore": 3544.84,
+      "capitalOutlayCrore": 305.67,
+      "sharePct": 1.16,
+      "minister": "Mohammad Azharuddin",
+      "demands": [
+        "XXIV"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "industries-and-commerce-department",
+      "rank": 21,
+      "name": "Industries & Commerce Department",
+      "establishmentCrore": 99.7,
+      "schemeCrore": 3424.45,
+      "grandTotalCrore": 3524.15,
+      "capitalOutlayCrore": 275.57,
+      "sharePct": 1.16,
+      "minister": "D. Sridhar Babu",
+      "demands": [
+        "XXXVI"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "women-children-disabled-and-senior-citizens-department",
+      "rank": 22,
+      "name": "Women, Children, Disabled & Senior Citizens Department",
+      "establishmentCrore": 1173.77,
+      "schemeCrore": 1783.23,
+      "grandTotalCrore": 2956.07,
+      "capitalOutlayCrore": 74.3,
+      "sharePct": 0.97,
+      "minister": "Danasari Anasuya (Seethakka)",
+      "demands": [
+        "XXV"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "law-department",
+      "rank": 23,
+      "name": "Law Department",
+      "establishmentCrore": 1380.69,
+      "schemeCrore": 845.53,
+      "grandTotalCrore": 2226.22,
+      "capitalOutlayCrore": 734.55,
+      "sharePct": 0.73,
+      "minister": "A. Revanth Reddy",
+      "demands": [
+        "III"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "youth-advancement-tourism-and-culture-department",
+      "rank": 24,
+      "name": "Youth Advancement, Tourism and Culture Department",
+      "establishmentCrore": 156.13,
+      "schemeCrore": 1844.37,
+      "grandTotalCrore": 2000.5,
+      "capitalOutlayCrore": 77.12,
+      "sharePct": 0.66,
+      "minister": "Jupally Krishna Rao",
+      "demands": [
+        "XV",
+        "XXXVII"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "animal-husbandry-and-fisheries-department",
+      "rank": 25,
+      "name": "Animal Husbandry & Fisheries Department",
+      "establishmentCrore": 806.03,
+      "schemeCrore": 632.03,
+      "grandTotalCrore": 1438.06,
+      "capitalOutlayCrore": 87.47,
+      "sharePct": 0.47,
+      "minister": "Vakiti Srihari",
+      "demands": [
+        "XXVIII"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "general-administration-department",
+      "rank": 26,
+      "name": "General Administration Department",
+      "establishmentCrore": 432.64,
+      "schemeCrore": 685.64,
+      "grandTotalCrore": 1119.22,
+      "capitalOutlayCrore": 2.82,
+      "sharePct": 0.37,
+      "minister": "A. Revanth Reddy",
+      "demands": [
+        "II",
+        "IV",
+        "XIX"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "environment-forest-science-and-technology-department",
+      "rank": 27,
+      "name": "Environment, Forest, Science & Technology Department",
+      "establishmentCrore": 822.02,
+      "schemeCrore": 163.65,
+      "grandTotalCrore": 986.61,
+      "capitalOutlayCrore": 187.16,
+      "sharePct": 0.32,
+      "minister": "Konda Surekha",
+      "demands": [
+        "XXIX"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "labour-and-employment-department",
+      "rank": 28,
+      "name": "Labour and Employment Department",
+      "establishmentCrore": 432.64,
+      "schemeCrore": 505.06,
+      "grandTotalCrore": 938.64,
+      "capitalOutlayCrore": 150.48,
+      "sharePct": 0.31,
+      "minister": "Gaddam Vivekanand",
+      "demands": [
+        "XX"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "information-technology-and-communications-department",
+      "rank": 29,
+      "name": "Information Technology & Communications Department",
+      "establishmentCrore": 3.76,
+      "schemeCrore": 819.2,
+      "grandTotalCrore": 822.96,
+      "capitalOutlayCrore": 188.1,
+      "sharePct": 0.27,
+      "minister": "D. Sridhar Babu",
+      "demands": [
+        "XXXIX"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    },
+    {
+      "id": "legislature-secretariat",
+      "rank": 30,
+      "name": "Legislature Secretariat",
+      "establishmentCrore": 214.44,
+      "schemeCrore": 29.16,
+      "grandTotalCrore": 243.6,
+      "capitalOutlayCrore": 28.22,
+      "sharePct": 0.08,
+      "minister": "D. Sridhar Babu",
+      "demands": [
+        "I"
+      ],
+      "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+      "sourcePage": 18
+    }
+  ]
+}

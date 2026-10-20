@@ -1,0 +1,4312 @@
+{
+  "totalWaterBodies": 37773,
+  "totalWaterSpreadHa": 744931.6,
+  "totalAreaSqKm": 3304.5,
+  "basinDistribution": {
+    "Godavari Basin": 20749,
+    "Krishna Basin": 16538,
+    "River Basin": 486
+  },
+  "districts": [
+    {
+      "district": "Siddipet",
+      "count": 2829,
+      "totalAreaSqM": 152961652.7,
+      "totalAreaSqKm": 152.96,
+      "totalWaterSpreadHa": 36105.6,
+      "mandalsCount": 22,
+      "mandals": [
+        "Anthakkapeta",
+        "Bejjanki",
+        "Cheriyal",
+        "Chinnakodur",
+        "Doultabad",
+        "Dubbak",
+        "Gajwel",
+        "Husnabad",
+        "Jagadevpur",
+        "Koheda",
+        "Komaravelly",
+        "Kondapak",
+        "Maddur",
+        "Markook",
+        "Mirdoddi",
+        "Mulug",
+        "Nanganur",
+        "Rayapole",
+        "Siddipet_Rural",
+        "Siddipet_Urban",
+        "Thoguta",
+        "Wargal"
+      ],
+      "basins": [
+        "Godavari Basin",
+        "Krishna Basin",
+        "River Basin"
+      ],
+      "centroid": [
+        18.1018,
+        78.852
+      ],
+      "topLakes": [
+        {
+          "name": "Yellamma Cheruvu",
+          "mandal": "Husnabad",
+          "areaSqM": 2061643.3,
+          "areaAcres": 509.4,
+          "waterSpreadHa": 509.0,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "MI Tanks More Than 40 Ha"
+        },
+        {
+          "name": "Pedda Cheruvu",
+          "mandal": "Bejjanki",
+          "areaSqM": 1376692.9,
+          "areaAcres": 340.2,
+          "waterSpreadHa": 339.9,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "MI Tanks More Than 40 Ha"
+        },
+        {
+          "name": "Oganrayan Cheruvu",
+          "mandal": "Maddur",
+          "areaSqM": 1241895.7,
+          "areaAcres": 306.9,
+          "waterSpreadHa": 306.5,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Ahmadipur Tank",
+          "mandal": "Gajwel",
+          "areaSqM": 1142676.6,
+          "areaAcres": 282.4,
+          "waterSpreadHa": 281.9,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Chittapur Tank",
+          "mandal": "Dubbak",
+          "areaSqM": 1061117.4,
+          "areaAcres": 262.2,
+          "waterSpreadHa": 261.8,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Pedda Cheruvu",
+          "mandal": "Dubbak",
+          "areaSqM": 988846.5,
+          "areaAcres": 244.3,
+          "waterSpreadHa": 244.0,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "MI Tanks Less Than 40 Ha"
+        },
+        {
+          "name": "Wargal Tank",
+          "mandal": "Wargal",
+          "areaSqM": 908299.0,
+          "areaAcres": 224.4,
+          "waterSpreadHa": 224.0,
+          "basin": "Godavari Basin",
+          "subBasin": "Manjera - G4",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Bhoompalle Tank",
+          "mandal": "Mirdoddi",
+          "areaSqM": 852581.8,
+          "areaAcres": 210.7,
+          "waterSpreadHa": 210.3,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Rudraram Tank",
+          "mandal": "Mirdoddi",
+          "areaSqM": 770549.5,
+          "areaAcres": 190.4,
+          "waterSpreadHa": 190.1,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Govindapur Tank",
+          "mandal": "Doultabad",
+          "areaSqM": 684507.0,
+          "areaAcres": 169.1,
+          "waterSpreadHa": 168.8,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "To Be Classified Tanks"
+        }
+      ]
+    },
+    {
+      "district": "Medak",
+      "count": 2614,
+      "totalAreaSqM": 165106393.0,
+      "totalAreaSqKm": 165.11,
+      "totalWaterSpreadHa": 40293.1,
+      "mandalsCount": 20,
+      "mandals": [
+        "Alladurg",
+        "Chegunta",
+        "Chilipched",
+        "Havelighanpur",
+        "Kowdipalle",
+        "Kulcharam",
+        "Manoharabad",
+        "Medak",
+        "Narsapur",
+        "Narsingi",
+        "Nizampet",
+        "Papannapet",
+        "Ramayampet",
+        "Regode",
+        "Shankarampet_A",
+        "Shankarampet_R",
+        "Shivampet",
+        "Tekmal",
+        "Tupran",
+        "Yeldurthy"
+      ],
+      "basins": [
+        "Godavari Basin",
+        "Krishna Basin",
+        "River Basin"
+      ],
+      "centroid": [
+        18.0487,
+        78.2618
+      ],
+      "topLakes": [
+        {
+          "name": "Pocharam Tank",
+          "mandal": "Havelighanpur",
+          "areaSqM": 5706415.6,
+          "areaAcres": 1410.1,
+          "waterSpreadHa": 1407.0,
+          "basin": "Godavari Basin",
+          "subBasin": "Manjera - G4",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Ambapet Cheruvu",
+          "mandal": "Shankarampet_R",
+          "areaSqM": 1707328.8,
+          "areaAcres": 421.9,
+          "waterSpreadHa": 446.6,
+          "basin": "Godavari Basin",
+          "subBasin": "Manjera - G4",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Komtur Cheruvu",
+          "mandal": "Medak",
+          "areaSqM": 1551858.7,
+          "areaAcres": 383.5,
+          "waterSpreadHa": 382.7,
+          "basin": "Godavari Basin",
+          "subBasin": "Manjera - G4",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Rayenpalli Cheruvu",
+          "mandal": "Medak",
+          "areaSqM": 1355155.3,
+          "areaAcres": 334.9,
+          "waterSpreadHa": 334.2,
+          "basin": "Godavari Basin",
+          "subBasin": "Manjera - G4",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Sunkaroni Kunta",
+          "mandal": "Chegunta",
+          "areaSqM": 1232579.7,
+          "areaAcres": 304.6,
+          "waterSpreadHa": 304.1,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "MI Tanks Less Than 40 Ha"
+        },
+        {
+          "name": "Hussain Tank",
+          "mandal": "Papannapet",
+          "areaSqM": 1132309.7,
+          "areaAcres": 279.8,
+          "waterSpreadHa": 279.1,
+          "basin": "Godavari Basin",
+          "subBasin": "Manjera - G4",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Tekmal Tank",
+          "mandal": "Tekmal",
+          "areaSqM": 1090907.6,
+          "areaAcres": 269.6,
+          "waterSpreadHa": 268.9,
+          "basin": "Godavari Basin",
+          "subBasin": "Manjera - G4",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Jaggampet Tank",
+          "mandal": "Chilipched",
+          "areaSqM": 1007184.3,
+          "areaAcres": 248.9,
+          "waterSpreadHa": 248.2,
+          "basin": "Godavari Basin",
+          "subBasin": "Manjera - G4",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Nagulpalle Tank",
+          "mandal": "Narsapur",
+          "areaSqM": 871566.6,
+          "areaAcres": 215.4,
+          "waterSpreadHa": 214.8,
+          "basin": "Godavari Basin",
+          "subBasin": "Manjera - G4",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Danampalle Tank",
+          "mandal": "Shankarampet_A",
+          "areaSqM": 817300.9,
+          "areaAcres": 202.0,
+          "waterSpreadHa": 201.4,
+          "basin": "Godavari Basin",
+          "subBasin": "Manjera - G4",
+          "type": "To Be Classified Tanks"
+        }
+      ]
+    },
+    {
+      "district": "Mahabubnagar",
+      "count": 2177,
+      "totalAreaSqM": 180703558.6,
+      "totalAreaSqKm": 180.7,
+      "totalWaterSpreadHa": 41405.6,
+      "mandalsCount": 26,
+      "mandals": [
+        "Addakal",
+        "Balanagar",
+        "Bhoothpur",
+        "Chinna_Chintha_Kunta",
+        "Damaragidda",
+        "Devarkadara",
+        "Dhanwada",
+        "Gandeed",
+        "Hanwada",
+        "Jadcherla",
+        "Koilkonda",
+        "Kosgi",
+        "Krishna",
+        "Maddur",
+        "Maganoor",
+        "Mahabubnagar_Rural",
+        "Mahabubnagar_Urban",
+        "Makthal",
+        "Marikal",
+        "Midjil",
+        "Musapet",
+        "Narayanpet",
+        "Narva",
+        "Nawabpet",
+        "Rajapur",
+        "Utkoor"
+      ],
+      "basins": [
+        "Krishna Basin",
+        "River Basin"
+      ],
+      "centroid": [
+        16.7488,
+        77.9856
+      ],
+      "topLakes": [
+        {
+          "name": "Dantanpalli Tank",
+          "mandal": "Utkoor",
+          "areaSqM": 2521579.4,
+          "areaAcres": 623.1,
+          "waterSpreadHa": 620.3,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Peddachintakunta Tank",
+          "mandal": "Marikal",
+          "areaSqM": 1564017.1,
+          "areaAcres": 386.5,
+          "waterSpreadHa": 384.9,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Karni Tank",
+          "mandal": "Makthal",
+          "areaSqM": 1451671.7,
+          "areaAcres": 358.7,
+          "waterSpreadHa": 357.1,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Kummari Kunta",
+          "mandal": "Makthal",
+          "areaSqM": 1449924.0,
+          "areaAcres": 358.3,
+          "waterSpreadHa": 356.7,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "MI Tanks Less Than 40 Ha"
+        },
+        {
+          "name": "Gopanpalle Tank",
+          "mandal": "Devarkadara",
+          "areaSqM": 1401538.1,
+          "areaAcres": 346.3,
+          "waterSpreadHa": 345.0,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Bondalkunta Tank",
+          "mandal": "Makthal",
+          "areaSqM": 1371713.8,
+          "areaAcres": 339.0,
+          "waterSpreadHa": 337.5,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Nasrullabad Tank",
+          "mandal": "Jadcherla",
+          "areaSqM": 1358659.3,
+          "areaAcres": 335.7,
+          "waterSpreadHa": 334.6,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Pedda Cheruvu",
+          "mandal": "Devarkadara",
+          "areaSqM": 1246879.6,
+          "areaAcres": 308.1,
+          "waterSpreadHa": 306.9,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "MI Tanks Less Than 40 Ha"
+        },
+        {
+          "name": "Gunmukla Tank",
+          "mandal": "Dhanwada",
+          "areaSqM": 1107809.3,
+          "areaAcres": 273.7,
+          "waterSpreadHa": 272.6,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Ipal Kunta",
+          "mandal": "Narva",
+          "areaSqM": 1099094.5,
+          "areaAcres": 271.6,
+          "waterSpreadHa": 270.5,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "MI Tanks Less Than 40 Ha"
+        }
+      ]
+    },
+    {
+      "district": "Bhadradri",
+      "count": 1794,
+      "totalAreaSqM": 77276892.2,
+      "totalAreaSqKm": 77.28,
+      "totalWaterSpreadHa": 14421.8,
+      "mandalsCount": 23,
+      "mandals": [
+        "Allapalli",
+        "Annapureddipalle",
+        "Aswapuram",
+        "Aswaraopeta",
+        "Bhadrachalam",
+        "Burgampadu",
+        "Chandrugonda",
+        "Cherla",
+        "Chunchupally",
+        "Dammapeta",
+        "Dummugudem",
+        "Gundala",
+        "Julurpad",
+        "Karakagudem",
+        "Kothagudem",
+        "Laxmidevipalli",
+        "Manuguru",
+        "Mulakalapalle",
+        "Palawancha",
+        "Pinapaka",
+        "Sujathanagar",
+        "Tekulapalle",
+        "Yellandu"
+      ],
+      "basins": [
+        "Godavari Basin",
+        "Krishna Basin"
+      ],
+      "centroid": [
+        17.555,
+        80.615
+      ],
+      "topLakes": [
+        {
+          "name": "Tummala Cheruvu",
+          "mandal": "Aswapuram",
+          "areaSqM": 5044435.2,
+          "areaAcres": 1246.5,
+          "waterSpreadHa": 1246.0,
+          "basin": "Godavari Basin",
+          "subBasin": "Lower Godavari - G10",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Singabhupalem Project",
+          "mandal": "Julurpad",
+          "areaSqM": 2147221.5,
+          "areaAcres": 530.6,
+          "waterSpreadHa": 530.2,
+          "basin": "Godavari Basin",
+          "subBasin": "Lower Godavari - G10",
+          "type": "MI Tanks More Than 40 Ha"
+        },
+        {
+          "name": "Vengalarayasagar Project",
+          "mandal": "Annapureddipalle",
+          "areaSqM": 1239998.9,
+          "areaAcres": 306.4,
+          "waterSpreadHa": 306.2,
+          "basin": "Godavari Basin",
+          "subBasin": "Lower Godavari - G10",
+          "type": "MI Tanks More Than 40 Ha"
+        },
+        {
+          "name": "Perantala Cheruvu",
+          "mandal": "Manuguru",
+          "areaSqM": 1146712.9,
+          "areaAcres": 283.4,
+          "waterSpreadHa": 283.3,
+          "basin": "Godavari Basin",
+          "subBasin": "Lower Godavari - G10",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Gorrevagu",
+          "mandal": "Tekulapalle",
+          "areaSqM": 945207.1,
+          "areaAcres": 233.6,
+          "waterSpreadHa": 233.4,
+          "basin": "Godavari Basin",
+          "subBasin": "Lower Godavari - G10",
+          "type": "MI Tanks More Than 40 Ha"
+        },
+        {
+          "name": "Kothajinnelagudem Tank",
+          "mandal": "Dummugudem",
+          "areaSqM": 858938.5,
+          "areaAcres": 212.2,
+          "waterSpreadHa": 212.2,
+          "basin": "Godavari Basin",
+          "subBasin": "Lower Godavari - G10",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Pedda Cheruvu",
+          "mandal": "Yellandu",
+          "areaSqM": 850907.3,
+          "areaAcres": 210.3,
+          "waterSpreadHa": 210.1,
+          "basin": "Krishna Basin",
+          "subBasin": "Munneru - K12",
+          "type": "MI Tanks More Than 40 Ha"
+        },
+        {
+          "name": "Krishnasagaram Cheruvu",
+          "mandal": "Burgampadu",
+          "areaSqM": 772297.7,
+          "areaAcres": 190.8,
+          "waterSpreadHa": 190.8,
+          "basin": "Godavari Basin",
+          "subBasin": "Lower Godavari - G10",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Tekula Chruvu",
+          "mandal": "Burgampadu",
+          "areaSqM": 733265.6,
+          "areaAcres": 181.2,
+          "waterSpreadHa": 0.0,
+          "basin": "Godavari Basin",
+          "subBasin": "Lower Godavari - G10",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Yerravagu Project",
+          "mandal": "Julurpad",
+          "areaSqM": 716850.6,
+          "areaAcres": 177.1,
+          "waterSpreadHa": 177.0,
+          "basin": "Godavari Basin",
+          "subBasin": "Lower Godavari - G10",
+          "type": "MI Tanks More Than 40 Ha"
+        }
+      ]
+    },
+    {
+      "district": "Nalgonda",
+      "count": 1757,
+      "totalAreaSqM": 250491839.5,
+      "totalAreaSqKm": 250.49,
+      "totalWaterSpreadHa": 57738.1,
+      "mandalsCount": 31,
+      "mandals": [
+        "Adavi devula palli",
+        "Anumula_Haliya",
+        "Chandampet",
+        "Chandur",
+        "Chinthapalle",
+        "Chityala",
+        "Damaracherla",
+        "Devarakonda",
+        "Gundlapalle",
+        "Gurrampode",
+        "Kangal",
+        "Kattangoor",
+        "Kethepalle",
+        "Kondamallapally",
+        "Madugulapally",
+        "Marriguda",
+        "Miryalaguda",
+        "Munugode",
+        "Nakrekal",
+        "Nalgonda",
+        "Nampalle",
+        "Narketpalle",
+        "Neredugommu",
+        "Nidamanur",
+        "Pedda_adiserlapalle",
+        "Peddavura",
+        "Saligouraram",
+        "Thipparthi",
+        "Thripuraram",
+        "Tirumalagiri_Sagar",
+        "Vemulapalle"
+      ],
+      "basins": [
+        "Krishna Basin"
+      ],
+      "centroid": [
+        17.0575,
+        79.2684
+      ],
+      "topLakes": [
+        {
+          "name": "Devulapally(Chinna) Cheruvu",
+          "mandal": "Thripuraram",
+          "areaSqM": 8349610.5,
+          "areaAcres": 2063.2,
+          "waterSpreadHa": 2059.9,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "MI Tanks Less Than 40 Ha"
+        },
+        {
+          "name": "Udaisamudram Cheruvu",
+          "mandal": "Nalgonda",
+          "areaSqM": 4998311.1,
+          "areaAcres": 1235.1,
+          "waterSpreadHa": 1233.0,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Pendlipakala Reservoir",
+          "mandal": "Kondamallapally",
+          "areaSqM": 3726478.8,
+          "areaAcres": 920.8,
+          "waterSpreadHa": 918.8,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Yadgrpalli Cheruvu",
+          "mandal": "Vemulapalle",
+          "areaSqM": 3210382.8,
+          "areaAcres": 793.3,
+          "waterSpreadHa": 792.1,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Utkur Cheruvu",
+          "mandal": "Kangal",
+          "areaSqM": 3179548.6,
+          "areaAcres": 785.7,
+          "waterSpreadHa": 784.3,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Bhimasamudram Cheruvu",
+          "mandal": "Nalgonda",
+          "areaSqM": 2890345.7,
+          "areaAcres": 714.2,
+          "waterSpreadHa": 713.0,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "BokkamanthulaPahad Tank",
+          "mandal": "Nidamanur",
+          "areaSqM": 2500486.4,
+          "areaAcres": 617.9,
+          "waterSpreadHa": 616.8,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Mupparam Tank",
+          "mandal": "Nidamanur",
+          "areaSqM": 2261444.4,
+          "areaAcres": 558.8,
+          "waterSpreadHa": 557.8,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Gurijala Tank",
+          "mandal": "Saligouraram",
+          "areaSqM": 2255626.5,
+          "areaAcres": 557.4,
+          "waterSpreadHa": 556.5,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Garla Cheruvu",
+          "mandal": "Madugulapally",
+          "areaSqM": 2219277.8,
+          "areaAcres": 548.4,
+          "waterSpreadHa": 547.5,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        }
+      ]
+    },
+    {
+      "district": "Sangareddy",
+      "count": 1723,
+      "totalAreaSqM": 135502093.9,
+      "totalAreaSqKm": 135.5,
+      "totalWaterSpreadHa": 32500.6,
+      "mandalsCount": 26,
+      "mandals": [
+        "Ameenapur",
+        "Andhole",
+        "Gummadidala",
+        "Hathanoora",
+        "Jharasangam",
+        "Jinnaram",
+        "Kalher",
+        "Kandi",
+        "Kangti",
+        "Kohir",
+        "Kondapur",
+        "Manoor",
+        "Mogdampalle",
+        "Munipalli",
+        "Nagalgidda",
+        "Narayankhed",
+        "Naykal",
+        "Patancheruvu",
+        "Pulkal",
+        "Raikode",
+        "Ramachandrapuram",
+        "Sadasivpet",
+        "Sangareddy",
+        "Sirgapoor",
+        "Watpalle",
+        "Zahirabad"
+      ],
+      "basins": [
+        "Godavari Basin",
+        "Krishna Basin",
+        "River Basin"
+      ],
+      "centroid": [
+        17.619,
+        78.0814
+      ],
+      "topLakes": [
+        {
+          "name": "Malkapur Cheruvu",
+          "mandal": "Kondapur",
+          "areaSqM": 2518654.9,
+          "areaAcres": 622.4,
+          "waterSpreadHa": 620.5,
+          "basin": "Godavari Basin",
+          "subBasin": "Manjera - G4",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Ananta Sagar",
+          "mandal": "Andhole",
+          "areaSqM": 2439312.2,
+          "areaAcres": 602.8,
+          "waterSpreadHa": 601.1,
+          "basin": "Godavari Basin",
+          "subBasin": "Manjera - G4",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Buglapalli Tank",
+          "mandal": "Raikode",
+          "areaSqM": 2061468.1,
+          "areaAcres": 509.4,
+          "waterSpreadHa": 507.8,
+          "basin": "Godavari Basin",
+          "subBasin": "Manjera - G4",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Buddaipalle Tank",
+          "mandal": "Watpalle",
+          "areaSqM": 1540550.5,
+          "areaAcres": 380.7,
+          "waterSpreadHa": 379.6,
+          "basin": "Godavari Basin",
+          "subBasin": "Manjera - G4",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Lakdaram Cheruvu",
+          "mandal": "Patancheruvu",
+          "areaSqM": 1347932.3,
+          "areaAcres": 333.1,
+          "waterSpreadHa": 332.2,
+          "basin": "Godavari Basin",
+          "subBasin": "Manjera - G4",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Khaleelpur[M] Tank",
+          "mandal": "Naykal",
+          "areaSqM": 1156271.2,
+          "areaAcres": 285.7,
+          "waterSpreadHa": 0.0,
+          "basin": "Godavari Basin",
+          "subBasin": "Manjera - G4",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Mahbub Sagar",
+          "mandal": "Sangareddy",
+          "areaSqM": 1132540.9,
+          "areaAcres": 279.9,
+          "waterSpreadHa": 279.1,
+          "basin": "Godavari Basin",
+          "subBasin": "Manjera - G4",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Haridaspur Tank",
+          "mandal": "Kondapur",
+          "areaSqM": 1081219.3,
+          "areaAcres": 267.2,
+          "waterSpreadHa": 266.4,
+          "basin": "Godavari Basin",
+          "subBasin": "Manjera - G4",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Milgirpet Tank",
+          "mandal": "Sadasivpet",
+          "areaSqM": 1031960.4,
+          "areaAcres": 255.0,
+          "waterSpreadHa": 254.2,
+          "basin": "Godavari Basin",
+          "subBasin": "Manjera - G4",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Bhima Cheruvu",
+          "mandal": "Hathanoora",
+          "areaSqM": 1004765.3,
+          "areaAcres": 248.3,
+          "waterSpreadHa": 247.6,
+          "basin": "Godavari Basin",
+          "subBasin": "Manjera - G4",
+          "type": "To Be Classified Tanks"
+        }
+      ]
+    },
+    {
+      "district": "Rangareddy",
+      "count": 1662,
+      "totalAreaSqM": 151084791.1,
+      "totalAreaSqKm": 151.08,
+      "totalWaterSpreadHa": 35571.2,
+      "mandalsCount": 27,
+      "mandals": [
+        "Abdullapurmet",
+        "Amangal",
+        "Balapur",
+        "Chevella",
+        "Chowdergudem",
+        "Farooqnagar",
+        "Gandipet",
+        "Hayathnagar",
+        "Ibrahimpatnam",
+        "Kadthal",
+        "Kandukur",
+        "Keshampeta",
+        "Kondurg",
+        "Kothur",
+        "Madgul",
+        "Maheshwaram",
+        "Manchal",
+        "Moinabad",
+        "Nandigam",
+        "Rajendranagar",
+        "Saroornagar",
+        "Serilingampally",
+        "Shabad",
+        "Shamshabad",
+        "Shankarpalle",
+        "Talakondapalle",
+        "Yacharam"
+      ],
+      "basins": [
+        "Godavari Basin",
+        "Krishna Basin",
+        "River Basin"
+      ],
+      "centroid": [
+        17.31,
+        78.41
+      ],
+      "topLakes": [
+        {
+          "name": "Osman Sagar",
+          "mandal": "Moinabad",
+          "areaSqM": 23722876.9,
+          "areaAcres": 5862.0,
+          "waterSpreadHa": 5845.9,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Amdapur Tank",
+          "mandal": "Moinabad",
+          "areaSqM": 20028180.3,
+          "areaAcres": 4949.1,
+          "waterSpreadHa": 4935.6,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Rawiral Cheruvu",
+          "mandal": "Maheshwaram",
+          "areaSqM": 2205969.5,
+          "areaAcres": 545.1,
+          "waterSpreadHa": 543.7,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Maisamma Cheruvu",
+          "mandal": "Kothur",
+          "areaSqM": 1642241.3,
+          "areaAcres": 405.8,
+          "waterSpreadHa": 404.6,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Attapur-000 Tank",
+          "mandal": "Rajendranagar",
+          "areaSqM": 1573687.5,
+          "areaAcres": 388.9,
+          "waterSpreadHa": 387.9,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Masab Cheruvu",
+          "mandal": "Abdullapurmet",
+          "areaSqM": 1549517.9,
+          "areaAcres": 382.9,
+          "waterSpreadHa": 382.0,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Pahil Wan Kunta",
+          "mandal": "Shabad",
+          "areaSqM": 1119910.2,
+          "areaAcres": 276.7,
+          "waterSpreadHa": 275.9,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "MI Tanks Less Than 40 Ha"
+        },
+        {
+          "name": "Surasamudram Cheruvu",
+          "mandal": "Amangal",
+          "areaSqM": 863300.1,
+          "areaAcres": 213.3,
+          "waterSpreadHa": 212.7,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Parvathapur Tank",
+          "mandal": "Kondurg",
+          "areaSqM": 777830.1,
+          "areaAcres": 192.2,
+          "waterSpreadHa": 191.6,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Akkama Cheruvu",
+          "mandal": "Kothur",
+          "areaSqM": 745019.6,
+          "areaAcres": 184.1,
+          "waterSpreadHa": 183.6,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "MI Tanks Less Than 40 Ha"
+        }
+      ]
+    },
+    {
+      "district": "Jayashankar",
+      "count": 1537,
+      "totalAreaSqM": 131854461.4,
+      "totalAreaSqKm": 131.85,
+      "totalWaterSpreadHa": 29396.6,
+      "mandalsCount": 20,
+      "mandals": [
+        "Bhupalpalle",
+        "Chityal",
+        "Eturunagaram",
+        "Ghanapur_Mulug",
+        "Govindaraopet",
+        "Kannaigudem",
+        "Kataram",
+        "Mahadevpur",
+        "Malharrao",
+        "Mangapet",
+        "Mogullapalle",
+        "Mulug",
+        "Mutharam_Mahadevpur",
+        "Palmela",
+        "Regonda",
+        "Tadvai",
+        "Tekumatla",
+        "Venkatapur",
+        "Venkatapuram",
+        "Wazeed"
+      ],
+      "basins": [
+        "Godavari Basin",
+        "River Basin"
+      ],
+      "centroid": [
+        18.4286,
+        79.8654
+      ],
+      "topLakes": [
+        {
+          "name": "Ganapuram Cheruvu",
+          "mandal": "Ghanapur_Mulug",
+          "areaSqM": 9401298.0,
+          "areaAcres": 2323.1,
+          "waterSpreadHa": 2322.7,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Bheemghanpur Tank",
+          "mandal": "Bhupalpalle",
+          "areaSqM": 4692040.3,
+          "areaAcres": 1159.4,
+          "waterSpreadHa": 1159.6,
+          "basin": "Godavari Basin",
+          "subBasin": "Lower Godavari - G10",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Polaram Cheruvu",
+          "mandal": "Mutharam_Mahadevpur",
+          "areaSqM": 2534435.5,
+          "areaAcres": 626.3,
+          "waterSpreadHa": 626.4,
+          "basin": "Godavari Basin",
+          "subBasin": "Lower Godavari - G10",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Dommadapalli Cheruvu",
+          "mandal": "Chityal",
+          "areaSqM": 2462336.6,
+          "areaAcres": 608.5,
+          "waterSpreadHa": 608.3,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Annampale Tank",
+          "mandal": "Mulug",
+          "areaSqM": 1963182.5,
+          "areaAcres": 485.1,
+          "waterSpreadHa": 485.0,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Chinnakodepaka Tank",
+          "mandal": "Regonda",
+          "areaSqM": 1692807.3,
+          "areaAcres": 418.3,
+          "waterSpreadHa": 418.2,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Lakshmidevipet Tank",
+          "mandal": "Venkatapur",
+          "areaSqM": 1607140.3,
+          "areaAcres": 397.1,
+          "waterSpreadHa": 397.1,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Yellareddipet Cheruvu",
+          "mandal": "Bhupalpalle",
+          "areaSqM": 1454431.7,
+          "areaAcres": 359.4,
+          "waterSpreadHa": 359.4,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Gudepu Cheruvu",
+          "mandal": "Kataram",
+          "areaSqM": 1378711.8,
+          "areaAcres": 340.7,
+          "waterSpreadHa": 340.8,
+          "basin": "Godavari Basin",
+          "subBasin": "Lower Godavari - G10",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Ramchandrapur Tank",
+          "mandal": "Mulug",
+          "areaSqM": 1115248.8,
+          "areaAcres": 275.6,
+          "waterSpreadHa": 275.5,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "To Be Classified Tanks"
+        }
+      ]
+    },
+    {
+      "district": "Nagarkurnool",
+      "count": 1524,
+      "totalAreaSqM": 111903090.0,
+      "totalAreaSqKm": 111.9,
+      "totalWaterSpreadHa": 25275.2,
+      "mandalsCount": 20,
+      "mandals": [
+        "Achampet",
+        "Amrabad",
+        "Balmoor",
+        "Bijinapalle",
+        "Charakonda",
+        "Kalwakurthy",
+        "Kodair",
+        "Kollapur",
+        "Lingal",
+        "Nagar_Kurnool",
+        "Padra",
+        "Peddakothapalle",
+        "Pentlavelli",
+        "Tadoor",
+        "Telkapalle",
+        "Thimmajipeta",
+        "Uppunuthala",
+        "Urkonda",
+        "Vangoor",
+        "Veldanda"
+      ],
+      "basins": [
+        "Krishna Basin",
+        "River Basin"
+      ],
+      "centroid": [
+        16.4854,
+        78.334
+      ],
+      "topLakes": [
+        {
+          "name": "Nagar Karnul Cheruvu",
+          "mandal": "Nagar_Kurnool",
+          "areaSqM": 3684527.2,
+          "areaAcres": 910.5,
+          "waterSpreadHa": 907.6,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Bhimasamudram Cheruvu",
+          "mandal": "Bijinapalle",
+          "areaSqM": 2499058.8,
+          "areaAcres": 617.5,
+          "waterSpreadHa": 615.5,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Bijinapalle Tank",
+          "mandal": "Bijinapalle",
+          "areaSqM": 2313174.1,
+          "areaAcres": 571.6,
+          "waterSpreadHa": 569.8,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Nalini Cheruvu",
+          "mandal": "Kodair",
+          "areaSqM": 2058536.6,
+          "areaAcres": 508.7,
+          "waterSpreadHa": 507.1,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Nagnul Cheruvu",
+          "mandal": "Nagar_Kurnool",
+          "areaSqM": 1590536.1,
+          "areaAcres": 393.0,
+          "waterSpreadHa": 391.8,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Chandra Sagar",
+          "mandal": "Achampet",
+          "areaSqM": 1515171.8,
+          "areaAcres": 374.4,
+          "waterSpreadHa": 373.5,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Pedda Cheruvu",
+          "mandal": "Uppunuthala",
+          "areaSqM": 1290197.1,
+          "areaAcres": 318.8,
+          "waterSpreadHa": 317.9,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Madharam Cheruvu",
+          "mandal": "Urkonda",
+          "areaSqM": 1165191.6,
+          "areaAcres": 287.9,
+          "waterSpreadHa": 287.1,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Kondraopallle Tank",
+          "mandal": "Kodair",
+          "areaSqM": 865722.0,
+          "areaAcres": 213.9,
+          "waterSpreadHa": 213.3,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Thippapur Tank",
+          "mandal": "Uppunuthala",
+          "areaSqM": 832467.6,
+          "areaAcres": 205.7,
+          "waterSpreadHa": 205.2,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        }
+      ]
+    },
+    {
+      "district": "Kamareddy",
+      "count": 1497,
+      "totalAreaSqM": 130393701.8,
+      "totalAreaSqKm": 130.39,
+      "totalWaterSpreadHa": 29374.6,
+      "mandalsCount": 22,
+      "mandals": [
+        "Banswada",
+        "Bhiknur",
+        "Bibipet",
+        "Bichkunda",
+        "Birkoor",
+        "Domakonda",
+        "Gandhari",
+        "Jukkal",
+        "Kamareddy",
+        "Lingampet",
+        "Machareddy",
+        "Madnur",
+        "Naga_Reddipet",
+        "Nasurullabad",
+        "Nizamsagar",
+        "Pedda Kodapgal",
+        "Pitlam",
+        "Rajampet",
+        "Ramareddy",
+        "Sadasivanagar",
+        "Tadwai",
+        "Yellareddy"
+      ],
+      "basins": [
+        "Godavari Basin",
+        "River Basin"
+      ],
+      "centroid": [
+        18.3218,
+        78.3387
+      ],
+      "topLakes": [
+        {
+          "name": "Bibipet Cheruvu",
+          "mandal": "Bibipet",
+          "areaSqM": 3822793.2,
+          "areaAcres": 944.6,
+          "waterSpreadHa": 943.1,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Yellareddipet Cheruvu",
+          "mandal": "Kamareddy",
+          "areaSqM": 3314459.0,
+          "areaAcres": 819.0,
+          "waterSpreadHa": 817.6,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Kamareddi Cheruvu",
+          "mandal": "Kamareddy",
+          "areaSqM": 2422619.3,
+          "areaAcres": 598.6,
+          "waterSpreadHa": 597.6,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Singatam Resevoir",
+          "mandal": "Nizamsagar",
+          "areaSqM": 2273763.4,
+          "areaAcres": 561.9,
+          "waterSpreadHa": 560.5,
+          "basin": "Godavari Basin",
+          "subBasin": "Manjera - G4",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Bhiknoor Tank",
+          "mandal": "Yellareddy",
+          "areaSqM": 2195311.7,
+          "areaAcres": 542.5,
+          "waterSpreadHa": 541.2,
+          "basin": "Godavari Basin",
+          "subBasin": "Manjera - G4",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Birkoor Tank",
+          "mandal": "Birkoor",
+          "areaSqM": 1484095.1,
+          "areaAcres": 366.7,
+          "waterSpreadHa": 365.8,
+          "basin": "Godavari Basin",
+          "subBasin": "Manjera - G4",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Gidda Tank",
+          "mandal": "Ramareddy",
+          "areaSqM": 1412501.9,
+          "areaAcres": 349.0,
+          "waterSpreadHa": 348.5,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Mallupalle Tank",
+          "mandal": "Bhiknur",
+          "areaSqM": 1129423.7,
+          "areaAcres": 279.1,
+          "waterSpreadHa": 278.6,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Madam Cheruvu",
+          "mandal": "Pitlam",
+          "areaSqM": 1101135.1,
+          "areaAcres": 272.1,
+          "waterSpreadHa": 271.4,
+          "basin": "Godavari Basin",
+          "subBasin": "Manjera - G4",
+          "type": "MI Tanks Less Than 40 Ha"
+        },
+        {
+          "name": "Dharkar Cheruvu",
+          "mandal": "Yellareddy",
+          "areaSqM": 982397.3,
+          "areaAcres": 242.8,
+          "waterSpreadHa": 242.2,
+          "basin": "Godavari Basin",
+          "subBasin": "Manjera - G4",
+          "type": "MI Tanks Less Than 40 Ha"
+        }
+      ]
+    },
+    {
+      "district": "Khammam",
+      "count": 1350,
+      "totalAreaSqM": 138986492.5,
+      "totalAreaSqKm": 138.99,
+      "totalWaterSpreadHa": 32752.8,
+      "mandalsCount": 21,
+      "mandals": [
+        "Bonakal",
+        "Chinthakani",
+        "Enkuru",
+        "Kalluru",
+        "Kamepalle",
+        "Khammam_Rural",
+        "Khammam_Urban",
+        "Konijerla",
+        "Kusumanchi",
+        "Madhira",
+        "Mudigonda",
+        "Nelakondapalle",
+        "Penuballi",
+        "Raghunadhapalem",
+        "Sathupalle",
+        "Singareni",
+        "Thallada",
+        "Thirumalayapalem",
+        "Vemsoor",
+        "Wyra",
+        "Yerrupalem"
+      ],
+      "basins": [
+        "Godavari Basin",
+        "Krishna Basin",
+        "River Basin"
+      ],
+      "centroid": [
+        17.2473,
+        80.1514
+      ],
+      "topLakes": [
+        {
+          "name": "Cheruvu Madharam Tank",
+          "mandal": "Nelakondapalle",
+          "areaSqM": 3889725.5,
+          "areaAcres": 961.2,
+          "waterSpreadHa": 960.1,
+          "basin": "Krishna Basin",
+          "subBasin": "Paleru - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Bethupalle Cheruvu",
+          "mandal": "Sathupalle",
+          "areaSqM": 2614225.8,
+          "areaAcres": 646.0,
+          "waterSpreadHa": 645.5,
+          "basin": "Krishna Basin",
+          "subBasin": "Ramileru",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Pedda Cheruvu",
+          "mandal": "Thirumalayapalem",
+          "areaSqM": 1519874.1,
+          "areaAcres": 375.6,
+          "waterSpreadHa": 375.2,
+          "basin": "Krishna Basin",
+          "subBasin": "Paleru - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Edavalli Tank",
+          "mandal": "Mudigonda",
+          "areaSqM": 1507443.2,
+          "areaAcres": 372.5,
+          "waterSpreadHa": 372.1,
+          "basin": "Krishna Basin",
+          "subBasin": "Paleru - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Bala Samudram",
+          "mandal": "Nelakondapalle",
+          "areaSqM": 1427245.0,
+          "areaAcres": 352.7,
+          "waterSpreadHa": 352.3,
+          "basin": "Krishna Basin",
+          "subBasin": "Paleru - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Nalla Cheruvu",
+          "mandal": "Thirumalayapalem",
+          "areaSqM": 1336747.6,
+          "areaAcres": 330.3,
+          "waterSpreadHa": 330.0,
+          "basin": "Krishna Basin",
+          "subBasin": "Paleru - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Pedda Cheruvu",
+          "mandal": "Kamepalle",
+          "areaSqM": 1270005.9,
+          "areaAcres": 313.8,
+          "waterSpreadHa": 313.6,
+          "basin": "Krishna Basin",
+          "subBasin": "Munneru - K12",
+          "type": "MI Tanks More Than 40 Ha"
+        },
+        {
+          "name": "Ambarupet Tank",
+          "mandal": "Madhira",
+          "areaSqM": 1267363.2,
+          "areaAcres": 313.2,
+          "waterSpreadHa": 312.8,
+          "basin": "Krishna Basin",
+          "subBasin": "Munneru - K12",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Kalluru Tank",
+          "mandal": "Kalluru",
+          "areaSqM": 1239171.0,
+          "areaAcres": 306.2,
+          "waterSpreadHa": 305.9,
+          "basin": "Krishna Basin",
+          "subBasin": "Munneru - K12",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Pedda Cheruvu",
+          "mandal": "Thirumalayapalem",
+          "areaSqM": 1168147.2,
+          "areaAcres": 288.7,
+          "waterSpreadHa": 288.3,
+          "basin": "Krishna Basin",
+          "subBasin": "Paleru - K11",
+          "type": "To Be Classified Tanks"
+        }
+      ]
+    },
+    {
+      "district": "Karimnagar",
+      "count": 1339,
+      "totalAreaSqM": 102080233.0,
+      "totalAreaSqKm": 102.08,
+      "totalWaterSpreadHa": 24816.2,
+      "mandalsCount": 16,
+      "mandals": [
+        "Chigurumamidi",
+        "Choppadandi",
+        "Ellandakunta",
+        "Gangadhara",
+        "Gannervaram",
+        "Huzurabad",
+        "Jammikunta",
+        "Karimnagar",
+        "Karimnagar_Rural",
+        "Kothapalle",
+        "Manakondur",
+        "Ramadugu",
+        "Shankarapatnam",
+        "Thimmapur",
+        "V_Saidapur",
+        "Veenavanka"
+      ],
+      "basins": [
+        "Godavari Basin",
+        "River Basin"
+      ],
+      "centroid": [
+        18.4386,
+        79.1288
+      ],
+      "topLakes": [
+        {
+          "name": "Pedda Cheruvu",
+          "mandal": "Huzurabad",
+          "areaSqM": 1839653.2,
+          "areaAcres": 454.6,
+          "waterSpreadHa": 454.3,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Ammanagurthi Tank",
+          "mandal": "V_Saidapur",
+          "areaSqM": 1666511.0,
+          "areaAcres": 411.8,
+          "waterSpreadHa": 411.5,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Arnakonda Tank",
+          "mandal": "Choppadandi",
+          "areaSqM": 1628584.6,
+          "areaAcres": 402.4,
+          "waterSpreadHa": 402.3,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Ankushavani Cheruvu",
+          "mandal": "Jammikunta",
+          "areaSqM": 1533611.5,
+          "areaAcres": 379.0,
+          "waterSpreadHa": 378.8,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "MI Tanks More Than 40 Ha"
+        },
+        {
+          "name": "Pedda Cheruvu",
+          "mandal": "Manakondur",
+          "areaSqM": 1330776.7,
+          "areaAcres": 328.8,
+          "waterSpreadHa": 328.6,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "MI Tanks More Than 40 Ha"
+        },
+        {
+          "name": "Nain Cheruvu",
+          "mandal": "Jammikunta",
+          "areaSqM": 1088906.9,
+          "areaAcres": 269.1,
+          "waterSpreadHa": 268.9,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "MI Tanks More Than 40 Ha"
+        },
+        {
+          "name": "Kareempet Tank",
+          "mandal": "Shankarapatnam",
+          "areaSqM": 1069694.4,
+          "areaAcres": 264.3,
+          "waterSpreadHa": 264.2,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Oora Cheruvu",
+          "mandal": "Veenavanka",
+          "areaSqM": 1067661.9,
+          "areaAcres": 263.8,
+          "waterSpreadHa": 263.7,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "MI Tanks More Than 40 Ha"
+        },
+        {
+          "name": "Oora Cheruvu",
+          "mandal": "Chigurumamidi",
+          "areaSqM": 1061404.4,
+          "areaAcres": 262.3,
+          "waterSpreadHa": 262.1,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "MI Tanks More Than 40 Ha"
+        },
+        {
+          "name": "Oora Cheruvu",
+          "mandal": "Kothapalle",
+          "areaSqM": 1039644.5,
+          "areaAcres": 256.9,
+          "waterSpreadHa": 256.8,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "MI Tanks More Than 40 Ha"
+        }
+      ]
+    },
+    {
+      "district": "Mancherial",
+      "count": 1193,
+      "totalAreaSqM": 68402334.3,
+      "totalAreaSqKm": 68.4,
+      "totalWaterSpreadHa": 11480.8,
+      "mandalsCount": 18,
+      "mandals": [
+        "Bellampalle",
+        "Bheemini",
+        "Bhimaram",
+        "Chennur",
+        "Dandepalle",
+        "Hajipur",
+        "Jaipur",
+        "Jannaram",
+        "Kannepalli",
+        "Kasipet",
+        "Kotapalle",
+        "Luxettipet",
+        "Mancherial",
+        "Mandamarri",
+        "Naspur",
+        "Nennal",
+        "Tandur",
+        "Vemanpalle"
+      ],
+      "basins": [
+        "Godavari Basin"
+      ],
+      "centroid": [
+        18.8679,
+        79.4639
+      ],
+      "topLakes": [
+        {
+          "name": "Bheemini Tank",
+          "mandal": "Bheemini",
+          "areaSqM": 1303030.9,
+          "areaAcres": 322.0,
+          "waterSpreadHa": 0.0,
+          "basin": "Godavari Basin",
+          "subBasin": "Pranahita - G9",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Kankur Tank",
+          "mandal": "Jaipur",
+          "areaSqM": 1099515.0,
+          "areaAcres": 271.7,
+          "waterSpreadHa": 0.0,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Dowdepalle Tank",
+          "mandal": "Luxettipet",
+          "areaSqM": 1023465.3,
+          "areaAcres": 252.9,
+          "waterSpreadHa": 253.0,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Malkepalle Tank",
+          "mandal": "Kasipet",
+          "areaSqM": 945172.7,
+          "areaAcres": 233.6,
+          "waterSpreadHa": 0.0,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Gollapalle Tank",
+          "mandal": "Nennal",
+          "areaSqM": 938483.3,
+          "areaAcres": 231.9,
+          "waterSpreadHa": 0.0,
+          "basin": "Godavari Basin",
+          "subBasin": "Pranahita - G9",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Jankapur Tank",
+          "mandal": "Kannepalli",
+          "areaSqM": 926418.0,
+          "areaAcres": 228.9,
+          "waterSpreadHa": 0.0,
+          "basin": "Godavari Basin",
+          "subBasin": "Pranahita - G9",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Lingapur Tank",
+          "mandal": "Dandepalle",
+          "areaSqM": 866288.3,
+          "areaAcres": 214.1,
+          "waterSpreadHa": 214.1,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Kavvichelma Tank",
+          "mandal": "Dandepalle",
+          "areaSqM": 698256.3,
+          "areaAcres": 172.5,
+          "waterSpreadHa": 172.6,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Bejjal Tank",
+          "mandal": "Jaipur",
+          "areaSqM": 697591.2,
+          "areaAcres": 172.4,
+          "waterSpreadHa": 172.4,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Donabanda Tank",
+          "mandal": "Hajipur",
+          "areaSqM": 685203.7,
+          "areaAcres": 169.3,
+          "waterSpreadHa": 169.4,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "To Be Classified Tanks"
+        }
+      ]
+    },
+    {
+      "district": "Nizamabad",
+      "count": 1180,
+      "totalAreaSqM": 185966779.8,
+      "totalAreaSqKm": 185.97,
+      "totalWaterSpreadHa": 43054.4,
+      "mandalsCount": 27,
+      "mandals": [
+        "Armur",
+        "Balkonda",
+        "Bheemgal",
+        "Bodhan",
+        "Dharpalle",
+        "Dichpalle",
+        "Indalwai",
+        "Jakranpalle",
+        "Kammarpalle",
+        "Kotgiri",
+        "Makloor",
+        "Mendora",
+        "Mortad",
+        "Mugpal",
+        "Mupkal",
+        "Nandipet",
+        "Navipet",
+        "Nizamabad_North",
+        "Nizamabad_Rural",
+        "Nizamabad_South",
+        "Ranjal",
+        "Rudrur",
+        "Sirkonda",
+        "Vailpur",
+        "Varni",
+        "Yeda_Palle",
+        "Yergatla"
+      ],
+      "basins": [
+        "Godavari Basin"
+      ],
+      "centroid": [
+        18.6725,
+        78.0941
+      ],
+      "topLakes": [
+        {
+          "name": "Bellalcheruv",
+          "mandal": "Bodhan",
+          "areaSqM": 4724731.9,
+          "areaAcres": 1167.5,
+          "waterSpreadHa": 1165.2,
+          "basin": "Godavari Basin",
+          "subBasin": "Manjera - G4",
+          "type": "MI Tanks Less Than 40 Ha"
+        },
+        {
+          "name": "Oora Cheruvu",
+          "mandal": "Mugpal",
+          "areaSqM": 3148945.4,
+          "areaAcres": 778.1,
+          "waterSpreadHa": 776.8,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "MI Tanks More Than 40 Ha"
+        },
+        {
+          "name": "Pedda Cheruvu",
+          "mandal": "Mugpal",
+          "areaSqM": 2133741.3,
+          "areaAcres": 527.3,
+          "waterSpreadHa": 526.3,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "MI Tanks Less Than 40 Ha"
+        },
+        {
+          "name": "Oora Cheruvu",
+          "mandal": "Nandipet",
+          "areaSqM": 2076641.0,
+          "areaAcres": 513.1,
+          "waterSpreadHa": 512.5,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "MI Tanks Less Than 40 Ha"
+        },
+        {
+          "name": "Akbar Nagar Tank",
+          "mandal": "Rudrur",
+          "areaSqM": 2019738.8,
+          "areaAcres": 499.1,
+          "waterSpreadHa": 498.0,
+          "basin": "Godavari Basin",
+          "subBasin": "Manjera - G4",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Konapur Tank",
+          "mandal": "Kammarpalle",
+          "areaSqM": 1855877.8,
+          "areaAcres": 458.6,
+          "waterSpreadHa": 0.0,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Masan Cheruvu",
+          "mandal": "Nizamabad_Rural",
+          "areaSqM": 1828209.0,
+          "areaAcres": 451.8,
+          "waterSpreadHa": 451.0,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Peta Cheruvu",
+          "mandal": "Mortad",
+          "areaSqM": 1573333.5,
+          "areaAcres": 388.8,
+          "waterSpreadHa": 388.4,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "MI Tanks More Than 40 Ha"
+        },
+        {
+          "name": "Pedda Cheruvu",
+          "mandal": "Vailpur",
+          "areaSqM": 1564067.9,
+          "areaAcres": 386.5,
+          "waterSpreadHa": 386.0,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "MI Tanks More Than 40 Ha"
+        },
+        {
+          "name": "Pedda Cheruvu",
+          "mandal": "Indalwai",
+          "areaSqM": 1505833.8,
+          "areaAcres": 372.1,
+          "waterSpreadHa": 371.5,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "MI Tanks More Than 40 Ha"
+        }
+      ]
+    },
+    {
+      "district": "Peddapalle",
+      "count": 1174,
+      "totalAreaSqM": 88218078.1,
+      "totalAreaSqKm": 88.22,
+      "totalWaterSpreadHa": 18930.7,
+      "mandalsCount": 14,
+      "mandals": [
+        "Antargoan",
+        "Dharmaram",
+        "Elgaid",
+        "Julapalle",
+        "Kamanpur",
+        "Manthani",
+        "Mutharam_Manthani",
+        "Odela",
+        "Palakurthy",
+        "Peddapalle",
+        "Ramagiri",
+        "Ramagundam",
+        "Srirampur",
+        "Sultanabad"
+      ],
+      "basins": [
+        "Godavari Basin",
+        "River Basin"
+      ],
+      "centroid": [
+        18.6161,
+        79.3787
+      ],
+      "topLakes": [
+        {
+          "name": "Maidipalle Tank",
+          "mandal": "Ramagundam",
+          "areaSqM": 8705729.2,
+          "areaAcres": 2151.2,
+          "waterSpreadHa": 0.0,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Bhoopathipuram Tank",
+          "mandal": "Sultanabad",
+          "areaSqM": 2320205.7,
+          "areaAcres": 573.3,
+          "waterSpreadHa": 573.1,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Parupalle Cheruvu",
+          "mandal": "Mutharam_Manthani",
+          "areaSqM": 1763845.9,
+          "areaAcres": 435.9,
+          "waterSpreadHa": 435.8,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Chamanpalle Tank",
+          "mandal": "Dharmaram",
+          "areaSqM": 1629779.8,
+          "areaAcres": 402.7,
+          "waterSpreadHa": 402.7,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Konaram Cheruvu",
+          "mandal": "Srirampur",
+          "areaSqM": 1311017.7,
+          "areaAcres": 324.0,
+          "waterSpreadHa": 323.9,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Telukunta Tank",
+          "mandal": "Julapalle",
+          "areaSqM": 1141650.2,
+          "areaAcres": 282.1,
+          "waterSpreadHa": 282.0,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Paidichinthala Palle Tank",
+          "mandal": "Dharmaram",
+          "areaSqM": 941877.1,
+          "areaAcres": 232.7,
+          "waterSpreadHa": 232.7,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Narsapur Tank",
+          "mandal": "Elgaid",
+          "areaSqM": 887896.2,
+          "areaAcres": 219.4,
+          "waterSpreadHa": 219.3,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Jallaram Tank",
+          "mandal": "Ramagiri",
+          "areaSqM": 872939.5,
+          "areaAcres": 215.7,
+          "waterSpreadHa": 215.7,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Poosala Tank",
+          "mandal": "Sultanabad",
+          "areaSqM": 867485.2,
+          "areaAcres": 214.4,
+          "waterSpreadHa": 214.3,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "To Be Classified Tanks"
+        }
+      ]
+    },
+    {
+      "district": "Yadadri",
+      "count": 1172,
+      "totalAreaSqM": 100767779.3,
+      "totalAreaSqKm": 100.77,
+      "totalWaterSpreadHa": 23738.1,
+      "mandalsCount": 16,
+      "mandals": [
+        "Addagudur",
+        "Alair",
+        "Atmakur_M",
+        "Bhongiri",
+        "Bibinagar",
+        "Bommalaramaram",
+        "Choutuppal",
+        "Mootakondur",
+        "Mothkur",
+        "Narayanapur",
+        "Pochampalle",
+        "Rajapet",
+        "Ramannapeta",
+        "Turkapalle_M",
+        "Valigonda",
+        "Yadagirigutta"
+      ],
+      "basins": [
+        "Krishna Basin"
+      ],
+      "centroid": [
+        17.5147,
+        78.9482
+      ],
+      "topLakes": [
+        {
+          "name": "Tummalagudem Pedda Cheruvu",
+          "mandal": "Valigonda",
+          "areaSqM": 2704557.6,
+          "areaAcres": 668.3,
+          "waterSpreadHa": 667.1,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Ramasamudram Cheruvu",
+          "mandal": "Valigonda",
+          "areaSqM": 2315147.9,
+          "areaAcres": 572.1,
+          "waterSpreadHa": 571.0,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Bibinagar Cheruvu",
+          "mandal": "Bibinagar",
+          "areaSqM": 1691407.9,
+          "areaAcres": 418.0,
+          "waterSpreadHa": 417.1,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Addagudur Tank",
+          "mandal": "Addagudur",
+          "areaSqM": 1284145.4,
+          "areaAcres": 317.3,
+          "waterSpreadHa": 316.9,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Kotamarthi Tank",
+          "mandal": "Addagudur",
+          "areaSqM": 1118523.0,
+          "areaAcres": 276.4,
+          "waterSpreadHa": 276.0,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Mukthapur Tank",
+          "mandal": "Pochampalle",
+          "areaSqM": 1000849.9,
+          "areaAcres": 247.3,
+          "waterSpreadHa": 246.8,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Hussainabad(Rural) Tank",
+          "mandal": "Bhongiri",
+          "areaSqM": 953067.0,
+          "areaAcres": 235.5,
+          "waterSpreadHa": 235.1,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Paladugu Tank",
+          "mandal": "Mothkur",
+          "areaSqM": 914094.6,
+          "areaAcres": 225.9,
+          "waterSpreadHa": 225.5,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Tangallapalle Cheruvu",
+          "mandal": "Choutuppal",
+          "areaSqM": 883960.1,
+          "areaAcres": 218.4,
+          "waterSpreadHa": 218.0,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Pedda Cheruvu",
+          "mandal": "Mootakondur",
+          "areaSqM": 882347.8,
+          "areaAcres": 218.0,
+          "waterSpreadHa": 217.7,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        }
+      ]
+    },
+    {
+      "district": "Wanaparthy",
+      "count": 1144,
+      "totalAreaSqM": 85258476.1,
+      "totalAreaSqKm": 85.26,
+      "totalWaterSpreadHa": 19991.5,
+      "mandalsCount": 14,
+      "mandals": [
+        "Amarchinta",
+        "Atmakur",
+        "Chinnambavi",
+        "Ghanpur",
+        "Gopalpeta",
+        "Kothakota",
+        "Madanapur",
+        "Pangal",
+        "Pebbair",
+        "Peddamandadi",
+        "Revelly",
+        "Srirangapur",
+        "Veepangandla",
+        "Wanaparthy"
+      ],
+      "basins": [
+        "Krishna Basin",
+        "River Basin"
+      ],
+      "centroid": [
+        16.3624,
+        78.0628
+      ],
+      "topLakes": [
+        {
+          "name": "Kanaipalle Tank",
+          "mandal": "Kothakota",
+          "areaSqM": 4239718.7,
+          "areaAcres": 1047.7,
+          "waterSpreadHa": 1043.8,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Srirangapur Cheruvu",
+          "mandal": "Srirangapur",
+          "areaSqM": 2535710.1,
+          "areaAcres": 626.6,
+          "waterSpreadHa": 624.4,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Rayanpet Tank",
+          "mandal": "Kothakota",
+          "areaSqM": 1767908.1,
+          "areaAcres": 436.9,
+          "waterSpreadHa": 435.3,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Maddigatla Tank",
+          "mandal": "Peddamandadi",
+          "areaSqM": 1721647.8,
+          "areaAcres": 425.4,
+          "waterSpreadHa": 423.9,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Kanchiraopalle Tank",
+          "mandal": "Pebbair",
+          "areaSqM": 1451482.5,
+          "areaAcres": 358.7,
+          "waterSpreadHa": 357.4,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Singanna Kunta",
+          "mandal": "Srirangapur",
+          "areaSqM": 1312597.7,
+          "areaAcres": 324.3,
+          "waterSpreadHa": 323.2,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "MI Tanks Less Than 40 Ha"
+        },
+        {
+          "name": "Kamballapur Tank",
+          "mandal": "Srirangapur",
+          "areaSqM": 1272986.9,
+          "areaAcres": 314.6,
+          "waterSpreadHa": 313.4,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Sankireddipalle Tank",
+          "mandal": "Kothakota",
+          "areaSqM": 1129291.5,
+          "areaAcres": 279.1,
+          "waterSpreadHa": 278.0,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Ghanpur Tank",
+          "mandal": "Ghanpur",
+          "areaSqM": 960127.8,
+          "areaAcres": 237.3,
+          "waterSpreadHa": 236.4,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Bunyadpur Tank",
+          "mandal": "Pebbair",
+          "areaSqM": 890343.2,
+          "areaAcres": 220.0,
+          "waterSpreadHa": 219.2,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        }
+      ]
+    },
+    {
+      "district": "Suryapet",
+      "count": 1143,
+      "totalAreaSqM": 140868710.9,
+      "totalAreaSqKm": 140.87,
+      "totalWaterSpreadHa": 33824.0,
+      "mandalsCount": 23,
+      "mandals": [
+        "Ananthagiri",
+        "Atmakur_S",
+        "Chilkur",
+        "Chinthala palem",
+        "Chivvemla",
+        "Garidepalle",
+        "Huzur nagar",
+        "Jajireddigudem",
+        "Kodad",
+        "Maddirala",
+        "Mattampalle",
+        "Mellachervu",
+        "Mothey",
+        "Munagala",
+        "Nadigudem",
+        "Nagaram",
+        "Neredcherla",
+        "Noothankal",
+        "Palakeedu",
+        "Penpahad",
+        "Suryapet",
+        "Thirumalagiri",
+        "Thungathurthi"
+      ],
+      "basins": [
+        "Krishna Basin"
+      ],
+      "centroid": [
+        17.1439,
+        79.6239
+      ],
+      "topLakes": [
+        {
+          "name": "Viraladevi Cheruvu",
+          "mandal": "Chilkur",
+          "areaSqM": 3758260.6,
+          "areaAcres": 928.7,
+          "waterSpreadHa": 927.5,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Laksmi Cheruvu",
+          "mandal": "Huzur nagar",
+          "areaSqM": 3251399.7,
+          "areaAcres": 803.4,
+          "waterSpreadHa": 802.3,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Anantha giri Tank",
+          "mandal": "Ananthagiri",
+          "areaSqM": 2105140.8,
+          "areaAcres": 520.2,
+          "waterSpreadHa": 519.6,
+          "basin": "Krishna Basin",
+          "subBasin": "Paleru - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Namavaram Tank",
+          "mandal": "Mothey",
+          "areaSqM": 1944350.4,
+          "areaAcres": 480.5,
+          "waterSpreadHa": 479.8,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Madhavaram Cheruvu",
+          "mandal": "Munagala",
+          "areaSqM": 1834319.0,
+          "areaAcres": 453.3,
+          "waterSpreadHa": 452.7,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "RatnaVaram Tank",
+          "mandal": "Nadigudem",
+          "areaSqM": 1696772.0,
+          "areaAcres": 419.3,
+          "waterSpreadHa": 418.8,
+          "basin": "Krishna Basin",
+          "subBasin": "Paleru - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Gandla Cheruvu",
+          "mandal": "Penpahad",
+          "areaSqM": 1672731.4,
+          "areaAcres": 413.3,
+          "waterSpreadHa": 412.7,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Nalla Cheruvu",
+          "mandal": "Suryapet",
+          "areaSqM": 1617040.3,
+          "areaAcres": 399.6,
+          "waterSpreadHa": 399.0,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Kuthbushapuram Tank",
+          "mandal": "Garidepalle",
+          "areaSqM": 1498497.8,
+          "areaAcres": 370.3,
+          "waterSpreadHa": 0.0,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Rudramina Cheruvu",
+          "mandal": "Jajireddigudem",
+          "areaSqM": 1481110.9,
+          "areaAcres": 366.0,
+          "waterSpreadHa": 365.5,
+          "basin": "Krishna Basin",
+          "subBasin": "Paleru - K11",
+          "type": "To Be Classified Tanks"
+        }
+      ]
+    },
+    {
+      "district": "Mahabubabad",
+      "count": 1040,
+      "totalAreaSqM": 123396877.0,
+      "totalAreaSqKm": 123.4,
+      "totalWaterSpreadHa": 29213.1,
+      "mandalsCount": 16,
+      "mandals": [
+        "Bayyaram",
+        "Chinnagudur",
+        "Danthalapalle",
+        "Dornakal",
+        "Ganagavaram",
+        "Garla",
+        "Gudur",
+        "Kesamudram",
+        "Kothaguda",
+        "Kuravi",
+        "Mahabubabad",
+        "Maripeda",
+        "Narsimhulapet",
+        "Nellikudur",
+        "Peddavangara",
+        "Thorrur"
+      ],
+      "basins": [
+        "Godavari Basin",
+        "Krishna Basin"
+      ],
+      "centroid": [
+        17.5986,
+        80.0039
+      ],
+      "topLakes": [
+        {
+          "name": "Large Tank",
+          "mandal": "Bayyaram",
+          "areaSqM": 5220720.2,
+          "areaAcres": 1290.1,
+          "waterSpreadHa": 1289.1,
+          "basin": "Krishna Basin",
+          "subBasin": "Munneru - K12",
+          "type": "MI Tanks More Than 40 Ha"
+        },
+        {
+          "name": "Bonthupalle Tank",
+          "mandal": "Thorrur",
+          "areaSqM": 1772396.3,
+          "areaAcres": 438.0,
+          "waterSpreadHa": 437.5,
+          "basin": "Krishna Basin",
+          "subBasin": "Munneru - K12",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Large Tank",
+          "mandal": "Garla",
+          "areaSqM": 1687369.9,
+          "areaAcres": 417.0,
+          "waterSpreadHa": 416.6,
+          "basin": "Krishna Basin",
+          "subBasin": "Munneru - K12",
+          "type": "MI Tanks More Than 40 Ha"
+        },
+        {
+          "name": "Ramasamudram Cheruvu",
+          "mandal": "Thorrur",
+          "areaSqM": 1618107.9,
+          "areaAcres": 399.8,
+          "waterSpreadHa": 399.5,
+          "basin": "Krishna Basin",
+          "subBasin": "Munneru - K12",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Sitaram Cheruvu",
+          "mandal": "Nellikudur",
+          "areaSqM": 1459520.3,
+          "areaAcres": 360.7,
+          "waterSpreadHa": 360.3,
+          "basin": "Krishna Basin",
+          "subBasin": "Munneru - K12",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Pedda Cheruvu",
+          "mandal": "Nellikudur",
+          "areaSqM": 1350736.1,
+          "areaAcres": 333.8,
+          "waterSpreadHa": 333.4,
+          "basin": "Krishna Basin",
+          "subBasin": "Munneru - K12",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Nerada Tank",
+          "mandal": "Kuravi",
+          "areaSqM": 1217375.5,
+          "areaAcres": 300.8,
+          "waterSpreadHa": 300.5,
+          "basin": "Krishna Basin",
+          "subBasin": "Munneru - K12",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Gandlakunta Cheruvu",
+          "mandal": "Peddavangara",
+          "areaSqM": 1184574.3,
+          "areaAcres": 292.7,
+          "waterSpreadHa": 292.4,
+          "basin": "Krishna Basin",
+          "subBasin": "Paleru - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Edulapusapalle Tank",
+          "mandal": "Mahabubabad",
+          "areaSqM": 1101864.5,
+          "areaAcres": 272.3,
+          "waterSpreadHa": 272.1,
+          "basin": "Krishna Basin",
+          "subBasin": "Munneru - K12",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Ammapuram Tank",
+          "mandal": "Thorrur",
+          "areaSqM": 1095439.2,
+          "areaAcres": 270.7,
+          "waterSpreadHa": 270.4,
+          "basin": "Krishna Basin",
+          "subBasin": "Munneru - K12",
+          "type": "To Be Classified Tanks"
+        }
+      ]
+    },
+    {
+      "district": "Jagtial",
+      "count": 956,
+      "totalAreaSqM": 97520334.9,
+      "totalAreaSqKm": 97.52,
+      "totalWaterSpreadHa": 22938.0,
+      "mandalsCount": 18,
+      "mandals": [
+        "Beerpur",
+        "Buggaram",
+        "Dharmapuri",
+        "Gollapalle",
+        "Ibrahimpatnam",
+        "Jagityal_Rural",
+        "Jagtial",
+        "Kathlapur",
+        "Kodimial",
+        "Koratla",
+        "Malial",
+        "Mallapur",
+        "Medipalle",
+        "Metpalle",
+        "Pegadapalle",
+        "Raikal",
+        "Sarangapur",
+        "Velgatoor"
+      ],
+      "basins": [
+        "Godavari Basin",
+        "River Basin"
+      ],
+      "centroid": [
+        18.7946,
+        78.9125
+      ],
+      "topLakes": [
+        {
+          "name": "Pola Cheruvu",
+          "mandal": "Buggaram",
+          "areaSqM": 2668305.3,
+          "areaAcres": 659.4,
+          "waterSpreadHa": 659.4,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "MI Tanks Less Than 40 Ha"
+        },
+        {
+          "name": "Cherlapalle Tank",
+          "mandal": "Beerpur",
+          "areaSqM": 1859400.8,
+          "areaAcres": 459.5,
+          "waterSpreadHa": 459.5,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Stambampalle Cheruvu",
+          "mandal": "Buggaram",
+          "areaSqM": 1635948.6,
+          "areaAcres": 404.3,
+          "waterSpreadHa": 404.3,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Junglenala Cheruvu",
+          "mandal": "Gollapalle",
+          "areaSqM": 1538538.2,
+          "areaAcres": 380.2,
+          "waterSpreadHa": 380.2,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Akkapalle Cheruvu",
+          "mandal": "Dharmapuri",
+          "areaSqM": 1516268.0,
+          "areaAcres": 374.7,
+          "waterSpreadHa": 374.7,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Mahitapur Tank",
+          "mandal": "Raikal",
+          "areaSqM": 1429233.6,
+          "areaAcres": 353.2,
+          "waterSpreadHa": 353.1,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Oora Kunta",
+          "mandal": "Pegadapalle",
+          "areaSqM": 1294580.2,
+          "areaAcres": 319.9,
+          "waterSpreadHa": 319.8,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "MI Tanks Less Than 40 Ha"
+        },
+        {
+          "name": "Chelgal Tank",
+          "mandal": "Jagityal_Rural",
+          "areaSqM": 1212152.1,
+          "areaAcres": 299.5,
+          "waterSpreadHa": 299.4,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Mothe Tank",
+          "mandal": "Jagtial",
+          "areaSqM": 1143902.7,
+          "areaAcres": 282.7,
+          "waterSpreadHa": 282.6,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Gambhirpur Tank",
+          "mandal": "Kathlapur",
+          "areaSqM": 1113519.7,
+          "areaAcres": 275.2,
+          "waterSpreadHa": 0.0,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "To Be Classified Tanks"
+        }
+      ]
+    },
+    {
+      "district": "Warangal_Rural",
+      "count": 915,
+      "totalAreaSqM": 121282419.5,
+      "totalAreaSqKm": 121.28,
+      "totalWaterSpreadHa": 29446.7,
+      "mandalsCount": 15,
+      "mandals": [
+        "Atmakur",
+        "Chennaraopeta",
+        "Damera",
+        "Duggondi",
+        "Geesugonda",
+        "Khanapur",
+        "Nallabelly",
+        "Narsampet",
+        "Nekkonda",
+        "Parkal",
+        "Parvathagiri",
+        "Raiparthy",
+        "Sangem",
+        "Shayampet",
+        "Wardhannapet"
+      ],
+      "basins": [
+        "Godavari Basin",
+        "Krishna Basin",
+        "River Basin"
+      ],
+      "centroid": [
+        17.9689,
+        79.5941
+      ],
+      "topLakes": [
+        {
+          "name": "Madannapet Cheruvu",
+          "mandal": "Narsampet",
+          "areaSqM": 4197127.9,
+          "areaAcres": 1037.1,
+          "waterSpreadHa": 1036.6,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Chinthapalle Tank",
+          "mandal": "Sangem",
+          "areaSqM": 4183092.2,
+          "areaAcres": 1033.7,
+          "waterSpreadHa": 1032.9,
+          "basin": "Krishna Basin",
+          "subBasin": "Munneru - K12",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Katashpur Cheruvu",
+          "mandal": "Atmakur",
+          "areaSqM": 3237079.0,
+          "areaAcres": 799.9,
+          "waterSpreadHa": 799.5,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Kamareddipalle Tank",
+          "mandal": "Parkal",
+          "areaSqM": 2554824.4,
+          "areaAcres": 631.3,
+          "waterSpreadHa": 631.0,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Rangaya Cheruvu",
+          "mandal": "Nallabelly",
+          "areaSqM": 1907535.5,
+          "areaAcres": 471.4,
+          "waterSpreadHa": 471.2,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Atmakur Pedda Cheruvu",
+          "mandal": "Atmakur",
+          "areaSqM": 1704240.7,
+          "areaAcres": 421.1,
+          "waterSpreadHa": 420.9,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Kalleda Tank",
+          "mandal": "Parvathagiri",
+          "areaSqM": 1418484.4,
+          "areaAcres": 350.5,
+          "waterSpreadHa": 350.2,
+          "basin": "Krishna Basin",
+          "subBasin": "Munneru - K12",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Kothur Tank",
+          "mandal": "Raiparthy",
+          "areaSqM": 1409148.0,
+          "areaAcres": 348.2,
+          "waterSpreadHa": 347.9,
+          "basin": "Krishna Basin",
+          "subBasin": "Munneru - K12",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Raiparthy Tank",
+          "mandal": "Raiparthy",
+          "areaSqM": 1194268.0,
+          "areaAcres": 295.1,
+          "waterSpreadHa": 294.8,
+          "basin": "Krishna Basin",
+          "subBasin": "Munneru - K12",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Yellandu Tank",
+          "mandal": "Wardhannapet",
+          "areaSqM": 1155690.3,
+          "areaAcres": 285.6,
+          "waterSpreadHa": 285.3,
+          "basin": "Krishna Basin",
+          "subBasin": "Munneru - K12",
+          "type": "To Be Classified Tanks"
+        }
+      ]
+    },
+    {
+      "district": "Jangaon",
+      "count": 883,
+      "totalAreaSqM": 96864106.1,
+      "totalAreaSqKm": 96.86,
+      "totalWaterSpreadHa": 21302.8,
+      "mandalsCount": 13,
+      "mandals": [
+        "Bachannapeta",
+        "Chilpur",
+        "Devaruppala",
+        "Ganpur_stn",
+        "Gundala",
+        "Jangaon",
+        "Kodakandla",
+        "Lingalaghanpur",
+        "Narmetta",
+        "Palakurthi",
+        "Raghunathpalle",
+        "Tharigoppula",
+        "Zaffergadh"
+      ],
+      "basins": [
+        "Godavari Basin",
+        "Krishna Basin",
+        "River Basin"
+      ],
+      "centroid": [
+        17.7235,
+        79.1824
+      ],
+      "topLakes": [
+        {
+          "name": "Edunuthula Tank",
+          "mandal": "Kodakandla",
+          "areaSqM": 2293394.5,
+          "areaAcres": 566.7,
+          "waterSpreadHa": 0.0,
+          "basin": "Krishna Basin",
+          "subBasin": "Paleru - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Ghanpur_Stn Tank",
+          "mandal": "Ganpur_stn",
+          "areaSqM": 2132247.2,
+          "areaAcres": 526.9,
+          "waterSpreadHa": 526.3,
+          "basin": "Krishna Basin",
+          "subBasin": "Munneru - K12",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Cheetakoduru Tank",
+          "mandal": "Jangaon",
+          "areaSqM": 2051358.9,
+          "areaAcres": 506.9,
+          "waterSpreadHa": 0.0,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Aswaraopalle Tank",
+          "mandal": "Raghunathpalle",
+          "areaSqM": 1735723.1,
+          "areaAcres": 428.9,
+          "waterSpreadHa": 0.0,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Pedda padishala Tank",
+          "mandal": "Gundala",
+          "areaSqM": 1146386.6,
+          "areaAcres": 283.3,
+          "waterSpreadHa": 282.9,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Edunuthula Tank",
+          "mandal": "Kodakandla",
+          "areaSqM": 1127635.2,
+          "areaAcres": 278.6,
+          "waterSpreadHa": 278.3,
+          "basin": "Krishna Basin",
+          "subBasin": "Paleru - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Ura Cheruvu",
+          "mandal": "Raghunathpalle",
+          "areaSqM": 1119324.5,
+          "areaAcres": 276.6,
+          "waterSpreadHa": 276.2,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Singarajupalle Tank",
+          "mandal": "Devaruppala",
+          "areaSqM": 976218.7,
+          "areaAcres": 241.2,
+          "waterSpreadHa": 240.9,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Yerra Cheruvu",
+          "mandal": "Palakurthi",
+          "areaSqM": 915611.3,
+          "areaAcres": 226.3,
+          "waterSpreadHa": 226.0,
+          "basin": "Krishna Basin",
+          "subBasin": "Paleru - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Gangapur Tank",
+          "mandal": "Gundala",
+          "areaSqM": 896636.5,
+          "areaAcres": 221.6,
+          "waterSpreadHa": 221.3,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        }
+      ]
+    },
+    {
+      "district": "Vikarabad",
+      "count": 848,
+      "totalAreaSqM": 71739588.2,
+      "totalAreaSqKm": 71.74,
+      "totalWaterSpreadHa": 13874.6,
+      "mandalsCount": 18,
+      "mandals": [
+        "Bantwaram",
+        "Basheerabad",
+        "Bomraspeta",
+        "Dharur",
+        "Doma",
+        "Doulatabad",
+        "Kodangal",
+        "Kotepally",
+        "Kulkacharla",
+        "Marpalle",
+        "Mominpet",
+        "Nawabpet",
+        "Pargi",
+        "Peddemul",
+        "Pudur",
+        "Tandur",
+        "Vikarabad",
+        "Yelal"
+      ],
+      "basins": [
+        "Godavari Basin",
+        "Krishna Basin",
+        "River Basin"
+      ],
+      "centroid": [
+        17.3364,
+        77.9048
+      ],
+      "topLakes": [
+        {
+          "name": "Pedda Cheruvu",
+          "mandal": "Doulatabad",
+          "areaSqM": 2914262.0,
+          "areaAcres": 720.1,
+          "waterSpreadHa": 717.1,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Husanabad Cheruvu",
+          "mandal": "Kodangal",
+          "areaSqM": 2776271.3,
+          "areaAcres": 686.0,
+          "waterSpreadHa": 683.3,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Bomraspet Tank",
+          "mandal": "Bomraspeta",
+          "areaSqM": 1398616.9,
+          "areaAcres": 345.6,
+          "waterSpreadHa": 344.3,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Bhema - K6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Tekulapalle Tank",
+          "mandal": "Mominpet",
+          "areaSqM": 1204640.1,
+          "areaAcres": 297.7,
+          "waterSpreadHa": 296.7,
+          "basin": "Godavari Basin",
+          "subBasin": "Manjera - G4",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Korangal Cheruvu",
+          "mandal": "Kodangal",
+          "areaSqM": 1072398.5,
+          "areaAcres": 265.0,
+          "waterSpreadHa": 263.9,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Allapur  .S. Tank",
+          "mandal": "Tandur",
+          "areaSqM": 1066056.7,
+          "areaAcres": 263.4,
+          "waterSpreadHa": 0.0,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Bhema - K6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Godamguda Tank",
+          "mandal": "Vikarabad",
+          "areaSqM": 933161.5,
+          "areaAcres": 230.6,
+          "waterSpreadHa": 0.0,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Bhema - K6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Mominpet Tank",
+          "mandal": "Mominpet",
+          "areaSqM": 931005.1,
+          "areaAcres": 230.1,
+          "waterSpreadHa": 0.0,
+          "basin": "Godavari Basin",
+          "subBasin": "Manjera - G4",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Juntpalle Tank",
+          "mandal": "Yelal",
+          "areaSqM": 839224.2,
+          "areaAcres": 207.4,
+          "waterSpreadHa": 206.5,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Bhema - K6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Anthwar Tank",
+          "mandal": "Doulatabad",
+          "areaSqM": 774309.1,
+          "areaAcres": 191.3,
+          "waterSpreadHa": 190.5,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        }
+      ]
+    },
+    {
+      "district": "Nirmal",
+      "count": 723,
+      "totalAreaSqM": 88112035.2,
+      "totalAreaSqKm": 88.11,
+      "totalWaterSpreadHa": 17943.6,
+      "mandalsCount": 19,
+      "mandals": [
+        "Basar",
+        "Bhainsa",
+        "Dastuarabad",
+        "Dilawarpur",
+        "Kaddampeddur",
+        "Khanpur",
+        "Kubeer",
+        "Kuntala",
+        "Laxmanchanda",
+        "Lokeswaram",
+        "Mamda",
+        "Mudhole",
+        "Narsapur_G",
+        "Nirmal",
+        "Nirmal_Rural",
+        "Pembi",
+        "Sarangapur",
+        "Soan",
+        "Tanur"
+      ],
+      "basins": [
+        "Godavari Basin"
+      ],
+      "centroid": [
+        19.0964,
+        78.3444
+      ],
+      "topLakes": [
+        {
+          "name": "Sangampet Tank",
+          "mandal": "Soan",
+          "areaSqM": 1905603.1,
+          "areaAcres": 470.9,
+          "waterSpreadHa": 470.6,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Alur Tank",
+          "mandal": "Sarangapur",
+          "areaSqM": 1813894.5,
+          "areaAcres": 448.2,
+          "waterSpreadHa": 448.0,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Sirala Tank",
+          "mandal": "Bhainsa",
+          "areaSqM": 1778547.6,
+          "areaAcres": 439.5,
+          "waterSpreadHa": 438.9,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Kotha Cheruvu",
+          "mandal": "Nirmal_Rural",
+          "areaSqM": 1661917.7,
+          "areaAcres": 410.7,
+          "waterSpreadHa": 410.5,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "MI Tanks Less Than 40 Ha"
+        },
+        {
+          "name": "Gulmadaga Tank",
+          "mandal": "Narsapur_G",
+          "areaSqM": 1516683.5,
+          "areaAcres": 374.8,
+          "waterSpreadHa": 374.5,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Waddyal Tank",
+          "mandal": "Laxmanchanda",
+          "areaSqM": 1101535.5,
+          "areaAcres": 272.2,
+          "waterSpreadHa": 272.1,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Ambabai Cheruvu",
+          "mandal": "Sarangapur",
+          "areaSqM": 1074383.4,
+          "areaAcres": 265.5,
+          "waterSpreadHa": 265.4,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Cherlapalle Tank",
+          "mandal": "Narsapur_G",
+          "areaSqM": 1068752.6,
+          "areaAcres": 264.1,
+          "waterSpreadHa": 263.9,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Bhagapur Tank",
+          "mandal": "Lokeswaram",
+          "areaSqM": 1035040.5,
+          "areaAcres": 255.8,
+          "waterSpreadHa": 255.5,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Pedda Cheruvu",
+          "mandal": "Laxmanchanda",
+          "areaSqM": 1012448.1,
+          "areaAcres": 250.2,
+          "waterSpreadHa": 250.1,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "To Be Classified Tanks"
+        }
+      ]
+    },
+    {
+      "district": "Warangal_Urban",
+      "count": 678,
+      "totalAreaSqM": 85740264.8,
+      "totalAreaSqKm": 85.74,
+      "totalWaterSpreadHa": 20372.7,
+      "mandalsCount": 11,
+      "mandals": [
+        "Bheemadevarapalle",
+        "Dharmasagar",
+        "Elkathurthi",
+        "Hanamkonda",
+        "Hasanparthy",
+        "Inole",
+        "Kamalapur",
+        "Khazipet",
+        "Khilla_Warangal",
+        "Velair",
+        "Warangal"
+      ],
+      "basins": [
+        "Godavari Basin",
+        "Krishna Basin"
+      ],
+      "centroid": [
+        17.9784,
+        79.6004
+      ],
+      "topLakes": [
+        {
+          "name": "Dharmasagaram Cheruvu",
+          "mandal": "Dharmasagar",
+          "areaSqM": 4627682.0,
+          "areaAcres": 1143.5,
+          "waterSpreadHa": 1142.5,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Mucherla Tank",
+          "mandal": "Hasanparthy",
+          "areaSqM": 3831077.0,
+          "areaAcres": 946.7,
+          "waterSpreadHa": 946.1,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Large Tank",
+          "mandal": "Kamalapur",
+          "areaSqM": 2779599.3,
+          "areaAcres": 686.9,
+          "waterSpreadHa": 686.5,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "MI Tanks More Than 40 Ha"
+        },
+        {
+          "name": "Velair Tank",
+          "mandal": "Velair",
+          "areaSqM": 1710640.9,
+          "areaAcres": 422.7,
+          "waterSpreadHa": 422.3,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Oora Cheroo",
+          "mandal": "Elkathurthi",
+          "areaSqM": 1652714.6,
+          "areaAcres": 408.4,
+          "waterSpreadHa": 408.1,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "MI Tanks More Than 40 Ha"
+        },
+        {
+          "name": "Hanamkonda Tank",
+          "mandal": "Hanamkonda",
+          "areaSqM": 1615901.4,
+          "areaAcres": 399.3,
+          "waterSpreadHa": 399.0,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Mupparam Tank",
+          "mandal": "Dharmasagar",
+          "areaSqM": 1577262.5,
+          "areaAcres": 389.7,
+          "waterSpreadHa": 389.4,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Waddepalle Tank",
+          "mandal": "Hanamkonda",
+          "areaSqM": 1386621.4,
+          "areaAcres": 342.6,
+          "waterSpreadHa": 342.4,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Pedda Cheroo",
+          "mandal": "Bheemadevarapalle",
+          "areaSqM": 1306213.8,
+          "areaAcres": 322.8,
+          "waterSpreadHa": 322.5,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "MI Tanks More Than 40 Ha"
+        },
+        {
+          "name": "Pedda Cheroo",
+          "mandal": "Elkathurthi",
+          "areaSqM": 1141642.4,
+          "areaAcres": 282.1,
+          "waterSpreadHa": 281.9,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "MI Tanks More Than 40 Ha"
+        }
+      ]
+    },
+    {
+      "district": "Rajanna",
+      "count": 664,
+      "totalAreaSqM": 60568306.0,
+      "totalAreaSqKm": 60.57,
+      "totalWaterSpreadHa": 14046.6,
+      "mandalsCount": 13,
+      "mandals": [
+        "Boinpalle",
+        "Chandurthi",
+        "Ellanthakunta",
+        "Gambhiraopeta",
+        "Konaraopeta",
+        "Mustabad",
+        "Rudrangi",
+        "Sirsilla",
+        "Thangallapalle",
+        "Veernapalle",
+        "Vemulawada",
+        "Vemulawada_Rural",
+        "Yellareddypeta"
+      ],
+      "basins": [
+        "Godavari Basin",
+        "River Basin"
+      ],
+      "centroid": [
+        18.3846,
+        78.8028
+      ],
+      "topLakes": [
+        {
+          "name": "Singa Samudram",
+          "mandal": "Gambhiraopeta",
+          "areaSqM": 2180465.2,
+          "areaAcres": 538.8,
+          "waterSpreadHa": 538.1,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "MI Tanks Less Than 40 Ha"
+        },
+        {
+          "name": "Rallakota Cheruvu",
+          "mandal": "Rudrangi",
+          "areaSqM": 1967213.0,
+          "areaAcres": 486.1,
+          "waterSpreadHa": 485.7,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Mollavgu Cheruvu",
+          "mandal": "Konaraopeta",
+          "areaSqM": 1466903.3,
+          "areaAcres": 362.5,
+          "waterSpreadHa": 362.1,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Anantharam Tank",
+          "mandal": "Ellanthakunta",
+          "areaSqM": 1284171.3,
+          "areaAcres": 317.3,
+          "waterSpreadHa": 0.0,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Large Tank",
+          "mandal": "Boinpalle",
+          "areaSqM": 1053593.9,
+          "areaAcres": 260.3,
+          "waterSpreadHa": 260.2,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "MI Tanks More Than 40 Ha"
+        },
+        {
+          "name": "Mallareddipet Tank",
+          "mandal": "Gambhiraopeta",
+          "areaSqM": 947289.0,
+          "areaAcres": 234.1,
+          "waterSpreadHa": 233.8,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Gambhiraopet Tank",
+          "mandal": "Gambhiraopeta",
+          "areaSqM": 764915.6,
+          "areaAcres": 189.0,
+          "waterSpreadHa": 188.7,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Gudi Cheruvu",
+          "mandal": "Vemulawada",
+          "areaSqM": 710091.9,
+          "areaAcres": 175.5,
+          "waterSpreadHa": 175.3,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "MI Tanks Less Than 40 Ha"
+        },
+        {
+          "name": "Konaraopet Tank",
+          "mandal": "Konaraopeta",
+          "areaSqM": 639135.2,
+          "areaAcres": 157.9,
+          "waterSpreadHa": 157.8,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Adurtha Kunta",
+          "mandal": "Gambhiraopeta",
+          "areaSqM": 614366.9,
+          "areaAcres": 151.8,
+          "waterSpreadHa": 151.6,
+          "basin": "Godavari Basin",
+          "subBasin": "Manair - G6",
+          "type": "MI Tanks Less Than 40 Ha"
+        }
+      ]
+    },
+    {
+      "district": "Medchal",
+      "count": 610,
+      "totalAreaSqM": 46919062.4,
+      "totalAreaSqKm": 46.92,
+      "totalWaterSpreadHa": 11258.2,
+      "mandalsCount": 14,
+      "mandals": [
+        "Alwal",
+        "Bachpalle",
+        "Balanagar",
+        "Dundigal_Gandimaisamma",
+        "Ghatkesar",
+        "Kapra",
+        "Keesara",
+        "Kukatpally",
+        "Malkajgiri",
+        "Medchel",
+        "Medipally",
+        "Quthbullapur",
+        "Shamirpet",
+        "Uppal"
+      ],
+      "basins": [
+        "Godavari Basin",
+        "Krishna Basin"
+      ],
+      "centroid": [
+        17.6294,
+        78.4814
+      ],
+      "topLakes": [
+        {
+          "name": "Begumpet-0 Tank",
+          "mandal": "Balanagar",
+          "areaSqM": 5486567.1,
+          "areaAcres": 1355.8,
+          "waterSpreadHa": 1352.4,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Shahmirpet Cheruvu",
+          "mandal": "Shamirpet",
+          "areaSqM": 4561922.9,
+          "areaAcres": 1127.3,
+          "waterSpreadHa": 1124.8,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Kotta Cheruvu",
+          "mandal": "Dundigal_Gandimaisamma",
+          "areaSqM": 1998591.5,
+          "areaAcres": 493.9,
+          "waterSpreadHa": 492.7,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Adilabad Cheruvu",
+          "mandal": "Ghatkesar",
+          "areaSqM": 1935831.2,
+          "areaAcres": 478.4,
+          "waterSpreadHa": 477.3,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Dabirpur Tank",
+          "mandal": "Medchel",
+          "areaSqM": 835907.2,
+          "areaAcres": 206.6,
+          "waterSpreadHa": 206.1,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Dundigal Tank",
+          "mandal": "Dundigal_Gandimaisamma",
+          "areaSqM": 749594.7,
+          "areaAcres": 185.2,
+          "waterSpreadHa": 184.8,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Madharam Tank",
+          "mandal": "Ghatkesar",
+          "areaSqM": 722475.5,
+          "areaAcres": 178.5,
+          "waterSpreadHa": 178.2,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Ravalkole Tank",
+          "mandal": "Medchel",
+          "areaSqM": 513703.6,
+          "areaAcres": 126.9,
+          "waterSpreadHa": 126.7,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Lalgadimalakpet Tank",
+          "mandal": "Shamirpet",
+          "areaSqM": 507373.4,
+          "areaAcres": 125.4,
+          "waterSpreadHa": 125.1,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Rampalli Cheruvu",
+          "mandal": "Keesara",
+          "areaSqM": 502363.1,
+          "areaAcres": 124.1,
+          "waterSpreadHa": 123.9,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        }
+      ]
+    },
+    {
+      "district": "Komarambhem",
+      "count": 604,
+      "totalAreaSqM": 32258094.0,
+      "totalAreaSqKm": 32.26,
+      "totalWaterSpreadHa": 3928.8,
+      "mandalsCount": 15,
+      "mandals": [
+        "Asifabad",
+        "Bejjur",
+        "Chintalamanepally",
+        "Dahegaon",
+        "Jainoor",
+        "Kagaznagar",
+        "Kerameri",
+        "Kouthala",
+        "Lingapur",
+        "Penchikalpet",
+        "Rebbana",
+        "Sirpur_T",
+        "Sirpur_U",
+        "Tiryani",
+        "Wankdi"
+      ],
+      "basins": [
+        "Godavari Basin"
+      ],
+      "centroid": [
+        19.3644,
+        79.2961
+      ],
+      "topLakes": [
+        {
+          "name": "Chedvai Tank",
+          "mandal": "Penchikalpet",
+          "areaSqM": 1569283.3,
+          "areaAcres": 387.8,
+          "waterSpreadHa": 0.0,
+          "basin": "Godavari Basin",
+          "subBasin": "Pranahita - G9",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Chichpalle Tank",
+          "mandal": "Wankdi",
+          "areaSqM": 911178.3,
+          "areaAcres": 225.2,
+          "waterSpreadHa": 0.0,
+          "basin": "Godavari Basin",
+          "subBasin": "Pranahita - G9",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Easgaon Tank",
+          "mandal": "Kagaznagar",
+          "areaSqM": 732356.9,
+          "areaAcres": 181.0,
+          "waterSpreadHa": 181.2,
+          "basin": "Godavari Basin",
+          "subBasin": "Pranahita - G9",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Gudlabori Tank",
+          "mandal": "Kouthala",
+          "areaSqM": 656028.9,
+          "areaAcres": 162.1,
+          "waterSpreadHa": 0.0,
+          "basin": "Godavari Basin",
+          "subBasin": "Pranahita - G9",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Bhusimatta Tank",
+          "mandal": "Jainoor",
+          "areaSqM": 620781.6,
+          "areaAcres": 153.4,
+          "waterSpreadHa": 0.0,
+          "basin": "Godavari Basin",
+          "subBasin": "Pranahita - G9",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Nazrulnagar Tank",
+          "mandal": "Kagaznagar",
+          "areaSqM": 491352.2,
+          "areaAcres": 121.4,
+          "waterSpreadHa": 121.6,
+          "basin": "Godavari Basin",
+          "subBasin": "Pranahita - G9",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Gannaram Tank",
+          "mandal": "Kagaznagar",
+          "areaSqM": 448483.2,
+          "areaAcres": 110.8,
+          "waterSpreadHa": 0.0,
+          "basin": "Godavari Basin",
+          "subBasin": "Pranahita - G9",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Dhanora Tank",
+          "mandal": "Sirpur_U",
+          "areaSqM": 430967.2,
+          "areaAcres": 106.5,
+          "waterSpreadHa": 106.6,
+          "basin": "Godavari Basin",
+          "subBasin": "Pranahita - G9",
+          "type": "MI Tanks Less Than 40 Ha"
+        },
+        {
+          "name": "Kistapur Tank",
+          "mandal": "Rebbana",
+          "areaSqM": 428729.4,
+          "areaAcres": 105.9,
+          "waterSpreadHa": 0.0,
+          "basin": "Godavari Basin",
+          "subBasin": "Pranahita - G9",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Gollabai Kunta",
+          "mandal": "Kagaznagar",
+          "areaSqM": 363557.5,
+          "areaAcres": 89.8,
+          "waterSpreadHa": 90.0,
+          "basin": "Godavari Basin",
+          "subBasin": "Pranahita - G9",
+          "type": "MI Tanks Less Than 40 Ha"
+        }
+      ]
+    },
+    {
+      "district": "Jogulamba",
+      "count": 549,
+      "totalAreaSqM": 40188919.5,
+      "totalAreaSqKm": 40.19,
+      "totalWaterSpreadHa": 6891.8,
+      "mandalsCount": 12,
+      "mandals": [
+        "Aiza",
+        "Alampur",
+        "Dharur",
+        "Gadwal",
+        "Ghattu",
+        "Itikyal",
+        "Kaloor_Timmanadoddi",
+        "Maldakal",
+        "Manopad",
+        "Rajoli",
+        "Undavelli",
+        "Waddepalle"
+      ],
+      "basins": [
+        "Krishna Basin"
+      ],
+      "centroid": [
+        15.8828,
+        77.9405
+      ],
+      "topLakes": [
+        {
+          "name": "Thappetlomorsu Tank",
+          "mandal": "Ghattu",
+          "areaSqM": 2458484.3,
+          "areaAcres": 607.5,
+          "waterSpreadHa": 0.0,
+          "basin": "Krishna Basin",
+          "subBasin": "Tungabhadra - K8",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Sangal Cheruvu",
+          "mandal": "Gadwal",
+          "areaSqM": 1842717.8,
+          "areaAcres": 455.3,
+          "waterSpreadHa": 453.5,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Yelkur Tank",
+          "mandal": "Maldakal",
+          "areaSqM": 1436045.2,
+          "areaAcres": 354.9,
+          "waterSpreadHa": 0.0,
+          "basin": "Krishna Basin",
+          "subBasin": "Tungabhadra - K8",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Jammichedu Tank",
+          "mandal": "Gadwal",
+          "areaSqM": 1432846.0,
+          "areaAcres": 354.1,
+          "waterSpreadHa": 0.0,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Upperu Tank",
+          "mandal": "Dharur",
+          "areaSqM": 1325672.0,
+          "areaAcres": 327.6,
+          "waterSpreadHa": 0.0,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Lingamma Cheruvu",
+          "mandal": "Aiza",
+          "areaSqM": 1143764.3,
+          "areaAcres": 282.6,
+          "waterSpreadHa": 281.4,
+          "basin": "Krishna Basin",
+          "subBasin": "Tungabhadra - K8",
+          "type": "MI Tanks Less Than 40 Ha"
+        },
+        {
+          "name": "Ganpad Tank",
+          "mandal": "Gadwal",
+          "areaSqM": 973607.7,
+          "areaAcres": 240.6,
+          "waterSpreadHa": 0.0,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Ryalampad Tank",
+          "mandal": "Dharur",
+          "areaSqM": 782070.3,
+          "areaAcres": 193.3,
+          "waterSpreadHa": 0.0,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Jilladabanda Tank",
+          "mandal": "Gadwal",
+          "areaSqM": 737222.7,
+          "areaAcres": 182.2,
+          "waterSpreadHa": 181.4,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Konda Pally Kunta",
+          "mandal": "Gadwal",
+          "areaSqM": 700520.7,
+          "areaAcres": 173.1,
+          "waterSpreadHa": 172.4,
+          "basin": "Krishna Basin",
+          "subBasin": "Lower Krishna - K7",
+          "type": "MI Tanks Less Than 40 Ha"
+        }
+      ]
+    },
+    {
+      "district": "Adilabad",
+      "count": 418,
+      "totalAreaSqM": 36003908.5,
+      "totalAreaSqKm": 36.0,
+      "totalWaterSpreadHa": 2399.3,
+      "mandalsCount": 18,
+      "mandals": [
+        "Adilabad Rural",
+        "Adilabad Urban",
+        "Bazarhathnoor",
+        "Bela",
+        "Bheempoor",
+        "Boath",
+        "Gadiguda",
+        "Gudihathnur",
+        "Ichoda",
+        "Inderavelly",
+        "Jainad",
+        "Mavala",
+        "Narnoor",
+        "Neradigonda",
+        "Sirikonda",
+        "Talamadugu",
+        "Tamsi",
+        "Utnur"
+      ],
+      "basins": [
+        "Godavari Basin"
+      ],
+      "centroid": [
+        19.6641,
+        78.532
+      ],
+      "topLakes": [
+        {
+          "name": "Peddavagu Cheruvu",
+          "mandal": "Boath",
+          "areaSqM": 2115017.4,
+          "areaAcres": 522.6,
+          "waterSpreadHa": 0.0,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Tejapur Tank",
+          "mandal": "Gudihathnur",
+          "areaSqM": 1460852.8,
+          "areaAcres": 361.0,
+          "waterSpreadHa": 0.0,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Bazarhathnoor Tank",
+          "mandal": "Bazarhathnoor",
+          "areaSqM": 1348968.3,
+          "areaAcres": 333.3,
+          "waterSpreadHa": 0.0,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Anicut",
+          "mandal": "Talamadugu",
+          "areaSqM": 997574.8,
+          "areaAcres": 246.5,
+          "waterSpreadHa": 246.7,
+          "basin": "Godavari Basin",
+          "subBasin": "Penuganga - G7",
+          "type": "MI Tanks Less Than 40 Ha"
+        },
+        {
+          "name": "Kothur Tank",
+          "mandal": "Talamadugu",
+          "areaSqM": 788737.1,
+          "areaAcres": 194.9,
+          "waterSpreadHa": 0.0,
+          "basin": "Godavari Basin",
+          "subBasin": "Penuganga - G7",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Hasnapur Tank",
+          "mandal": "Utnur",
+          "areaSqM": 786642.2,
+          "areaAcres": 194.4,
+          "waterSpreadHa": 0.0,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Chintalabori Tank",
+          "mandal": "Boath",
+          "areaSqM": 709348.9,
+          "areaAcres": 175.3,
+          "waterSpreadHa": 0.0,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Balanpur Tank",
+          "mandal": "Narnoor",
+          "areaSqM": 675653.8,
+          "areaAcres": 167.0,
+          "waterSpreadHa": 0.0,
+          "basin": "Godavari Basin",
+          "subBasin": "Pranahita - G9",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Dhannura (K) Tank",
+          "mandal": "Inderavelly",
+          "areaSqM": 598328.8,
+          "areaAcres": 147.9,
+          "waterSpreadHa": 0.0,
+          "basin": "Godavari Basin",
+          "subBasin": "Middle Godavari - G5",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Jainad Tank",
+          "mandal": "Jainad",
+          "areaSqM": 582250.3,
+          "areaAcres": 143.9,
+          "waterSpreadHa": 0.0,
+          "basin": "Godavari Basin",
+          "subBasin": "Penuganga - G7",
+          "type": "To Be Classified Tanks"
+        }
+      ]
+    },
+    {
+      "district": "Hyderabad",
+      "count": 52,
+      "totalAreaSqM": 2141267.6,
+      "totalAreaSqKm": 2.14,
+      "totalWaterSpreadHa": 527.8,
+      "mandalsCount": 14,
+      "mandals": [
+        "Amberpet",
+        "Ammerpet",
+        "Asifnagar",
+        "Bahadurpura",
+        "Bandlaguda",
+        "Charminar",
+        "Golkonda",
+        "Himayatnagar",
+        "Khairatabad",
+        "Maredpally",
+        "Musheerabad",
+        "Secunderabad",
+        "Shaikpet",
+        "Tirumalgiri"
+      ],
+      "basins": [
+        "Krishna Basin"
+      ],
+      "centroid": [
+        17.385,
+        78.4867
+      ],
+      "topLakes": [
+        {
+          "name": "Golkonda Lake",
+          "mandal": "Golkonda",
+          "areaSqM": 359854.6,
+          "areaAcres": 88.9,
+          "waterSpreadHa": 88.7,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Golkonda Lake",
+          "mandal": "Golkonda",
+          "areaSqM": 346721.1,
+          "areaAcres": 85.7,
+          "waterSpreadHa": 85.5,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Mohini Cheruvu",
+          "mandal": "Amberpet",
+          "areaSqM": 116698.8,
+          "areaAcres": 28.8,
+          "waterSpreadHa": 28.8,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Shaikpet Lake",
+          "mandal": "Shaikpet",
+          "areaSqM": 107736.8,
+          "areaAcres": 26.6,
+          "waterSpreadHa": 26.6,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Khairatabad Lake",
+          "mandal": "Khairatabad",
+          "areaSqM": 106175.2,
+          "areaAcres": 26.2,
+          "waterSpreadHa": 26.2,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Shaikpet Lake",
+          "mandal": "Shaikpet",
+          "areaSqM": 99603.3,
+          "areaAcres": 24.6,
+          "waterSpreadHa": 24.6,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Bandlaguda Lake",
+          "mandal": "Bandlaguda",
+          "areaSqM": 90513.7,
+          "areaAcres": 22.4,
+          "waterSpreadHa": 22.3,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Shaikpet Lake",
+          "mandal": "Shaikpet",
+          "areaSqM": 65671.4,
+          "areaAcres": 16.2,
+          "waterSpreadHa": 16.2,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Maredpally Lake",
+          "mandal": "Maredpally",
+          "areaSqM": 65562.2,
+          "areaAcres": 16.2,
+          "waterSpreadHa": 16.2,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        },
+        {
+          "name": "Tirumalgiri Lake",
+          "mandal": "Tirumalgiri",
+          "areaSqM": 56442.7,
+          "areaAcres": 13.9,
+          "waterSpreadHa": 13.9,
+          "basin": "Krishna Basin",
+          "subBasin": "Musi - K11",
+          "type": "To Be Classified Tanks"
+        }
+      ]
+    }
+  ]
+}

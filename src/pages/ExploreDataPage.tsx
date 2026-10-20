@@ -15,8 +15,10 @@ import {
   ExternalLink,
 } from 'lucide-react';
 
+import { useYear } from '@/context/YearContext';
+
 export const ExploreDataPage: React.FC = () => {
-  const [selectedYear, setSelectedYear] = useState('2026-27');
+  const { selectedYear } = useYear();
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
   const [selectedSubCategory, setSelectedSubCategory] = useState<string>('all');

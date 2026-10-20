@@ -1,0 +1,127 @@
+{
+  "year": "2026-27",
+  "publicDebtOutstanding": {
+    "currentYearBE": 562363.0,
+    "previousYearRE": 503905.0,
+    "accounts2024_25": 447493.0,
+    "accounts2023_24": 398655.0,
+    "pctOfGSDP": 28.69,
+    "statutoryLimitPct": 32.5,
+    "unit": "\u20b9 crore",
+    "breakdown": [
+      {
+        "category": "Open Market Borrowings (SLR Bonds)",
+        "amount": 462926.0,
+        "sharePct": 82.32
+      },
+      {
+        "category": "Reserve Funds and Deposits",
+        "amount": 37067.0,
+        "sharePct": 6.59
+      },
+      {
+        "category": "Small Savings, Provident Funds & Insurance",
+        "amount": 25716.0,
+        "sharePct": 4.57
+      },
+      {
+        "category": "Loans from Government of India",
+        "amount": 22345.0,
+        "sharePct": 3.97
+      },
+      {
+        "category": "Loans from Autonomous Bodies & Financial Institutions",
+        "amount": 14309.0,
+        "sharePct": 2.55
+      }
+    ]
+  },
+  "guaranteesSummary": {
+    "totalGuaranteesAndCorpDebt": 301835.0,
+    "asOnDate": "2026-02-28",
+    "sourceFile": "1773983722_Volume_VI-Brief_1773983722_.pdf",
+    "sourcePage": 14,
+    "categories": [
+      {
+        "id": "cat-1",
+        "name": "Category I: Guaranteed Loans raised by SPVs serviced by Government",
+        "amount": 86309.0,
+        "sharePct": 28.59,
+        "guaranteeCount": 18,
+        "riskWeightPct": 100,
+        "description": "Loans raised by entities like KIPCL, TSWRIDCL where debt service is provided directly from the State Budget."
+      },
+      {
+        "id": "cat-2",
+        "name": "Category II: Guaranteed Loans raised by SPVs and serviced by them",
+        "amount": 155434.0,
+        "sharePct": 51.5,
+        "guaranteeCount": 14,
+        "riskWeightPct": 5,
+        "description": "Loans raised by entities with commercial cash flows (e.g. power DISCOMs, Civil Supplies) that service their debt independently."
+      },
+      {
+        "id": "cat-3",
+        "name": "Non-Guaranteed Loans paid by Corporations",
+        "amount": 60092.0,
+        "sharePct": 19.91,
+        "description": "Direct bank credit obtained by state corporations without formal government counter-guarantee."
+      }
+    ],
+    "riskWeightedGuarantees": {
+      "totalOutstanding": 241743.0,
+      "riskWeightedTotal": 94081.0,
+      "pctOfTotal": 38.92
+    }
+  },
+  "reserveFunds": {
+    "consolidatedSinkingFund": {
+      "balanceAsOnMarch2026": 7481.0,
+      "additionsDuringYear": 216.0,
+      "sourceFile": "1773983965_FRBM_Fiscal_Policy_statement_2026-27_1773983965_.pdf",
+      "sourcePage": 12,
+      "purpose": "Buffer reserve maintained with RBI to amortize future open market debt redemptions."
+    },
+    "guaranteeRedemptionFund": {
+      "balanceAsOnMarch2026": 6346.0,
+      "additionsDuringYear": 4555.0,
+      "sourceFile": "1773983965_FRBM_Fiscal_Policy_statement_2026-27_1773983965_.pdf",
+      "sourcePage": 15,
+      "purpose": "Dedicated statutory fund invested with RBI to meet potential default claims on state guarantees."
+    }
+  },
+  "frbmFiscalIndicators": [
+    {
+      "indicator": "Gross Fiscal Deficit as % of GSDP",
+      "actual2024_25": 3.04,
+      "re2025_26": 3.15,
+      "be2026_27": 2.98,
+      "target": 3.0,
+      "status": "Compliant"
+    },
+    {
+      "indicator": "Revenue Deficit / Surplus as % of TRR",
+      "actual2024_25": -5.61,
+      "re2025_26": 0.29,
+      "be2026_27": 2.84,
+      "target": "Surplus",
+      "status": "Compliant"
+    },
+    {
+      "indicator": "Total Outstanding Liabilities as % of GSDP",
+      "actual2024_25": 27.8,
+      "re2025_26": 28.27,
+      "be2026_27": 28.69,
+      "target": 32.5,
+      "status": "Compliant"
+    },
+    {
+      "indicator": "Interest Payments as % of Total Revenue Receipts",
+      "actual2024_25": 16.57,
+      "re2025_26": 9.5,
+      "be2026_27": 8.83,
+      "target": "<15.00",
+      "status": "Compliant"
+    }
+  ]
+}

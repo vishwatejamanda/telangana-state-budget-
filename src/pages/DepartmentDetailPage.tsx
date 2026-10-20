@@ -16,9 +16,11 @@ import {
   Info,
 } from 'lucide-react';
 
+import { useYear } from '@/context/YearContext';
+
 export const DepartmentDetailPage: React.FC = () => {
   const { id } = useParams<{ id: string }>();
-  const [selectedYear, setSelectedYear] = useState('2026-27');
+  const { selectedYear } = useYear();
 
   const dept = budgetDataService.getDepartmentById(id || '', selectedYear);
   const allDemands = budgetDataService.getDemands(selectedYear);
